@@ -24,6 +24,9 @@ $messages['en'] = array(
 	'group-tmxadmin-member' => '{{GENDER:$1|TMX administrator}}',
 	'grouppage-tmxadmin' => '{{ns:project}}:TMX administrators',
 
+	'group-tmxadmin.css' => '/* CSS placed here will affect TMX administrators only */', # only translate this message to other languages if you have to change it
+	'group-tmxadmin.js' => '/* JS placed here will affect TMX administrators only */', # only translate this message to other languages if you have to change it
+
 	// Translation interface
 	'livetranslate-translate-to' => 'Translate this page to',
 	'livetranslate-button-translate' => 'Translate',
