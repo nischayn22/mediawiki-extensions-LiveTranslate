@@ -1062,6 +1062,7 @@ $messages['ru'] = array(
  * @author WikiPhoenix
  */
 $messages['sv'] = array(
+	'action-managetms' => 'hantera översättningsminnen',
 	'livetranslate-translate-to' => 'Översätt den här sidan till',
 	'livetranslate-button-translate' => 'Översätt',
 	'livetranslate-button-translating' => 'Översätter...',
