@@ -1147,12 +1147,23 @@ $messages['uk'] = array(
 
 /** Simplified Chinese (‪中文(简体)‬)
  * @author Hydra
+ * @author Linforest
  */
 $messages['zh-hans'] = array(
+	'livetranslate-desc' => '启用借助于谷歌翻译服务的页面内容实时翻译',
+	'right-managetms' => '[[Special:SpecialLiveTranslate|修改]]翻译记忆列表',
+	'action-managetms' => '管理翻译记忆',
+	'group-tmxadmin' => 'TMX 管理员',
+	'group-tmxadmin-member' => '{{GENDER:$1|TMX 管理员}}',
+	'grouppage-tmxadmin' => '{{ns:project}}:TMX 管理员',
 	'livetranslate-translate-to' => '翻译此页',
 	'livetranslate-button-translate' => '翻译',
 	'livetranslate-button-translating' => '翻译中。。。',
 	'livetranslate-button-revert' => '显示原文',
+	'livetranslate-dictionary-error' => '无法获取实时翻译词典。在翻译过程中，将不对任何单词进行特殊处理。',
+	'livetranslate-dictionary-empty' => '字典中尚无任何单词。单击"编辑"选项卡向其中添加一些单词。',
+	'livetranslate-dictionary-count' => '目前有$2种{{PLURAL:$2|语言|语言}}{{PLURAL:$1|is $1个单词|are $1个单词}}。单击"编辑"选项卡向其中添加一些单词。',
+	'livetranslate-dictionary-unallowed-langs' => '{{PLURAL:$2|这种语言|这些语言}}当前并未被设置为允许的翻译目标语言：$1。请在您的维基站点配置当中修改所允许的语言，或者从字典当中删除这些语言。',
 	'livetranslate-dictionary-goto-edit' => '修改的翻译记忆库。',
 	'special-livetranslate' => '实时翻译',
 	'livetranslate-tmtype-ltf' => '实时翻译格式',
