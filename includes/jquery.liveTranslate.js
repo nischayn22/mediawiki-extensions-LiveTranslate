@@ -134,7 +134,7 @@
 	};
 	
 	/**
-	 * Obtain the special words and wrap occurances of them into notranslate spans. 
+	 * Obtain the special words and wrap occurrences of them into notranslate spans.
 	 * 
 	 * @since 1.2
 	 * 
