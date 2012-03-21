@@ -1062,7 +1062,11 @@ $messages['ru'] = array(
  * @author WikiPhoenix
  */
 $messages['sv'] = array(
+	'right-managetms' => '[[Special:SpecialLiveTranslate|Ändra]] listan över översättningsminnen',
 	'action-managetms' => 'hantera översättningsminnen',
+	'group-tmxadmin' => 'TMX-administratörer',
+	'group-tmxadmin-member' => '{{GENDER:$1|TMX-administratör}}',
+	'grouppage-tmxadmin' => '{{ns:project}}:TMX-administratörer',
 	'livetranslate-translate-to' => 'Översätt den här sidan till',
 	'livetranslate-button-translate' => 'Översätt',
 	'livetranslate-button-translating' => 'Översätter...',
