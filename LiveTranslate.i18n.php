@@ -663,8 +663,11 @@ $messages['it'] = array(
 
 /** Japanese (日本語)
  * @author Ohgi
+ * @author Shirayuki
  */
 $messages['ja'] = array(
+	'group-tmxadmin.css' => '/* TMX 管理者のみに影響する CSS をここに記述 */',
+	'group-tmxadmin.js' => '/* TMX 管理者のみに影響する JS をここに記述 */',
 	'livetranslate-translate-to' => 'このページを翻訳',
 	'livetranslate-button-translate' => '翻訳',
 	'livetranslate-button-translating' => '翻訳中...',
