@@ -666,11 +666,25 @@ $messages['it'] = array(
  * @author Shirayuki
  */
 $messages['ja'] = array(
+	'right-managetms' => '翻訳メモリーの一覧を[[Special:SpecialLiveTranslate|変更]]',
+	'action-managetms' => '翻訳メモリーを管理',
+	'group-tmxadmin' => 'TMX 管理者',
+	'group-tmxadmin-member' => '{{GENDER:$1|TMX 管理者}}',
+	'grouppage-tmxadmin' => '{{ns:project}}:TMX 管理者',
 	'group-tmxadmin.css' => '/* TMX 管理者のみに影響する CSS をここに記述 */',
 	'group-tmxadmin.js' => '/* TMX 管理者のみに影響する JS をここに記述 */',
 	'livetranslate-translate-to' => 'このページを翻訳',
 	'livetranslate-button-translate' => '翻訳',
 	'livetranslate-button-translating' => '翻訳中...',
+	'livetranslate-special-no-tms-yet' => '翻訳メモリーはまだありません。',
+	'livetranslate-special-button' => '保存して更新',
+	'livetranslate-special-location' => '場所',
+	'livetranslate-special-remove' => '除去',
+	'livetranslate-special-local' => 'ローカル',
+	'livetranslate-special-add-tm' => '新しい翻訳メモリーを追加',
+	'livetranslate-special-current-tms' => '既存の翻訳メモリー',
+	'livetranslate-special-tms-update' => '翻訳メモリーを更新',
+	'livetranslate-special-update' => '翻訳メモリーを更新',
 );
 
 /** Colognian (Ripoarisch)
