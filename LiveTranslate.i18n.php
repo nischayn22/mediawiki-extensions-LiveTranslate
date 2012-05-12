@@ -772,6 +772,8 @@ $messages['mk'] = array(
 	'group-tmxadmin' => 'Администратори на TMX',
 	'group-tmxadmin-member' => '{{GENDER:$1|Администратор на TMX}}',
 	'grouppage-tmxadmin' => '{{ns:project}}:Админи_на_TMX',
+	'group-tmxadmin.css' => '/* Тука поставениот CSS ќе се применува само врз администраторите на TMX */',
+	'group-tmxadmin.js' => '/* Тука поставениот JS ќе се применува само врз администраторите на TMX */',
 	'livetranslate-translate-to' => 'Преведи ја страницава на',
 	'livetranslate-button-translate' => 'Преведи',
 	'livetranslate-button-translating' => 'Преведувам...',
@@ -1149,6 +1151,15 @@ $messages['tl'] = array(
 	'livetranslate-special-tms-update' => 'Isapanahon ang mga alaala ng pagsasalinwika',
 	'livetranslate-special-update' => 'Isapanahon ang mga alaala ng pagsasalinwika',
 	'livetranslate-importtms-param-miscmatch' => 'Hindi pagtutugma sa pagitan ng halaga ng mga kinalalagyan at mga uri',
+);
+
+/** Turkish (Türkçe)
+ * @author Suelnur
+ */
+$messages['tr'] = array(
+	'livetranslate-button-translate' => 'Çevir',
+	'livetranslate-button-translating' => 'Çevriliyor...',
+	'livetranslate-special-local' => 'Yerel',
 );
 
 /** Ukrainian (Українська)
