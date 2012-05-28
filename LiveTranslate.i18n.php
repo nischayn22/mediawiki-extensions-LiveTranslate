@@ -676,6 +676,7 @@ $messages['ja'] = array(
 	'livetranslate-translate-to' => 'このページを翻訳',
 	'livetranslate-button-translate' => '翻訳',
 	'livetranslate-button-translating' => '翻訳中...',
+	'livetranslate-tmtype-gcsv' => 'Google CSV',
 	'livetranslate-special-no-tms-yet' => '翻訳メモリーはまだありません。',
 	'livetranslate-special-button' => '保存して更新',
 	'livetranslate-special-location' => '場所',
