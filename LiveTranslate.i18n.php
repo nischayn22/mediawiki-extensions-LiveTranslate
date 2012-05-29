@@ -68,6 +68,7 @@ $messages['en'] = array(
  * @author Raymond
  * @author Siebrand
  * @author Umherirrender
+ * @author 아라
  */
 $messages['qqq'] = array(
 	'livetranslate-desc' => '{{desc}}',
@@ -78,6 +79,10 @@ TMX = Translation Memory eXchange',
 	'group-tmxadmin-member' => '{{doc-group|tmxadmin|member}}
 TMX = Translation Memory eXchange',
 	'grouppage-tmxadmin' => '{{doc-group|tmxadmin|page}}
+TMX = Translation Memory eXchange',
+	'group-tmxadmin.css' => '{{doc-group|tmxadmin|page}}
+TMX = Translation Memory eXchange',
+	'group-tmxadmin.js' => '{{doc-group|tmxadmin|page}}
 TMX = Translation Memory eXchange',
 	'livetranslate-translate-to' => 'There is an [https://secure.wikimedia.org/wikipedia/mediawiki/wiki/File:Lte-article.png example screenshot of use].
 Look at the right side in the line below the ruler under the "Main Page" header.',
@@ -686,6 +691,17 @@ $messages['ja'] = array(
 	'livetranslate-special-current-tms' => '既存の翻訳メモリー',
 	'livetranslate-special-tms-update' => '翻訳メモリーを更新',
 	'livetranslate-special-update' => '翻訳メモリーを更新',
+);
+
+/** Korean (한국어)
+ * @author 아라
+ */
+$messages['ko'] = array(
+	'group-tmxadmin' => 'TMX 관리자',
+	'group-tmxadmin-member' => '{{GENDER:$1|TMX 관리자}}',
+	'grouppage-tmxadmin' => '{{ns:project}}:TMX 관리자',
+	'group-tmxadmin.css' => '/* 이 CSS 설정은 TMX 관리자에만 적용됩니다 */',
+	'group-tmxadmin.js' => '/* 이 자바스크립트 설정은 TMX 관리자에만 적용됩니다 */',
 );
 
 /** Colognian (Ripoarisch)
