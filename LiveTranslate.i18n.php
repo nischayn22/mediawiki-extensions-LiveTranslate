@@ -489,6 +489,7 @@ $messages['gl'] = array(
 $messages['gsw'] = array(
 	'livetranslate-desc' => 'Macht di diräkt Ibersetzig vum Syteninhalt megli mit „Google Ibersetzer“',
 	'right-managetms' => 'Lischt vum Übersetzigsgedächtnis [[Special:SpecialLiveTranslate|aapasse]]',
+	'action-managetms' => 'Ibersetzigsspycher verwalte',
 	'group-tmxadmin' => 'TMX-Ammanne',
 	'group-tmxadmin-member' => '{{GENDER:$1|TMX-Ammann|TMX-Amtsfrou}}',
 	'grouppage-tmxadmin' => '{{ns:project}}:TMX-Ammanne',
