@@ -195,12 +195,13 @@ $messages['bn'] = array(
 	'livetranslate-special-update' => 'অনুবাদ মেমোরিসমূহ হালনাগাদ করুন',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  */
 $messages['br'] = array(
 	'livetranslate-desc' => 'Aotren a ra treiñ danvez ur bajenn war-eeun en ur ober gant servij treiñ Google',
 	'right-managetms' => '[[Special:SpecialLiveTranslate|Kemmañ]] roll ar memorioù treiñ',
+	'group-tmxadmin' => 'Merourien TMX',
 	'livetranslate-translate-to' => 'Treiñ ar bajenn-mañ e',
 	'livetranslate-button-translate' => 'Treiñ',
 	'livetranslate-button-translating' => 'O treiñ...',
