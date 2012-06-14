@@ -115,7 +115,7 @@ $messages['af'] = array(
 	'livetranslate-special-local' => 'Lokaal',
 );
 
-/** Azerbaijani (Azərbaycanca)
+/** Azerbaijani (azərbaycanca)
  * @author Cekli829
  */
 $messages['az'] = array(
@@ -164,7 +164,7 @@ $messages['be-tarask'] = array(
 	'livetranslate-importtms-param-miscmatch' => 'Несупадзеньне паміж колькасьцю знаходжаньняў і тыпамі',
 );
 
-/** Bulgarian (Български)
+/** Bulgarian (български)
  * @author DCLXVI
  */
 $messages['bg'] = array(
@@ -229,7 +229,7 @@ $messages['br'] = array(
 	'livetranslate-importtms-param-miscmatch' => "Disklot etre ar c'hementad a lec'hiadurioù hag ar seurtoù",
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  */
 $messages['bs'] = array(
@@ -334,7 +334,7 @@ $messages['dsb'] = array(
 	'livetranslate-importtms-param-miscmatch' => 'Njedobry poměr mjazy licbu městnow a typow',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Armando-Martin
  * @author Fitoschido
  */
@@ -371,7 +371,7 @@ $messages['es'] = array(
 	'livetranslate-importtms-param-miscmatch' => 'Discrepancia entre la cantidad de ubicaciones y los tipos',
 );
 
-/** Basque (Euskara)
+/** Basque (euskara)
  * @author An13sa
  */
 $messages['eu'] = array(
@@ -380,7 +380,7 @@ $messages['eu'] = array(
 	'livetranslate-button-revert' => 'Jatorrizkoa erakutsi',
 );
 
-/** French (Français)
+/** French (français)
  * @author Crochet.david
  * @author Gomoko
  * @author Hashar
@@ -420,7 +420,7 @@ $messages['fr'] = array(
 	'livetranslate-importtms-param-miscmatch' => "Incompatibilité entre la quantité d'emplacements et les types",
 );
 
-/** Franco-Provençal (Arpetan)
+/** Franco-Provençal (arpetan)
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
@@ -593,7 +593,7 @@ $messages['hsb'] = array(
 	'livetranslate-importtms-param-miscmatch' => 'Njepoměr mjez ličbu městnow a typow',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -661,7 +661,7 @@ $messages['id'] = array(
 	'livetranslate-importtms-param-miscmatch' => 'Jumlah lokasi dan jenis tidak sesuai',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Beta16
  */
 $messages['it'] = array(
@@ -782,7 +782,7 @@ $messages['lb'] = array(
 	'livetranslate-importtms-param-miscmatch' => 'Duercherneen tëschent der Zuel vu Plazen an Typen',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -927,7 +927,7 @@ $messages['pdc'] = array(
 	'livetranslate-button-translate' => 'Iwwersetze',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author BeginaFelicysym
  * @author Byulent
  * @author Sp5uhe
@@ -1013,7 +1013,7 @@ $messages['ps'] = array(
 	'livetranslate-special-local' => 'سيمه ايز',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author Hamilton Abreu
  */
 $messages['pt'] = array(
@@ -1048,7 +1048,7 @@ $messages['pt'] = array(
 	'livetranslate-importtms-param-miscmatch' => 'Discordância entre a quantidade de locais e tipos',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author Giro720
  */
 $messages['pt-br'] = array(
@@ -1058,7 +1058,7 @@ $messages['pt-br'] = array(
 	'livetranslate-button-translating' => 'Traduzindo...',
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Adata80
  * @author Byulent
  * @author Kaganer
@@ -1097,7 +1097,7 @@ $messages['ru'] = array(
 	'livetranslate-importtms-param-miscmatch' => 'Несоответствие количества расположений и типов',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author WikiPhoenix
  */
 $messages['sv'] = array(
@@ -1135,7 +1135,7 @@ $messages['te'] = array(
 	'livetranslate-special-location' => 'ప్రాంతం',
 );
 
-/** Tetum (Tetun)
+/** Tetum (tetun)
  * @author MF-Warburg
  */
 $messages['tet'] = array(
@@ -1182,7 +1182,7 @@ $messages['tr'] = array(
 	'livetranslate-special-local' => 'Yerel',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author Тест
  */
 $messages['uk'] = array(
@@ -1197,7 +1197,7 @@ $messages['uk'] = array(
 	'livetranslate-special-remove' => 'Вилучити',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Hydra
  * @author Linforest
  */
@@ -1234,7 +1234,7 @@ $messages['zh-hans'] = array(
 	'livetranslate-importtms-param-miscmatch' => '之间的位置的数量和类型不匹配',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬)
+/** Traditional Chinese (‪中文（繁體）‬)
  * @author Mark85296341
  */
 $messages['zh-hant'] = array(
