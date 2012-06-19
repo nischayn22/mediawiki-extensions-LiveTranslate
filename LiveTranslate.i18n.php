@@ -665,8 +665,26 @@ $messages['id'] = array(
  * @author Beta16
  */
 $messages['it'] = array(
+	'right-managetms' => "[[Special:SpecialLiveTranslate|Modifica]] l'elenco delle memorie di traduzione",
+	'action-managetms' => 'gestire le memorie di traduzione',
+	'group-tmxadmin' => 'Amministratori TMX',
+	'group-tmxadmin-member' => '{{GENDER:$1|amministratore|amministratrice|amministratore/trice}} TMX',
+	'grouppage-tmxadmin' => '{{ns:project}}:Amministratori TMX',
+	'livetranslate-translate-to' => 'Traduci questa pagina in',
 	'livetranslate-button-translate' => 'Traduci',
 	'livetranslate-button-translating' => 'Traduzione in corso...',
+	'livetranslate-button-revert' => 'Mostra originale',
+	'livetranslate-dictionary-goto-edit' => 'Modifica le memorie di traduzione.',
+	'livetranslate-special-no-tms-yet' => 'Non ci sono ancora memorie di traduzione.',
+	'livetranslate-special-button' => 'Salva ed aggiorna',
+	'livetranslate-special-type' => 'Tipo',
+	'livetranslate-special-location' => 'Posizione',
+	'livetranslate-special-remove' => 'Rimuovi',
+	'livetranslate-special-local' => 'Locale',
+	'livetranslate-special-add-tm' => 'Aggiungi una nuova memoria di traduzione',
+	'livetranslate-special-current-tms' => 'Memorie di traduzioni esistenti',
+	'livetranslate-special-tms-update' => 'Aggiorna memorie di traduzione',
+	'livetranslate-special-update' => 'Aggiorna memorie di traduzione',
 );
 
 /** Japanese (日本語)
