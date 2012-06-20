@@ -665,6 +665,7 @@ $messages['id'] = array(
  * @author Beta16
  */
 $messages['it'] = array(
+	'livetranslate-desc' => 'Consente la traduzione diretta del contenuto di una pagina utilizzando il servizio Google Translate',
 	'right-managetms' => "[[Special:SpecialLiveTranslate|Modifica]] l'elenco delle memorie di traduzione",
 	'action-managetms' => 'gestire le memorie di traduzione',
 	'group-tmxadmin' => 'Amministratori TMX',
@@ -674,7 +675,14 @@ $messages['it'] = array(
 	'livetranslate-button-translate' => 'Traduci',
 	'livetranslate-button-translating' => 'Traduzione in corso...',
 	'livetranslate-button-revert' => 'Mostra originale',
+	'livetranslate-dictionary-empty' => 'Non ci sono ancora parole nel dizionario. Fai clic sulla scheda "modifica" per aggiungerle qualcuna.',
+	'livetranslate-dictionary-count' => '{{PLURAL:$1|C\'è $1 parola|Ci sono $1 parole}} in $2 {{PLURAL:$2|lingua|lingue}}. Fai clic sulla scheda "modifica" per aggiungerne altre.',
+	'livetranslate-dictionary-unallowed-langs' => '{{PLURAL:$2|Questa lingua non è|Queste lingue non sono}} attualmente {{PLURAL:$2|consentita|consentite}} come destinazione per la traduzione: $1. Modifica le lingue ammesse nella configurazione del wiki o {{PLURAL:$2|rimuoverla|rimuoverle}} dal dizionario.',
 	'livetranslate-dictionary-goto-edit' => 'Modifica le memorie di traduzione.',
+	'special-livetranslate' => 'Traduzione diretta',
+	'livetranslate-tmtype-ltf' => 'Formato Live Translate',
+	'livetranslate-tmtype-tmx' => 'Translation Memory eXchange',
+	'livetranslate-tmtype-gcsv' => 'Google CSV',
 	'livetranslate-special-no-tms-yet' => 'Non ci sono ancora memorie di traduzione.',
 	'livetranslate-special-button' => 'Salva ed aggiorna',
 	'livetranslate-special-type' => 'Tipo',
@@ -685,6 +693,7 @@ $messages['it'] = array(
 	'livetranslate-special-current-tms' => 'Memorie di traduzioni esistenti',
 	'livetranslate-special-tms-update' => 'Aggiorna memorie di traduzione',
 	'livetranslate-special-update' => 'Aggiorna memorie di traduzione',
+	'livetranslate-importtms-param-miscmatch' => 'Mancata corrispondenza tra il numero di posizioni ed i tipi',
 );
 
 /** Japanese (日本語)
