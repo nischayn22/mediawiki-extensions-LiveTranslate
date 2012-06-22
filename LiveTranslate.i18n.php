@@ -675,6 +675,7 @@ $messages['it'] = array(
 	'livetranslate-button-translate' => 'Traduci',
 	'livetranslate-button-translating' => 'Traduzione in corso...',
 	'livetranslate-button-revert' => 'Mostra originale',
+	'livetranslate-dictionary-error' => 'Impossibile recuperare il dizionario della traduzione diretta. Nessuna parola sarà trattata come speciale durante il processo di traduzione.',
 	'livetranslate-dictionary-empty' => 'Non ci sono ancora parole nel dizionario. Fai clic sulla scheda "modifica" per aggiungerle qualcuna.',
 	'livetranslate-dictionary-count' => '{{PLURAL:$1|C\'è $1 parola|Ci sono $1 parole}} in $2 {{PLURAL:$2|lingua|lingue}}. Fai clic sulla scheda "modifica" per aggiungerne altre.',
 	'livetranslate-dictionary-unallowed-langs' => '{{PLURAL:$2|Questa lingua non è|Queste lingue non sono}} attualmente {{PLURAL:$2|consentita|consentite}} come destinazione per la traduzione: $1. Modifica le lingue ammesse nella configurazione del wiki o {{PLURAL:$2|rimuoverla|rimuoverle}} dal dizionario.',
