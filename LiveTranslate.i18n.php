@@ -126,7 +126,7 @@ $messages['az'] = array(
 	'livetranslate-special-local' => 'Lokal',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Wizardist
@@ -298,7 +298,7 @@ $messages['de'] = array(
 	'livetranslate-importtms-param-miscmatch' => 'Missverhältnis zwischen Anzahl an Übersetzungsspeichern und Übersetzungsspeicherarten',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -448,7 +448,7 @@ $messages['frp'] = array(
 	'livetranslate-special-update' => 'Betar a jorn des mèmouères de traduccion',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -557,7 +557,7 @@ $messages['he'] = array(
 	'livetranslate-importtms-param-miscmatch' => 'מתאים בין מספר המיקומים למספר הסוגים',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
