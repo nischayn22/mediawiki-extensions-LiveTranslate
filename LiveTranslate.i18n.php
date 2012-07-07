@@ -1175,6 +1175,11 @@ $messages['tet'] = array(
  */
 $messages['tl'] = array(
 	'livetranslate-desc' => 'Nagpapagana ng buhay na pagsasalinwika ng nilalaman ng pahina na ginagamit ang palingkurang Google Translate',
+	'right-managetms' => '[[Special:SpecialLiveTranslate|Baguhin]] ang listahan ng mga alaala ng salinwika',
+	'action-managetms' => 'mamahala ng mga alaala ng pagsasalinwika',
+	'group-tmxadmin' => 'Mga tagapangasiwa ng TMX',
+	'group-tmxadmin-member' => '{{GENDER:$1|Tagapangasiwa ng TMX}}',
+	'grouppage-tmxadmin' => '{{ns:project}}:Mga tagapangasiwa ng TMX',
 	'livetranslate-translate-to' => 'Isalinwika ang pahinang ito upang maging',
 	'livetranslate-button-translate' => 'Isalinwika',
 	'livetranslate-button-translating' => 'Isinasalinwika...',
