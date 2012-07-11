@@ -884,7 +884,7 @@ $messages['ms'] = array(
 	'livetranslate-importtms-param-miscmatch' => 'Salah padan antara jumlah lokasi dan jenis',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+/** Norwegian Bokmål (‪norsk (bokmål)‬)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
