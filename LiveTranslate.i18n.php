@@ -298,6 +298,21 @@ $messages['de'] = array(
 	'livetranslate-importtms-param-miscmatch' => 'Missverhältnis zwischen Anzahl an Übersetzungsspeichern und Übersetzungsspeicherarten',
 );
 
+/** Zazaki (Zazaki)
+ * @author Erdemaslancan
+ */
+$messages['diq'] = array(
+	'group-tmxadmin' => 'TMX administrators',
+	'group-tmxadmin-member' => '{{GENDER:$1|TMX administrator}}',
+	'livetranslate-button-translate' => 'Açarne',
+	'livetranslate-button-translating' => 'Açarneyêno...',
+	'livetranslate-button-revert' => 'Orcinalê cı bıvin',
+	'livetranslate-special-type' => 'Babet',
+	'livetranslate-special-location' => 'Lokasyon',
+	'livetranslate-special-remove' => 'Wedarne',
+	'livetranslate-special-local' => 'Lokale',
+);
+
 /** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
