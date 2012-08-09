@@ -261,6 +261,14 @@ $messages['bs'] = array(
 	'livetranslate-importtms-param-miscmatch' => 'Neslaganje između broja lokacija i vrsta',
 );
 
+/** Czech (česky)
+ * @author Chmee2
+ */
+$messages['cs'] = array(
+	'livetranslate-tmtype-gcsv' => 'Google CSV',
+	'livetranslate-special-remove' => 'Odstranit',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  * @author Purodha
@@ -393,6 +401,21 @@ $messages['eu'] = array(
 	'livetranslate-button-translate' => 'Itzuli',
 	'livetranslate-button-translating' => 'Itzultzen...',
 	'livetranslate-button-revert' => 'Jatorrizkoa erakutsi',
+);
+
+/** Persian (فارسی)
+ * @author Mjbmr
+ */
+$messages['fa'] = array(
+	'livetranslate-button-translate' => 'ترجمه',
+	'livetranslate-button-translating' => 'ترجمه...',
+	'livetranslate-button-revert' => 'نمایش اصل',
+	'special-livetranslate' => 'ترجمهٔ زنده',
+	'livetranslate-tmtype-ltf' => 'قالب ترجمه زنده',
+	'livetranslate-special-type' => 'نوع',
+	'livetranslate-special-location' => 'مکان',
+	'livetranslate-special-remove' => 'حذف',
+	'livetranslate-special-local' => 'محلی',
 );
 
 /** French (français)
@@ -1101,6 +1124,20 @@ $messages['pt-br'] = array(
 	'livetranslate-button-translating' => 'Traduzindo...',
 );
 
+/** Romanian (română)
+ * @author Stelistcristi
+ */
+$messages['ro'] = array(
+	'livetranslate-button-translate' => 'Tradu',
+	'livetranslate-button-translating' => 'Se traduce...',
+	'livetranslate-button-revert' => 'Arată originalul',
+	'livetranslate-tmtype-gcsv' => 'Google CSV',
+	'livetranslate-special-button' => 'Salvează și actualizează',
+	'livetranslate-special-type' => 'Tip',
+	'livetranslate-special-location' => 'Loc',
+	'livetranslate-special-remove' => 'Elimină',
+);
+
 /** Russian (русский)
  * @author Adata80
  * @author Byulent
@@ -1138,6 +1175,16 @@ $messages['ru'] = array(
 	'livetranslate-special-tms-update' => 'Обновление памяти переводов',
 	'livetranslate-special-update' => 'Обновление памяти переводов',
 	'livetranslate-importtms-param-miscmatch' => 'Несоответствие количества расположений и типов',
+);
+
+/** Sinhala (සිංහල)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['si'] = array(
+	'livetranslate-button-translate' => 'පරිවර්තනය කරන්න',
+	'livetranslate-special-type' => 'වර්ගය',
+	'livetranslate-special-location' => 'ස්ථානය',
+	'livetranslate-special-remove' => 'ඉවත් කරන්න',
 );
 
 /** Swedish (svenska)
