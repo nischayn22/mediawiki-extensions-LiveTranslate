@@ -762,6 +762,25 @@ $messages['ja'] = array(
 	'livetranslate-special-update' => '翻訳メモリーを更新',
 );
 
+/** Georgian (ქართული)
+ * @author David1010
+ */
+$messages['ka'] = array(
+	'group-tmxadmin' => 'TMX-ის ადმინისტრატორები',
+	'group-tmxadmin-member' => '{{GENDER:$1|TMX-ის ადმინისტრატორი}}',
+	'grouppage-tmxadmin' => '{{ns:project}}:TMX-ის ადმინისტრატორები',
+	'livetranslate-button-translate' => 'თარგმნა',
+	'livetranslate-button-translating' => 'ითარგმნება...',
+	'livetranslate-button-revert' => 'ორიგინალის ჩვენება',
+	'special-livetranslate' => 'ცოცხლად თარგმნა',
+	'livetranslate-tmtype-gcsv' => 'Google CSV',
+	'livetranslate-special-button' => 'შენახვა და განახლება',
+	'livetranslate-special-type' => 'ტიპი',
+	'livetranslate-special-location' => 'მდებარეობა',
+	'livetranslate-special-remove' => 'წაშლა',
+	'livetranslate-special-local' => 'ადგილობრივი',
+);
+
 /** Korean (한국어)
  * @author 아라
  */
