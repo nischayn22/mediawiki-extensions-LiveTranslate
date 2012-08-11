@@ -1094,7 +1094,10 @@ $messages['pms'] = array(
 $messages['ps'] = array(
 	'livetranslate-button-translate' => 'ژباړل',
 	'livetranslate-button-translating' => 'د ژباړې په حال کې...',
+	'special-livetranslate' => 'ژوندۍ ژباړه',
+	'livetranslate-special-type' => 'ټاپل',
 	'livetranslate-special-location' => 'ځای',
+	'livetranslate-special-remove' => 'غورځول',
 	'livetranslate-special-local' => 'سيمه ايز',
 );
 
@@ -1201,9 +1204,12 @@ $messages['ru'] = array(
  */
 $messages['si'] = array(
 	'livetranslate-button-translate' => 'පරිවර්තනය කරන්න',
+	'livetranslate-button-translating' => 'පරිවර්තනය කරමින්...',
+	'livetranslate-button-revert' => 'මුල් පිටපත පෙන්වන්න',
 	'livetranslate-special-type' => 'වර්ගය',
 	'livetranslate-special-location' => 'ස්ථානය',
 	'livetranslate-special-remove' => 'ඉවත් කරන්න',
+	'livetranslate-special-local' => 'දේශීය',
 );
 
 /** Swedish (svenska)
@@ -1242,6 +1248,7 @@ $messages['te'] = array(
 	'livetranslate-button-translating' => 'అనువదిస్తున్నాం...',
 	'livetranslate-special-type' => 'రకం',
 	'livetranslate-special-location' => 'ప్రాంతం',
+	'livetranslate-special-local' => 'స్థానిక',
 );
 
 /** Tetum (tetun)
