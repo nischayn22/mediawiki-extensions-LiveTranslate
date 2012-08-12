@@ -1239,6 +1239,18 @@ $messages['sv'] = array(
 	'livetranslate-special-update' => 'Uppdatera översättningsminnen',
 );
 
+/** Tamil (தமிழ்)
+ * @author Karthi.dr
+ */
+$messages['ta'] = array(
+	'livetranslate-button-translate' => 'மொழிபெயர்க்கவும்',
+	'livetranslate-button-translating' => 'மொழிபெயர்க்கப்படுகிறது...',
+	'livetranslate-button-revert' => 'மூலத்தைக் காட்டு',
+	'special-livetranslate' => 'நிகழ்நேர மொழிபெயர்ப்பு',
+	'livetranslate-special-location' => 'இடம்',
+	'livetranslate-special-remove' => 'நீக்கு',
+);
+
 /** Telugu (తెలుగు)
  * @author Veeven
  */
