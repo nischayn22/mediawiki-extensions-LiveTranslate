@@ -261,6 +261,13 @@ $messages['bs'] = array(
 	'livetranslate-importtms-param-miscmatch' => 'Neslaganje između broja lokacija i vrsta',
 );
 
+/** Catalan (català)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['ca'] = array(
+	'livetranslate-special-type' => 'Tiupus',
+);
+
 /** Czech (česky)
  * @author Chmee2
  */
@@ -392,6 +399,14 @@ $messages['es'] = array(
 	'livetranslate-special-tms-update' => 'Actualizar memorias de traducción',
 	'livetranslate-special-update' => 'Actualizar memorias de traducción',
 	'livetranslate-importtms-param-miscmatch' => 'Discrepancia entre la cantidad de ubicaciones y los tipos',
+);
+
+/** Estonian (eesti)
+ * @author Avjoska
+ */
+$messages['et'] = array(
+	'livetranslate-button-translate' => 'Tõlgi',
+	'livetranslate-button-translating' => 'Tõlkimisel...',
 );
 
 /** Basque (euskara)
@@ -1228,6 +1243,7 @@ $messages['sv'] = array(
 	'livetranslate-dictionary-empty' => 'Det finns inga ord i ordboken ännu. Klicka på fliken "redigera" för att lägga till.',
 	'livetranslate-dictionary-count' => 'Det finns {{PLURAL:$1|$1 ord|$1 ord}} i $2 {{PLURAL:$2|språk|olika språk}}. Klicka på fliken "redigera" för att lägga till mer.',
 	'livetranslate-dictionary-goto-edit' => 'Ändra översättningsminnena.',
+	'livetranslate-tmtype-gcsv' => 'Google CSV',
 	'livetranslate-special-no-tms-yet' => 'Det finns inga översättningsminnen ännu.',
 	'livetranslate-special-button' => 'Spara och uppdatera',
 	'livetranslate-special-type' => 'Typ',
