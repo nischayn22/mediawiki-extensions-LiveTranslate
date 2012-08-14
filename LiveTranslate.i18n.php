@@ -1218,6 +1218,7 @@ $messages['ru'] = array(
  * @author පසිඳු කාවින්ද
  */
 $messages['si'] = array(
+	'group-tmxadmin' => 'TMX පරිපාලකවරු',
 	'livetranslate-button-translate' => 'පරිවර්තනය කරන්න',
 	'livetranslate-button-translating' => 'පරිවර්තනය කරමින්...',
 	'livetranslate-button-revert' => 'මුල් පිටපත පෙන්වන්න',
@@ -1257,12 +1258,14 @@ $messages['sv'] = array(
 
 /** Tamil (தமிழ்)
  * @author Karthi.dr
+ * @author மதனாஹரன்
  */
 $messages['ta'] = array(
 	'livetranslate-button-translate' => 'மொழிபெயர்க்கவும்',
 	'livetranslate-button-translating' => 'மொழிபெயர்க்கப்படுகிறது...',
 	'livetranslate-button-revert' => 'மூலத்தைக் காட்டு',
 	'special-livetranslate' => 'நிகழ்நேர மொழிபெயர்ப்பு',
+	'livetranslate-special-button' => 'சேமித்து இற்றைப்படுத்தவும்',
 	'livetranslate-special-location' => 'இடம்',
 	'livetranslate-special-remove' => 'நீக்கு',
 );
