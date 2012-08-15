@@ -501,6 +501,13 @@ $messages['frp'] = array(
 	'livetranslate-special-update' => 'Betar a jorn des mèmouères de traduccion',
 );
 
+/** Irish (Gaeilge)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['ga'] = array(
+	'livetranslate-special-type' => 'Cineál',
+);
+
 /** Galician (galego)
  * @author Toliño
  */
