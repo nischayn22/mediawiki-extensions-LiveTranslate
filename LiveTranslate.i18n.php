@@ -411,11 +411,16 @@ $messages['et'] = array(
 
 /** Basque (euskara)
  * @author An13sa
+ * @author පසිඳු කාවින්ද
  */
 $messages['eu'] = array(
 	'livetranslate-button-translate' => 'Itzuli',
 	'livetranslate-button-translating' => 'Itzultzen...',
 	'livetranslate-button-revert' => 'Jatorrizkoa erakutsi',
+	'livetranslate-special-type' => 'Mota',
+	'livetranslate-special-location' => 'Kokapena',
+	'livetranslate-special-remove' => 'Kendu',
+	'livetranslate-special-local' => 'Lokala',
 );
 
 /** Persian (فارسی)
@@ -1356,6 +1361,24 @@ $messages['uk'] = array(
 	'livetranslate-special-type' => 'Тип',
 	'livetranslate-special-location' => 'Розташування',
 	'livetranslate-special-remove' => 'Вилучити',
+);
+
+/** Vietnamese (Tiếng Việt)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['vi'] = array(
+	'livetranslate-special-type' => 'Loại',
+	'livetranslate-special-location' => 'Vị trí',
+	'livetranslate-special-remove' => 'Loại bỏ',
+	'livetranslate-special-local' => 'Địa phương',
+);
+
+/** Yiddish (ייִדיש)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['yi'] = array(
+	'livetranslate-special-location' => 'אָרט',
+	'livetranslate-special-remove' => 'אַראָפּנעמען',
 );
 
 /** Simplified Chinese (‪中文（简体）‬)
