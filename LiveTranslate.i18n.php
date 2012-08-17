@@ -438,6 +438,17 @@ $messages['fa'] = array(
 	'livetranslate-special-local' => 'محلی',
 );
 
+/** Finnish (suomi)
+ * @author Beluga
+ */
+$messages['fi'] = array(
+	'livetranslate-tmtype-gcsv' => 'Google CSV',
+	'livetranslate-special-button' => 'Tallenna ja päivitä',
+	'livetranslate-special-type' => 'Tyyppi',
+	'livetranslate-special-location' => 'Sijainti',
+	'livetranslate-special-remove' => 'Poista',
+);
+
 /** French (français)
  * @author Crochet.david
  * @author Gomoko
@@ -1361,6 +1372,25 @@ $messages['uk'] = array(
 	'livetranslate-special-type' => 'Тип',
 	'livetranslate-special-location' => 'Розташування',
 	'livetranslate-special-remove' => 'Вилучити',
+);
+
+/** Urdu (اردو)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['ur'] = array(
+	'livetranslate-button-translate' => 'کا ترجمہ',
+	'livetranslate-button-translating' => 'ترجمہ...',
+	'livetranslate-button-revert' => 'اصل شو',
+	'livetranslate-dictionary-goto-edit' => 'ترجمہ یادوں میں ترمیم.',
+	'livetranslate-special-button' => 'محفوظ کریں اور اپ ڈیٹ',
+	'livetranslate-special-type' => 'قسم',
+	'livetranslate-special-location' => 'محل وقوع',
+	'livetranslate-special-remove' => 'حذف کریں',
+	'livetranslate-special-local' => 'مقامی',
+	'livetranslate-special-add-tm' => 'ایک نیا ترجمہ میموری شامل کریں',
+	'livetranslate-special-current-tms' => 'موجودہ ترجمہ کی یادیں',
+	'livetranslate-special-tms-update' => 'ترجمہ یادوں کو اپ ڈیٹ',
+	'livetranslate-special-update' => 'ترجمہ یادوں کو اپ ڈیٹ',
 );
 
 /** Vietnamese (Tiếng Việt)
