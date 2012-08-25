@@ -779,7 +779,7 @@ $messages['it'] = array(
  */
 $messages['ja'] = array(
 	'right-managetms' => '翻訳メモリーの一覧を[[Special:SpecialLiveTranslate|変更]]',
-	'action-managetms' => '翻訳メモリーを管理',
+	'action-managetms' => '翻訳メモリーの管理',
 	'group-tmxadmin' => 'TMX 管理者',
 	'group-tmxadmin-member' => '{{GENDER:$1|TMX 管理者}}',
 	'grouppage-tmxadmin' => '{{ns:project}}:TMX 管理者',
