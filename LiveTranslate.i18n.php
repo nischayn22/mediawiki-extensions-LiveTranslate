@@ -835,6 +835,11 @@ $messages['ko'] = array(
  */
 $messages['ksh'] = array(
 	'livetranslate-desc' => 'Määt en „{{int:special-livetranslate}}“ müjjelesch met <span class="plainlinks">[http://translate.google.com/ Google Translate]</span>.',
+	'right-managetms' => 'De Leß met de [[Special:SpecialLiveTranslate|Övversäzongsjedääschneße ändere]]',
+	'action-managetms' => 'Övversäzongsjedääschneße verwallde',
+	'group-tmxadmin' => 'Övversäzongsjedääschneßverwallder',
+	'group-tmxadmin-member' => '{{GENDER:$1|Övversäzongsjedääschneßverwallder|Övversäzongsjedääschneßverwallderėn|Övversäzongsjedääschneßverwallder|Övversäzongsjedääschneßverwallderėn|Övversäzongsjedääschneßverwallder}}',
+	'grouppage-tmxadmin' => '{{ns:project}}:Övversäzongsjedääschneßverwallder',
 	'livetranslate-translate-to' => 'Donn di Sigg heh op&nbsp;',
 	'livetranslate-button-translate' => 'Övversätze!',
 	'livetranslate-button-translating' => 'Am Övversätze&nbsp;…',
