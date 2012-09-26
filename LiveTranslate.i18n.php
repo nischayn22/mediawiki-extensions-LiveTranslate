@@ -1453,14 +1453,24 @@ $messages['zh-hans'] = array(
 	'livetranslate-importtms-param-miscmatch' => '之间的位置的数量和类型不匹配',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Mark85296341
  */
 $messages['zh-hant'] = array(
+	'livetranslate-desc' => '啟用藉助於谷歌翻譯服務的頁面內容實時翻譯',
+	'right-managetms' => '[[Special:SpecialLiveTranslate|修改]]翻譯記憶列表',
+	'action-managetms' => '管理翻譯記憶',
+	'group-tmxadmin' => 'TMX 管理員',
+	'group-tmxadmin-member' => '{{GENDER:$1|TMX 管理員}}',
+	'grouppage-tmxadmin' => '{{ns:project}}:TMX 管理員',
 	'livetranslate-translate-to' => '翻譯此頁',
 	'livetranslate-button-translate' => '翻譯',
 	'livetranslate-button-translating' => '翻譯中。。。',
 	'livetranslate-button-revert' => '顯示原文',
+	'livetranslate-dictionary-error' => '無法獲取實時翻譯詞典。在翻譯過程中，將不對任何單詞進行特殊處理。',
+	'livetranslate-dictionary-empty' => '字典中尚無任何單詞。單擊"編輯"選項卡向其中添加一些單詞。',
+	'livetranslate-dictionary-count' => '目前有$2種{{PLURAL:$2|語言|語言}}{{PLURAL:$1|is $1個單詞|are $1個單詞}}。單擊"編輯"選項卡向其中添加一些單詞。',
+	'livetranslate-dictionary-unallowed-langs' => '{{PLURAL:$2|這種語言|這些語言}}當前並未被設置為允許的翻譯目標語言：$1。請在您的維基站點配置當中修改所允許的語言，或者從字典當中刪除這些語言。',
 	'livetranslate-dictionary-goto-edit' => '修改的翻譯記憶庫。',
 	'special-livetranslate' => '實時翻譯',
 	'livetranslate-tmtype-ltf' => '實時翻譯格式',
