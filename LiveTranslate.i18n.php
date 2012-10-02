@@ -126,7 +126,7 @@ $messages['az'] = array(
 	'livetranslate-special-local' => 'Lokal',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Wizardist
@@ -867,7 +867,7 @@ $messages['ksh'] = array(
 	'livetranslate-importtms-param-miscmatch' => 'De Aanzahl Speicherplätz un Zoote paß nit zosamme.',
 );
 
-/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
+/** Kurdish (Latin script) (Kurdî (latînî)‎)
  * @author George Animal
  */
 $messages['ku-latn'] = array(
@@ -984,7 +984,7 @@ $messages['ms'] = array(
 	'livetranslate-importtms-param-miscmatch' => 'Salah padan antara jumlah lokasi dan jenis',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬)
+/** Norwegian Bokmål (norsk (bokmål)‎)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -1416,7 +1416,7 @@ $messages['yi'] = array(
 	'livetranslate-special-remove' => 'אַראָפּנעמען',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Hydra
  * @author Linforest
  */
