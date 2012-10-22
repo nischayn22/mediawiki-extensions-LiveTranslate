@@ -1151,7 +1151,7 @@ $messages['pt'] = array(
 	'livetranslate-desc' => 'Permite a tradução imediata do conteúdo das páginas usando o serviço Google Translate',
 	'right-managetms' => '[[Special:SpecialLiveTranslate|Modificar]] a lista de memórias de tradução',
 	'group-tmxadmin' => 'Administradores TMX',
-	'group-tmxadmin-member' => 'Administrador TMX',
+	'group-tmxadmin-member' => 'Administrador TMX', # Fuzzy
 	'grouppage-tmxadmin' => '{{ns:project}}:Administradores_TMX',
 	'livetranslate-translate-to' => 'Traduzir esta página para',
 	'livetranslate-button-translate' => 'Traduzir',
@@ -1488,4 +1488,3 @@ $messages['zh-hant'] = array(
 	'livetranslate-special-update' => '更新翻譯記憶',
 	'livetranslate-importtms-param-miscmatch' => '之間的位置的數量和類型不匹配',
 );
-
