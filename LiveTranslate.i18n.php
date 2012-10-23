@@ -425,6 +425,7 @@ $messages['eu'] = array(
 
 /** Persian (فارسی)
  * @author Mjbmr
+ * @author پاناروما
  */
 $messages['fa'] = array(
 	'livetranslate-button-translate' => 'ترجمه',
@@ -432,6 +433,7 @@ $messages['fa'] = array(
 	'livetranslate-button-revert' => 'نمایش اصل',
 	'special-livetranslate' => 'ترجمهٔ زنده',
 	'livetranslate-tmtype-ltf' => 'قالب ترجمه زنده',
+	'livetranslate-special-button' => 'ذخیره و به روز شدن',
 	'livetranslate-special-type' => 'نوع',
 	'livetranslate-special-location' => 'مکان',
 	'livetranslate-special-remove' => 'حذف',
