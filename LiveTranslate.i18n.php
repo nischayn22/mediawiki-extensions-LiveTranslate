@@ -780,6 +780,7 @@ $messages['it'] = array(
  * @author Shirayuki
  */
 $messages['ja'] = array(
+	'livetranslate-desc' => 'Google 翻訳サービスを使用して、ページ本文をライブ翻訳できるようにする',
 	'right-managetms' => '翻訳メモリーの一覧を[[Special:SpecialLiveTranslate|変更]]',
 	'action-managetms' => '翻訳メモリーの管理',
 	'group-tmxadmin' => 'TMX 管理者',
@@ -790,9 +791,17 @@ $messages['ja'] = array(
 	'livetranslate-translate-to' => 'このページを翻訳',
 	'livetranslate-button-translate' => '翻訳',
 	'livetranslate-button-translating' => '翻訳中...',
+	'livetranslate-button-revert' => '原文を表示',
+	'livetranslate-dictionary-empty' => '辞書にはまだ単語がありません。追加するには「編集」タブをクリックしてください。',
+	'livetranslate-dictionary-count' => '辞書には $2 {{PLURAL:$2|言語}}の $1 {{PLURAL:$1|件の単語}}があります。さらに追加するには「編集」タブをクリックしてください。',
+	'livetranslate-dictionary-unallowed-langs' => '{{PLURAL:$1|この言語|これらの言語}}は現在、翻訳先言語にすることを許可されていません: $1。ウィキの設定で許可する言語を変更、または辞書からこれらを除去してください。', # Fuzzy
+	'special-livetranslate' => 'ライブ翻訳',
+	'livetranslate-tmtype-ltf' => 'ライブ翻訳形式',
+	'livetranslate-tmtype-tmx' => '翻訳メモリー交換 (TMX)',
 	'livetranslate-tmtype-gcsv' => 'Google CSV',
 	'livetranslate-special-no-tms-yet' => '翻訳メモリーはまだありません。',
 	'livetranslate-special-button' => '保存して更新',
+	'livetranslate-special-type' => '種類',
 	'livetranslate-special-location' => '場所',
 	'livetranslate-special-remove' => '除去',
 	'livetranslate-special-local' => 'ローカル',
