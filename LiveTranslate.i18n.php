@@ -1375,6 +1375,16 @@ $messages['tr'] = array(
 	'livetranslate-special-local' => 'Yerel',
 );
 
+/** Central Atlas Tamazight (ⵜⴰⵎⴰⵣⵉⵖⵜ)
+ * @author Tifinaghes
+ */
+$messages['tzm'] = array(
+	'livetranslate-button-translate' => 'ⵙⵙⵓⵖⵍ',
+	'livetranslate-button-translating' => 'ⵜⴰⵙⵓⵖⵍⵜ...',
+	'livetranslate-special-type' => 'ⴰⵏⴰⵡ',
+	'livetranslate-special-location' => 'ⴰⴷⵖⴰⵔ',
+);
+
 /** Ukrainian (українська)
  * @author Тест
  */
