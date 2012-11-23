@@ -1383,6 +1383,7 @@ $messages['tr'] = array(
 $messages['tzm'] = array(
 	'livetranslate-button-translate' => 'ⵙⵙⵓⵖⵍ',
 	'livetranslate-button-translating' => 'ⵜⴰⵙⵓⵖⵍⵜ...',
+	'special-livetranslate' => 'ⵓⵙⵔⵉⴷ ⵏ ⵜⵙⵓⵖⵍⵜ',
 	'livetranslate-special-type' => 'ⴰⵏⴰⵡ',
 	'livetranslate-special-location' => 'ⴰⴷⵖⴰⵔ',
 );
