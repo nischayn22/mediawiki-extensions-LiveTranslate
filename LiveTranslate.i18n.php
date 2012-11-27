@@ -444,13 +444,28 @@ $messages['fa'] = array(
 
 /** Finnish (suomi)
  * @author Beluga
+ * @author Crt
+ * @author Nedergard
  */
 $messages['fi'] = array(
+	'group-tmxadmin' => 'TMX-ylläpitäjät',
+	'group-tmxadmin-member' => '{{GENDER:$1|TMX-ylläpitäjä}}',
+	'grouppage-tmxadmin' => '{{ns:project}}:TMX-ylläpitäjät',
+	'livetranslate-translate-to' => 'Käännä tämä sivu kielelle',
+	'livetranslate-button-translate' => 'Käännä',
+	'livetranslate-button-translating' => 'Kääntää...',
+	'livetranslate-button-revert' => 'Näytä alkuperäinen',
+	'livetranslate-dictionary-goto-edit' => 'Muokkaa käännösmuisteja',
 	'livetranslate-tmtype-gcsv' => 'Google CSV',
+	'livetranslate-special-no-tms-yet' => 'Käännösmuisteja ei vielä ole.',
 	'livetranslate-special-button' => 'Tallenna ja päivitä',
 	'livetranslate-special-type' => 'Tyyppi',
 	'livetranslate-special-location' => 'Sijainti',
 	'livetranslate-special-remove' => 'Poista',
+	'livetranslate-special-add-tm' => 'Lisää uusi käännösmuisti',
+	'livetranslate-special-current-tms' => 'Nykyiset käännösmuistit',
+	'livetranslate-special-tms-update' => 'Päivitä käännösmuistit',
+	'livetranslate-special-update' => 'Päivitä käännösmuistit',
 );
 
 /** French (français)
