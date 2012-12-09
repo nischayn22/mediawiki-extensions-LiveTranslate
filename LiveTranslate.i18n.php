@@ -1404,18 +1404,36 @@ $messages['tzm'] = array(
 );
 
 /** Ukrainian (українська)
+ * @author Base
  * @author Тест
  */
 $messages['uk'] = array(
 	'livetranslate-desc' => 'Робить можливим безпосередній переклад вмісту сторінки за допомогою служби Google Translate',
+	'right-managetms' => "[[Special:SpecialLiveTranslate|Змінювати]] список пам'яті перекладів",
+	'action-managetms' => "керування пам'яттю перекладів",
+	'group-tmxadmin' => 'Адміністратори TMX',
+	'group-tmxadmin-member' => '{{GENDER:$1|Адміністратор|Адміністраторка}} TMX',
+	'grouppage-tmxadmin' => '{{ns:project}}:Адміністратори TMX',
 	'livetranslate-translate-to' => 'Перекласти цю сторінку',
 	'livetranslate-button-translate' => 'Перекласти',
 	'livetranslate-button-translating' => 'Перекладаю...',
 	'livetranslate-button-revert' => 'Показати оригінал',
+	'livetranslate-dictionary-empty' => 'В словнику ще немає слів. Натисніть кнопку «редагувати» щоб додати щось.',
+	'livetranslate-dictionary-goto-edit' => "Зміна пам'яті перекладів.",
+	'special-livetranslate' => 'Переклад на льоту',
+	'livetranslate-tmtype-ltf' => 'Формат перекладу на льоту',
+	'livetranslate-tmtype-tmx' => "Обмін пам'яттю перекладів",
+	'livetranslate-tmtype-gcsv' => 'Google CSV',
+	'livetranslate-special-no-tms-yet' => "Поки що немає пам'яті перекладів.",
 	'livetranslate-special-button' => 'Зберегти та оновити',
 	'livetranslate-special-type' => 'Тип',
 	'livetranslate-special-location' => 'Розташування',
 	'livetranslate-special-remove' => 'Вилучити',
+	'livetranslate-special-local' => 'Локально',
+	'livetranslate-special-add-tm' => "Додати нову пам'ять перекладів",
+	'livetranslate-special-current-tms' => "Існуючі пам'яті перекладів",
+	'livetranslate-special-tms-update' => "Оновити пам'яті перекладів",
+	'livetranslate-special-update' => "Оновити пам'яті перекладів",
 );
 
 /** Urdu (اردو)
