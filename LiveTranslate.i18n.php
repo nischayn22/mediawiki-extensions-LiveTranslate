@@ -66,6 +66,7 @@ $messages['en'] = array(
  * @author Kghbln
  * @author Purodha
  * @author Raymond
+ * @author Shirayuki
  * @author Siebrand
  * @author Umherirrender
  * @author 아라
@@ -80,9 +81,9 @@ TMX = Translation Memory eXchange',
 TMX = Translation Memory eXchange',
 	'grouppage-tmxadmin' => '{{doc-group|tmxadmin|page}}
 TMX = Translation Memory eXchange',
-	'group-tmxadmin.css' => '{{doc-group|tmxadmin|page}}
+	'group-tmxadmin.css' => '{{doc-group|tmxadmin|css}}
 TMX = Translation Memory eXchange',
-	'group-tmxadmin.js' => '{{doc-group|tmxadmin|page}}
+	'group-tmxadmin.js' => '{{doc-group|tmxadmin|js}}
 TMX = Translation Memory eXchange',
 	'livetranslate-translate-to' => 'There is an [https://secure.wikimedia.org/wikipedia/mediawiki/wiki/File:Lte-article.png example screenshot of use].
 Look at the right side in the line below the ruler under the "Main Page" header.',
