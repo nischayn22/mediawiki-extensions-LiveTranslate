@@ -271,8 +271,12 @@ $messages['ca'] = array(
 
 /** Czech (česky)
  * @author Chmee2
+ * @author Vks
  */
 $messages['cs'] = array(
+	'livetranslate-button-translate' => 'Přeložit',
+	'livetranslate-button-translating' => 'Překládám...',
+	'livetranslate-button-revert' => 'Ukázat originál',
 	'livetranslate-tmtype-gcsv' => 'Google CSV',
 	'livetranslate-special-remove' => 'Odstranit',
 );
@@ -410,6 +414,10 @@ $messages['es'] = array(
 $messages['et'] = array(
 	'livetranslate-button-translate' => 'Tõlgi',
 	'livetranslate-button-translating' => 'Tõlkimisel...',
+	'livetranslate-special-type' => 'Tüüp',
+	'livetranslate-special-location' => 'Asukoht',
+	'livetranslate-special-remove' => 'Eemalda',
+	'livetranslate-special-local' => 'Kohalik',
 );
 
 /** Basque (euskara)
@@ -436,6 +444,7 @@ $messages['fa'] = array(
 	'livetranslate-button-revert' => 'نمایش اصل',
 	'special-livetranslate' => 'ترجمهٔ زنده',
 	'livetranslate-tmtype-ltf' => 'قالب ترجمه زنده',
+	'livetranslate-tmtype-gcsv' => 'سی‌اس‌وی گوگل',
 	'livetranslate-special-button' => 'ذخیره و به روز شدن',
 	'livetranslate-special-type' => 'نوع',
 	'livetranslate-special-location' => 'مکان',
@@ -1221,17 +1230,27 @@ $messages['pt-br'] = array(
 );
 
 /** Romanian (română)
+ * @author Firilacroco
+ * @author Minisarm
  * @author Stelistcristi
  */
 $messages['ro'] = array(
+	'group-tmxadmin' => 'Administratori TMX',
+	'group-tmxadmin-member' => '{{GENDER:$1|administrator TMX}}',
+	'grouppage-tmxadmin' => '{{ns:project}}:Administratori TMX',
+	'livetranslate-translate-to' => 'Traduceți această pagină în',
 	'livetranslate-button-translate' => 'Tradu',
 	'livetranslate-button-translating' => 'Se traduce...',
 	'livetranslate-button-revert' => 'Arată originalul',
+	'special-livetranslate' => 'Traducere live',
+	'livetranslate-tmtype-ltf' => 'Format traducere live',
+	'livetranslate-tmtype-tmx' => 'Translation Memory eXchange',
 	'livetranslate-tmtype-gcsv' => 'Google CSV',
 	'livetranslate-special-button' => 'Salvează și actualizează',
 	'livetranslate-special-type' => 'Tip',
 	'livetranslate-special-location' => 'Loc',
 	'livetranslate-special-remove' => 'Elimină',
+	'livetranslate-special-local' => 'Local',
 );
 
 /** Russian (русский)
