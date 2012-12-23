@@ -167,10 +167,12 @@ $messages['be-tarask'] = array(
 
 /** Bulgarian (български)
  * @author DCLXVI
+ * @author පසිඳු කාවින්ද
  */
 $messages['bg'] = array(
 	'livetranslate-button-translate' => 'Превеждане',
 	'livetranslate-button-translating' => 'Превеждане...',
+	'livetranslate-special-type' => 'Вид',
 	'livetranslate-special-remove' => 'Премахване',
 );
 
@@ -737,11 +739,15 @@ $messages['ia'] = array(
 );
 
 /** Indonesian (Bahasa Indonesia)
+ * @author Farras
  * @author IvanLanin
  */
 $messages['id'] = array(
 	'livetranslate-desc' => 'Memungkinkan penerjemahan langsung konten halaman dengan menggunakan layanan Google Terjemahan',
 	'right-managetms' => '[[Special:SpecialLiveTranslate|Mengubah]] daftar memori terjemahan',
+	'group-tmxadmin' => 'Pengurus TMX',
+	'group-tmxadmin-member' => '{{GENDER:$1|Pengurus TMX}}',
+	'grouppage-tmxadmin' => '{{ns:project}}:Pengurus TMX',
 	'livetranslate-translate-to' => 'Terjemahkan halaman ini ke',
 	'livetranslate-button-translate' => 'Terjemahkan',
 	'livetranslate-button-translating' => 'Menerjemahkan ...',
@@ -948,6 +954,19 @@ $messages['lb'] = array(
 	'livetranslate-special-tms-update' => 'Den Iwwersetzungsspäicher aktualiséieren.',
 	'livetranslate-special-update' => 'Den Iwwersetzungsspäicher aktualiséieren.',
 	'livetranslate-importtms-param-miscmatch' => 'Duercherneen tëschent der Zuel vu Plazen an Typen',
+);
+
+/** Lithuanian (lietuvių)
+ * @author Eitvys200
+ */
+$messages['lt'] = array(
+	'livetranslate-button-translate' => 'Versti',
+	'livetranslate-tmtype-gcsv' => 'Google CSV',
+	'livetranslate-special-button' => 'Išsaugoti ir atnaujinti',
+	'livetranslate-special-type' => 'Tipas',
+	'livetranslate-special-location' => 'Vieta',
+	'livetranslate-special-remove' => 'Pašalinti',
+	'livetranslate-special-local' => 'Vietinis',
 );
 
 /** Macedonian (македонски)
@@ -1297,9 +1316,11 @@ $messages['ru'] = array(
  */
 $messages['si'] = array(
 	'group-tmxadmin' => 'TMX පරිපාලකවරු',
+	'livetranslate-translate-to' => 'මෙම පිටුව පරිවර්තනය කරන්න',
 	'livetranslate-button-translate' => 'පරිවර්තනය කරන්න',
 	'livetranslate-button-translating' => 'පරිවර්තනය කරමින්...',
 	'livetranslate-button-revert' => 'මුල් පිටපත පෙන්වන්න',
+	'livetranslate-tmtype-gcsv' => 'ගූගල් CSV',
 	'livetranslate-special-type' => 'වර්ගය',
 	'livetranslate-special-location' => 'ස්ථානය',
 	'livetranslate-special-remove' => 'ඉවත් කරන්න',
