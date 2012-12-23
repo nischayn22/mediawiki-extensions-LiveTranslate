@@ -159,7 +159,6 @@ final class LiveTranslateHooks {
 		foreach ( LiveTranslateFunctions::getLanguages( $currentLang ) as $label => $code ) {
 			$langs[] = "$code|$label";
 		}
-
 		$wgOut->addHTML(
 			Html::rawElement(
 				'div',

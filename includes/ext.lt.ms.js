@@ -37,7 +37,7 @@
 		var sentenceCount = 0;
 		var currentLength = 0;
 		
-		// Find the scentances that can be put in the current chunk.
+		// Find the sentences that can be put in the current chunk.
 		for ( i in untranslatedsentences ) {
 			sentenceCount++;
 			
@@ -89,10 +89,9 @@
 		var chunckTranslationDone = function( translation ) {
 			lt.debug( 'MS: Translated chunk' );
 			
-			if ( translation ) {
+			if ( typeof translation !== 'undefined' ) {
 				chunks.push( leadingSpace + translation + tailingSpace );
-			}
-			else {
+			} else {
 				// If the translation failed, keep the original text.
 				chunks.push( chunk );
 			}
@@ -110,7 +109,7 @@
 				self.translateChunk( untranslatedsentences, chunks, currentMaxSize, sourceLang, targetLang, element );
 			}
 		};
-		
+
 		$.getJSON(
 			'http://api.microsofttranslator.com/V2/Ajax.svc/Translate?oncomplete=?',
 			{

@@ -68,8 +68,12 @@ $egLiveTranslateDebugJS = false;
 # https://code.google.com/apis/console
 $egGoogleApiKey = '';
 
-# Microsoft App Id, needed when using the Microsoft Translation service.
-# http://www.bing.com/developers/createapp.aspx
+# Microsoft  ClientID and ClientSecret, needed when using the Microsoft Translation service.
+# http://blogs.msdn.com/b/translation/p/gettingstarted1.aspx/
+$egLiveTranslateMSClientId = '';
+$egLiveTranslateMSClientSecret = '';
+
+// For backwards compatibility
 $egLiveTranslateMSAppId = '';
 
 $egLiveTranslateLanguages[] = 'nl';
