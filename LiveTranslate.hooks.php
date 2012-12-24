@@ -26,7 +26,7 @@ final class LiveTranslateHooks {
 	public static function onArticleViewHeader( Article &$article, &$outputDone, &$useParserCache ) {
 		global $egLiveTranslateLanguages;
 		$egLiveTranslateLanguages = array_unique( $egLiveTranslateLanguages );
-		
+
 		$title = $article->getTitle();
 
 		$currentLang = LiveTranslateFunctions::getCurrentLang( $title );
@@ -155,17 +155,21 @@ final class LiveTranslateHooks {
 		global $wgOut;
 
 		$langs = array();
-		
-		foreach ( LiveTranslateFunctions::getLanguages( $currentLang ) as $label => $code ) {
+		$translateLanguages = LiveTranslateFunctions::getLanguages( $currentLang );
+
+		foreach ( $translateLanguages as $label => $code ) {
 			$langs[] = "$code|$label";
 		}
+		$autoTranslateLang = LiveTranslateFunctions::getAutoTranslateLang( $currentLang );
+
 		$wgOut->addHTML(
 			Html::rawElement(
 				'div',
 				array(
 					'id' => 'livetranslatediv',
 					'sourcelang' => $currentLang,
-					'languages' => implode( '||', $langs )
+					'languages' => implode( '||', $langs ),
+					'autolang' => in_array( $autoTranslateLang, $translateLanguages ) ? $autoTranslateLang : $currentLang
 				)
 			)
 		);
@@ -213,7 +217,7 @@ final class LiveTranslateHooks {
 					'memory_id',
 					$egLiveTranslateIP . '/sql/LT_addTMField.sql'
 				);
-				
+
 				$wgExtNewFields[] = array(
 					'live_translate_memories',
 					'memory_version_hash',
@@ -249,7 +253,7 @@ final class LiveTranslateHooks {
 					$egLiveTranslateIP . '/sql/LT_addTMField.sql',
 					true
 				) );
-				
+
 				$updater->addExtensionUpdate( array(
 					'addField',
 					'live_translate_memories',
@@ -322,9 +326,12 @@ final class LiveTranslateHooks {
 		return true;
 	}
 
-	public static function onOutputPageParserOutput( $outputpage, $parseroutput ) {
+	public static function onOutputPageParserOutput( OutputPage &$out, ParserOutput $parseroutput ) {
+		if ( $out->getRequest()->getVal( 'language', '' ) !== '' ){ // check URL to set cookies
+			LiveTranslateFunctions::setAutoTranslationCookie( $out->getRequest()->getVal( 'language' ) );
+		}
+
 		$magicWords = isset( $parseroutput->mLTMagicWords ) ? $parseroutput->mLTMagicWords : array();
 		return true;
 	}
-
 }

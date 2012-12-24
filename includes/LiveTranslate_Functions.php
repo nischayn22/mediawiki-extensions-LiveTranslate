@@ -11,28 +11,28 @@
  * @author Jeroen De Dauw < jeroendedauw@gmail.com >
  */
 final class LiveTranslateFunctions {
-	
+
 	/**
 	 * Loads the needed JavaScript.
 	 * Takes care of non-RL compatibility.
-	 * 
+	 *
 	 * @since 0.1
 	 */
 	public static function loadJs() {
 		global $wgOut;
-		
+
 		$wgOut->addScript(
 			Html::inlineScript(
 				'var ltDebugMessages = ' . FormatJson::encode( $GLOBALS['egLiveTranslateDebugJS'] ) . ';'
 			)
 		);
-		
+
 		// For backward compatibility with MW < 1.17.
 		if ( is_callable( array( $wgOut, 'addModules' ) ) ) {
 			$modules = array( 'ext.livetranslate' );
-			
+
 			switch( $GLOBALS['egLiveTranslateService'] ) {
-				case LTS_GOOGLE: 
+				case LTS_GOOGLE:
 					$modules[] = 'ext.lt.google';
 					$wgOut->addHeadItem(
 						'ext.lt.google.jsapi',
@@ -48,16 +48,16 @@ final class LiveTranslateFunctions {
 					);
 					break;
 			}
-			
+
 			$wgOut->addModules( $modules );
 		}
 		else {
 			global $egLiveTranslateScriptPath;
-			
+
 			self::addJSLocalisation();
-			
+
 			$wgOut->includeJQuery();
-			
+
 			$wgOut->addHeadItem(
 				'ext.livetranslate',
 				Html::linkedScript( $egLiveTranslateScriptPath . '/includes/jquery.replaceText.js' ) .
@@ -66,14 +66,14 @@ final class LiveTranslateFunctions {
 				Html::linkedScript( $egLiveTranslateScriptPath . '/includes/jquery.liveTranslate.js' ) .
 				Html::linkedScript( $egLiveTranslateScriptPath . '/includes/ext.lt.load.js' )
 			);
-			
+
 			switch( $GLOBALS['egLiveTranslateService'] ) {
 				case LTS_GOOGLE:
 					$wgOut->addHeadItem(
 						'ext.lt.google.jsapi',
 						Html::linkedScript( 'https://www.google.com/jsapi?key=' . htmlspecialchars( $GLOBALS['egGoogleApiKey'] ) )
 					);
-					
+
 					$wgOut->addHeadItem(
 						'ext.lt.google',
 						Html::linkedScript( $egLiveTranslateScriptPath . '/includes/ext.lt.google.js' )
@@ -91,32 +91,32 @@ final class LiveTranslateFunctions {
 					);
 					break;
 			}
-		}		
-	}	
-	
+		}
+	}
+
 	/**
 	 * Adds the needed JS messages to the page output.
 	 * This is for backward compatibility with pre-RL MediaWiki.
-	 * 
+	 *
 	 * @since 0.1
 	 */
 	protected static function addJSLocalisation() {
 		global $egLTJSMessages, $wgOut;
-		
+
 		$data = array();
-	
+
 		foreach ( $egLTJSMessages as $msg ) {
 			$data[$msg] = wfMsgNoTrans( $msg );
 		}
-	
-		$wgOut->addInlineScript( 'var wgLTEMessages = ' . FormatJson::encode( $data ) . ';' );		
+
+		$wgOut->addInlineScript( 'var wgLTEMessages = ' . FormatJson::encode( $data ) . ';' );
 	}
-	
+
 	/**
 	 * Returns the language code for a title.
-	 * 
+	 *
 	 * @param Title $title
-	 * 
+	 *
 	 * @return string
 	 */
 	public static function getCurrentLang( Title $title ) {
@@ -126,57 +126,87 @@ final class LiveTranslateFunctions {
 		if ( $subPage != '' && array_key_exists( $subPage, Language::getLanguageNames( false ) ) ) {
 			return $subPage;
 		}
-		
+
 		global $wgLanguageCode;
 		return $wgLanguageCode;
 	}
-	
+
 	/**
 	 * Returns a list of languages that can be translated to.
-	 * 
+	 *
 	 * @since 1.2
-	 * 
+	 *
 	 * @param string $currentLang
-	 * 
+	 *
 	 * @return array
 	 */
 	public static function getLanguages( $currentLang ) {
 		global $wgUser, $wgLanguageCode, $egLiveTranslateLanguages;
-		
+
 		$allowedLanguages = array_merge( $egLiveTranslateLanguages, array( $currentLang ) );
-		
+
 		$targetLang = $wgLanguageCode;
-		
+
 		$languages = Language::getLanguageNames( false );
-		
+
 		if ( $wgUser->isLoggedIn() ) {
 			$userLang = $wgUser->getOption( 'language' );
-			
+
 			if ( array_key_exists( $userLang, $languages ) && in_array( $userLang, $allowedLanguages ) ) {
 				$targetLang = $userLang;
 			}
 		}
-		
+
 		$options = array();
 		ksort( $languages );
-		
+
 		foreach ( $languages as $code => $name ) {
 			if ( in_array( $code, $allowedLanguages ) && $code != $currentLang ) {
 				$display = wfBCP47( $code ) . ' - ' . $name;
-				$options[$display] = $code;				
+				$options[$display] = $code;
 			}
 		}
 
 		return $options;
 	}
-	
+
+	/**
+	 * Returns the language that wikitext should be auto-translated to, if $egAutoTranslate is set to true.
+	 * Auto-translation happens if the query string contains language= or the user preference for language,
+	 * or even using a cookie set by Live Translate previously.
+	 *
+	 * @since 1.3
+	 *
+	 * @param string $currentLang
+	 *
+	 * @return string Language to auto-translate to
+	 */
+	public static function getAutoTranslateLang( $currentLang ) {
+		global $wgRequest, $wgUser, $egAutoTranslate;
+
+		if( !$egAutoTranslate ) {
+			return $currentLang;
+		}
+
+		if ( $wgRequest->getVal( 'language', '' ) !== '' ){ // check URL
+			$autoLang = $wgRequest->getVal( 'language' );
+		} elseif ( isset( $_COOKIE['lt_user_lang'] ) ) { // check cookies
+			$autoLang = $_COOKIE['lt_user_lang'];
+		} elseif ( $wgUser->isLoggedIn() ) { // check user preference
+			$autoLang = $wgUser->getOption( 'language' );
+		} else {
+			$autoLang = $currentLang;
+		}
+		return $autoLang;
+	}
+
 	/**
 	 * Returns a PHP version of the JavaScript google.language.Languages enum of the Google Translate v1 API.
 	 * @see https://code.google.com/apis/language/translate/v1/getting_started.html#LangNameArray
-	 * 
+	 *
 	 * @since 0.1
-	 * 
-	 * @return array LANGUAGE_NAME => 'code' 
+	 *
+	 * @return array LANGUAGE_NAME => 'code'
 	 */
 	public static function getGTSupportedLanguages() {
 		return array(
@@ -203,7 +233,7 @@ final class LiveTranslateFunctions {
 			'CZECH' => 'cs',
 			'DANISH' => 'da',
 			'DHIVEHI' => 'dv',
-			'DUTCH'=> 'nl',	
+			'DUTCH'=> 'nl',
 			'ENGLISH' => 'en',
 			'ESPERANTO' => 'eo',
 			'ESTONIAN' => 'et',
@@ -289,49 +319,49 @@ final class LiveTranslateFunctions {
 			'YORUBA' => 'yo',
 		);
 	}
-	
+
 	/**
 	 * Returns an array with mapping from input language codes to MediaWiki language codes.
-	 * 
+	 *
 	 * @since 0.4
-	 * 
-	 * @return array 
-	 */	
+	 *
+	 * @return array
+	 */
 	public static function getInputLangMapping() {
 		return array(
 			'en-us' => 'en',
 		);
 	}
-	
+
 	/**
 	 * Returns an array with mapping from MediaWiki language codes to Google Translate language codes.
-	 * 
+	 *
 	 * @since 0.4
-	 * 
-	 * @return array 
-	 */	
+	 *
+	 * @return array
+	 */
 	public static function getOuputLangMapping() {
 		return array(
 			'en-us' => 'en',
 			'en-gb' => 'en',
 		);
-	}	
-	
+	}
+
 	/**
 	 * Returns the provided text starting with a letter in toggled case.
 	 * If there is no difference between lowercase and upercase for the first
 	 * character, false is returned.
-	 * 
+	 *
 	 * @since 0.1
-	 * 
+	 *
 	 * @param string $text
-	 * 
+	 *
 	 * @return mixed
 	 */
 	public static function getToggledCase( $text ) {
 		$isUpper = Language::firstChar( $text) == strtoupper( Language::firstChar( $text) );
 		$isLower = Language::firstChar( $text) == strtolower( Language::firstChar( $text) );
-		
+
 		if ( $isUpper XOR $isLower ) {
 			$text = $isUpper ? Language::lcfirst( $text ) : Language::ucfirst( $text );
 			return $text;
@@ -340,17 +370,17 @@ final class LiveTranslateFunctions {
 			return false;
 		}
 	}
-	
+
 	/**
 	 * Returns the names of the pages containing a translation memory.
-	 * 
+	 *
 	 * @since 0.4
-	 * 
+	 *
 	 * @return array
 	 */
 	public static function getLocalMemoryNames() {
 		$dbr = wfGetDb( DB_MASTER );
-		
+
 		$res = $dbr->select(
 			'live_translate_memories',
 			array( 'memory_location' ),
@@ -360,27 +390,27 @@ final class LiveTranslateFunctions {
 		);
 
 		$names = array();
-		
+
 		foreach ( $res as $tm ) {
 			$names[] = $tm->memory_location;
 		}
 
 		return $names;
 	}
-	
+
 	/**
 	 * Returns the type of a translation memory when given it's location.
 	 * If the memory is not found, -1 is returned.
-	 * 
+	 *
 	 * @since 0.4
-	 * 
+	 *
 	 * @param string $location
-	 * 
+	 *
 	 * @return integer
 	 */
 	public static function getMemoryType( $location ) {
 		$dbr = wfGetDb( DB_MASTER );
-		
+
 		$res = $dbr->select(
 			'live_translate_memories',
 			array( 'memory_type' ),
@@ -395,22 +425,33 @@ final class LiveTranslateFunctions {
 			$type = $row->memory_type;
 			break;
 		}
-		
+
 		return $type;
 	}
-	
+
 	/**
 	 * Returns if there is a translation service that can be used or not.
-	 * 
+	 *
 	 * @since 1.1.1
-	 * 
+	 *
 	 * @return boolean
 	 */
 	public static function hasTranslationService() {
 		global $egLiveTranslateService, $egGoogleApiKey, $egLiveTranslateMSClientId, $egLiveTranslateMSClientSecret, $egLiveTranslateMSAppId;
-		
+
 		return ( $egLiveTranslateService == LTS_GOOGLE && $egGoogleApiKey != '' )
 			|| ( $egLiveTranslateService == LTS_MS && ( ( $egLiveTranslateMSClientId != '' && $egLiveTranslateMSClientSecret != '' ) || $egLiveTranslateMSAppId != '' ) );
 	}
-	
+
+	/**
+	 * Sets the cookie values for auto translation.
+	 *
+	 * @since 1.3
+	 *
+	 * @param string $autoLang
+	 */
+	public static function setAutoTranslationCookie( $autoLang ) {
+		setcookie( "lt_user_lang", $autoLang, strtotime( '+5 days' ) );
+	}
+
 }
