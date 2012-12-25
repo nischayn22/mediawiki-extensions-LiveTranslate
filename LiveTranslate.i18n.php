@@ -702,6 +702,16 @@ $messages['hsb'] = array(
 	'livetranslate-importtms-param-miscmatch' => 'Njepoměr mjez ličbu městnow a typow',
 );
 
+/** Hungarian (magyar)
+ * @author Dj
+ */
+$messages['hu'] = array(
+	'livetranslate-translate-to' => 'Oldal fordítása erre a nyelvre:',
+	'livetranslate-button-translate' => 'Fordítás',
+	'livetranslate-button-translating' => 'Fordítás folyamatban...',
+	'livetranslate-button-revert' => 'Eredeti megtekintése',
+);
+
 /** Interlingua (interlingua)
  * @author McDutchie
  */
@@ -1041,6 +1051,37 @@ $messages['ms'] = array(
 	'livetranslate-special-tms-update' => 'Kemas kini ingatan terjemahan',
 	'livetranslate-special-update' => 'Kemas kini ingatan terjemahan',
 	'livetranslate-importtms-param-miscmatch' => 'Salah padan antara jumlah lokasi dan jenis',
+);
+
+/** Maltese (Malti)
+ * @author Chrisportelli
+ */
+$messages['mt'] = array(
+	'livetranslate-desc' => "Tippermetti t-traduzzjoni diretta tal-kontenut ta' paġna bl-użu tas-servizz Google Translate",
+	'right-managetms' => "[[Special:SpecialLiveTranslate|Jimmodifika]] l-lista tal-memorji ta' traduzzjoni",
+	'action-managetms' => 'tamministra l-memorji tat-traduzzjoni',
+	'group-tmxadmin' => 'Amministraturi TMX',
+	'group-tmxadmin-member' => '{{GENDER:$1|amministratur|amministratriċi}} TMX',
+	'grouppage-tmxadmin' => '{{ns:project}}:Amministratur TMX',
+	'livetranslate-translate-to' => 'Ittraduċi din il-paġni għal',
+	'livetranslate-button-translate' => 'Ittraduċi',
+	'livetranslate-button-translating' => 'Għaddejja t-traduzzjoni...',
+	'livetranslate-button-revert' => 'Uri l-oriġinali',
+	'livetranslate-dictionary-empty' => 'Għad m\'hemm l-ebda kelma fid-dizzjunarju. Agħfas fuq "editja" sabiex iżżid xi wħud.',
+	'livetranslate-dictionary-goto-edit' => "Immodifika l-memorji ta' traduzzjoni.",
+	'special-livetranslate' => 'Traduzzjoni diretta',
+	'livetranslate-tmtype-ltf' => 'Format Live Translate',
+	'livetranslate-tmtype-tmx' => 'Translation Memory eXchange',
+	'livetranslate-tmtype-gcsv' => 'Google CSV',
+	'livetranslate-special-no-tms-yet' => "Attwalment m'hemm l-ebda memorji ta' traduzzjoni.",
+	'livetranslate-special-button' => 'Salva u aġġorna',
+	'livetranslate-special-type' => 'Tip',
+	'livetranslate-special-location' => 'Pożizzjoni',
+	'livetranslate-special-remove' => 'Neħħi',
+	'livetranslate-special-local' => 'Lokali',
+	'livetranslate-special-add-tm' => "Żid memorja ġdida ta' traduzzjoni",
+	'livetranslate-special-current-tms' => "Memorji ta' traduzzjonijiet eżistenti",
+	'livetranslate-special-tms-update' => "Aġġorna l-memorji ta' traduzzjoni",
 );
 
 /** Norwegian Bokmål (norsk (bokmål)‎)
