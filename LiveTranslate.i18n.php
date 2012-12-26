@@ -416,6 +416,7 @@ $messages['es'] = array(
 $messages['et'] = array(
 	'livetranslate-button-translate' => 'Tõlgi',
 	'livetranslate-button-translating' => 'Tõlkimisel...',
+	'livetranslate-button-revert' => 'Näita originaali',
 	'livetranslate-special-type' => 'Tüüp',
 	'livetranslate-special-location' => 'Asukoht',
 	'livetranslate-special-remove' => 'Eemalda',
@@ -896,6 +897,8 @@ $messages['ksh'] = array(
 	'group-tmxadmin' => 'Övversäzongsjedääschneßverwallder',
 	'group-tmxadmin-member' => '{{GENDER:$1|Övversäzongsjedääschneßverwallder|Övversäzongsjedääschneßverwallderėn|Övversäzongsjedääschneßverwallder|Övversäzongsjedääschneßverwallderėn|Övversäzongsjedääschneßverwallder}}',
 	'grouppage-tmxadmin' => '{{ns:project}}:Övversäzongsjedääschneßverwallder',
+	'group-tmxadmin.css' => '/* Dat CSS heh aan dä Schtäll wirrek bloß op de Verwallder vun de Övversäzongsjedääschneße */',
+	'group-tmxadmin.js' => '/* Dat JavaSkrep heh aan dä Schtäll wirrek bloß op de Verwallder vun de Övversäzongsjedääschneße */',
 	'livetranslate-translate-to' => 'Donn di Sigg heh op&nbsp;',
 	'livetranslate-button-translate' => 'Övversätze!',
 	'livetranslate-button-translating' => 'Am Övversätze&nbsp;…',
@@ -1356,16 +1359,29 @@ $messages['ru'] = array(
  * @author පසිඳු කාවින්ද
  */
 $messages['si'] = array(
+	'action-managetms' => 'පරිවර්තන මතකයන් කළමනාකරණය කරන්න',
 	'group-tmxadmin' => 'TMX පරිපාලකවරු',
+	'group-tmxadmin-member' => '{{GENDER:$1|TMX පරිපාලක}}',
+	'grouppage-tmxadmin' => '{{ns:project}}:TMX පරිපාලකවරු',
 	'livetranslate-translate-to' => 'මෙම පිටුව පරිවර්තනය කරන්න',
 	'livetranslate-button-translate' => 'පරිවර්තනය කරන්න',
 	'livetranslate-button-translating' => 'පරිවර්තනය කරමින්...',
 	'livetranslate-button-revert' => 'මුල් පිටපත පෙන්වන්න',
+	'livetranslate-dictionary-goto-edit' => 'පරිවර්තන මතකයන් වෙනස් කරන්න.',
+	'special-livetranslate' => 'සජීවී පරිවර්තනය',
+	'livetranslate-tmtype-ltf' => 'සජීවී පරිවර්තන ආකෘතිය',
+	'livetranslate-tmtype-tmx' => 'පරිවර්තන මතක හුවමාරුව',
 	'livetranslate-tmtype-gcsv' => 'ගූගල් CSV',
+	'livetranslate-special-no-tms-yet' => 'එහි පරිවර්තන මතකයන් තවමත් නැත.',
+	'livetranslate-special-button' => 'සුරක්ෂිත කොට යාවත්කාලීන කරන්න',
 	'livetranslate-special-type' => 'වර්ගය',
 	'livetranslate-special-location' => 'ස්ථානය',
 	'livetranslate-special-remove' => 'ඉවත් කරන්න',
 	'livetranslate-special-local' => 'දේශීය',
+	'livetranslate-special-add-tm' => 'නව පරිවර්තන මතකයක් එක් කරන්න',
+	'livetranslate-special-current-tms' => 'පවත්නා පරිවර්තන මතකයන්',
+	'livetranslate-special-tms-update' => 'පරිවර්තන මතකයන් යාවත්කාලීන කරන්න',
+	'livetranslate-special-update' => 'පරිවර්තන මතකයන් යාවත්කාලීන කරන්න',
 );
 
 /** Swedish (svenska)
@@ -1398,6 +1414,7 @@ $messages['sv'] = array(
 
 /** Tamil (தமிழ்)
  * @author Karthi.dr
+ * @author Shanmugamp7
  * @author மதனாஹரன்
  */
 $messages['ta'] = array(
@@ -1406,8 +1423,13 @@ $messages['ta'] = array(
 	'livetranslate-button-revert' => 'மூலத்தைக் காட்டு',
 	'special-livetranslate' => 'நிகழ்நேர மொழிபெயர்ப்பு',
 	'livetranslate-special-button' => 'சேமித்து இற்றைப்படுத்தவும்',
+	'livetranslate-special-type' => 'வகை',
 	'livetranslate-special-location' => 'இடம்',
 	'livetranslate-special-remove' => 'நீக்கு',
+	'livetranslate-special-add-tm' => 'ஒரு புதிய மொழிபெயர்ப்பு நினைவகத்தை சேர்க்கவும்',
+	'livetranslate-special-current-tms' => 'ஏற்கனவேயுள்ள மொழிபெயர்ப்பு நினைவகங்கள்',
+	'livetranslate-special-tms-update' => 'மொழிபெயர்ப்பு நினைவகங்களை புதுப்பிக்கவும்',
+	'livetranslate-special-update' => 'மொழிபெயர்ப்பு நினைவகங்களை புதுப்பிக்கவும்',
 );
 
 /** Telugu (తెలుగు)
