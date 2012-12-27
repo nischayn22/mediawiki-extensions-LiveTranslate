@@ -459,8 +459,10 @@ $messages['fa'] = array(
  * @author Beluga
  * @author Crt
  * @author Nedergard
+ * @author VezonThunder
  */
 $messages['fi'] = array(
+	'livetranslate-desc' => 'Mahdollistaa sivun reaaliaikaisen kääntämisen Google-kääntäjällä',
 	'group-tmxadmin' => 'TMX-ylläpitäjät',
 	'group-tmxadmin-member' => '{{GENDER:$1|TMX-ylläpitäjä}}',
 	'grouppage-tmxadmin' => '{{ns:project}}:TMX-ylläpitäjät',
@@ -468,6 +470,8 @@ $messages['fi'] = array(
 	'livetranslate-button-translate' => 'Käännä',
 	'livetranslate-button-translating' => 'Kääntää...',
 	'livetranslate-button-revert' => 'Näytä alkuperäinen',
+	'livetranslate-dictionary-empty' => 'Sanakirjassa ei ole vielä sanoja. Paina "muokkaa"-välilehteä lisätäksesi niitä.',
+	'livetranslate-dictionary-count' => 'Sanakirjassa on {{PLURAL:$1|$1 sana|$1 sanaa}} $2 kielellä. Paina "muokkaa"-välilehteä lisätäksesi lisää.',
 	'livetranslate-dictionary-goto-edit' => 'Muokkaa käännösmuisteja',
 	'livetranslate-tmtype-gcsv' => 'Google CSV',
 	'livetranslate-special-no-tms-yet' => 'Käännösmuisteja ei vielä ole.',
@@ -711,6 +715,7 @@ $messages['hu'] = array(
 	'livetranslate-button-translate' => 'Fordítás',
 	'livetranslate-button-translating' => 'Fordítás folyamatban...',
 	'livetranslate-button-revert' => 'Eredeti megtekintése',
+	'special-livetranslate' => 'Élő fordítás',
 );
 
 /** Interlingua (interlingua)
