@@ -1321,6 +1321,17 @@ $messages['ro'] = array(
 	'livetranslate-special-local' => 'Local',
 );
 
+/** tarandíne (tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'grouppage-tmxadmin' => '{{ns:project}}:Amministrature TMX',
+	'livetranslate-button-translate' => 'Traduce',
+	'livetranslate-button-translating' => 'Stoche a traduche...',
+	'livetranslate-tmtype-gcsv' => 'CSV de Google',
+	'livetranslate-special-type' => 'Tipe',
+);
+
 /** Russian (русский)
  * @author Adata80
  * @author Byulent
