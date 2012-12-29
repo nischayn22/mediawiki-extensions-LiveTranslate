@@ -373,6 +373,21 @@ $messages['dsb'] = array(
 	'livetranslate-importtms-param-miscmatch' => 'Njedobry poměr mjazy licbu městnow a typow',
 );
 
+/** Greek (Ελληνικά)
+ * @author ZaDiak
+ */
+$messages['el'] = array(
+	'livetranslate-translate-to' => 'Μετάφραση αυτή της σελίδας σε',
+	'livetranslate-button-translate' => 'Μετάφραση',
+	'livetranslate-button-translating' => 'Μεταφράζοντας...',
+	'livetranslate-button-revert' => 'Προβολή αρχικού',
+	'livetranslate-special-button' => 'Αποθήκευση και ενημέρωση',
+	'livetranslate-special-type' => 'Τύπος',
+	'livetranslate-special-location' => 'Τοποθεσία',
+	'livetranslate-special-remove' => 'Αφαίρεση',
+	'livetranslate-special-local' => 'Τοπικό',
+);
+
 /** Spanish (español)
  * @author Armando-Martin
  * @author Fitoschido
