@@ -1341,10 +1341,15 @@ $messages['ro'] = array(
  */
 $messages['roa-tara'] = array(
 	'grouppage-tmxadmin' => '{{ns:project}}:Amministrature TMX',
+	'livetranslate-translate-to' => 'Traduce sta pàgene a',
 	'livetranslate-button-translate' => 'Traduce',
 	'livetranslate-button-translating' => 'Stoche a traduche...',
+	'livetranslate-button-revert' => "Fà vedè l'origgenale",
 	'livetranslate-tmtype-gcsv' => 'CSV de Google',
 	'livetranslate-special-type' => 'Tipe',
+	'livetranslate-special-location' => 'Luèche',
+	'livetranslate-special-remove' => 'Live',
+	'livetranslate-special-local' => 'Locale',
 );
 
 /** Russian (русский)
