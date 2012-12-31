@@ -276,10 +276,13 @@ $messages['ca'] = array(
  * @author Vks
  */
 $messages['cs'] = array(
+	'group-tmxadmin' => 'Správci TMX',
 	'livetranslate-button-translate' => 'Přeložit',
 	'livetranslate-button-translating' => 'Překládám...',
 	'livetranslate-button-revert' => 'Ukázat originál',
 	'livetranslate-tmtype-gcsv' => 'Google CSV',
+	'livetranslate-special-type' => 'Typ',
+	'livetranslate-special-location' => 'Umístění',
 	'livetranslate-special-remove' => 'Odstranit',
 );
 
@@ -544,6 +547,7 @@ $messages['fr'] = array(
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
+	'action-managetms' => 'administrar les mèmouères de traduccion',
 	'group-tmxadmin' => 'Administrators TMX',
 	'group-tmxadmin-member' => 'administrat{{GENDER:$1|or|rice}} TMX',
 	'grouppage-tmxadmin' => '{{ns:project}}:Administrators_TMX',
@@ -684,6 +688,17 @@ $messages['he'] = array(
 	'livetranslate-special-tms-update' => 'עדכון זיכרונות תרגום',
 	'livetranslate-special-update' => 'עדכון זיכרונות תרגום',
 	'livetranslate-importtms-param-miscmatch' => 'מתאים בין מספר המיקומים למספר הסוגים',
+);
+
+/** Hindi (हिन्दी)
+ * @author Ansumang
+ */
+$messages['hi'] = array(
+	'livetranslate-button-translate' => 'अनुवाद',
+	'livetranslate-special-type' => 'प्रकार',
+	'livetranslate-special-location' => 'स्थान',
+	'livetranslate-special-remove' => 'हटायें',
+	'livetranslate-special-local' => 'स्थानीय',
 );
 
 /** Upper Sorbian (hornjoserbsce)
@@ -1169,6 +1184,13 @@ $messages['nl'] = array(
 	'livetranslate-special-tms-update' => 'Vertaalgeheugens bijwerken',
 	'livetranslate-special-update' => 'Vertaalgeheugens bijwerken',
 	'livetranslate-importtms-param-miscmatch' => 'Er is een verschil tussen het aantal locaties en typen',
+);
+
+/** Nederlands (informeel)‎ (Nederlands (informeel)‎)
+ * @author Siebrand
+ */
+$messages['nl-informal'] = array(
+	'livetranslate-dictionary-unallowed-langs' => '{{PLURAL:$2|Deze taal is|Deze taken zijn}} niet ingesteld als toegestane doeltaal: $1. Wijzig te toegestane talen in de instellingen van je wiki of verwijder ze uit het woordenboek.',
 );
 
 /** Deitsch (Deitsch)
