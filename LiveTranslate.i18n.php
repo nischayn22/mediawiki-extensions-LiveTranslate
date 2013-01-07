@@ -377,12 +377,13 @@ $messages['dsb'] = array(
 );
 
 /** Greek (Ελληνικά)
+ * @author Protnet
  * @author ZaDiak
  */
 $messages['el'] = array(
 	'livetranslate-translate-to' => 'Μετάφραση αυτή της σελίδας σε',
 	'livetranslate-button-translate' => 'Μετάφραση',
-	'livetranslate-button-translating' => 'Μεταφράζοντας...',
+	'livetranslate-button-translating' => 'Γίνεται μετάφραση...',
 	'livetranslate-button-revert' => 'Προβολή αρχικού',
 	'livetranslate-special-button' => 'Αποθήκευση και ενημέρωση',
 	'livetranslate-special-type' => 'Τύπος',
@@ -692,9 +693,10 @@ $messages['he'] = array(
 
 /** Hindi (हिन्दी)
  * @author Ansumang
+ * @author Siddhartha Ghai
  */
 $messages['hi'] = array(
-	'livetranslate-button-translate' => 'अनुवाद',
+	'livetranslate-button-translate' => 'अनुवाद करें',
 	'livetranslate-special-type' => 'प्रकार',
 	'livetranslate-special-location' => 'स्थान',
 	'livetranslate-special-remove' => 'हटायें',
