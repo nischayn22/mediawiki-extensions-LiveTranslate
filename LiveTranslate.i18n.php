@@ -917,11 +917,38 @@ $messages['ka'] = array(
  * @author 아라
  */
 $messages['ko'] = array(
+	'livetranslate-desc' => 'Google 번역 서비스를 사용하여 문서 내용의 실시간 번역을 활성화',
+	'right-managetms' => '번역 기역의 목록 [[Special:SpecialLiveTranslate|수정]]',
+	'action-managetms' => '번역 기억 관리',
 	'group-tmxadmin' => 'TMX 관리자',
 	'group-tmxadmin-member' => '{{GENDER:$1|TMX 관리자}}',
 	'grouppage-tmxadmin' => '{{ns:project}}:TMX 관리자',
 	'group-tmxadmin.css' => '/* 이 CSS 설정은 TMX 관리자에만 적용됩니다 */',
 	'group-tmxadmin.js' => '/* 이 자바스크립트 설정은 TMX 관리자에만 적용됩니다 */',
+	'livetranslate-translate-to' => '이 문서 번역',
+	'livetranslate-button-translate' => '번역',
+	'livetranslate-button-translating' => '번역 중...',
+	'livetranslate-button-revert' => '원본 보기',
+	'livetranslate-dictionary-error' => '실시간 번역 사전에서 가져올 수 없습니다. 단어가 번역 과정에서 특수로 취급하지 않습니다.',
+	'livetranslate-dictionary-empty' => '아직 사전에 낱말이 없습니다. 낱말을 추가하려면 "편집" 탭을 클릭하세요.',
+	'livetranslate-dictionary-count' => '$2 {{PLURAL:$2|언어}}에서 {{PLURAL:$1|낱말 $1개}}입니다. 낱말을 추가하려면 "편집" 탭을 클릭하세요.',
+	'livetranslate-dictionary-unallowed-langs' => '{{PLURAL:$2|이 언어는}} 현재 허용한 번역 대상으로 설정되어 있지 않습니다: $1. 위키 설정에서 허용한 언어를 수정하거나 사전에서 언어를 제거하세요.',
+	'livetranslate-dictionary-goto-edit' => '번역 기억을 수정하세요.',
+	'special-livetranslate' => '실시간 번역',
+	'livetranslate-tmtype-ltf' => '실시간 번역 형식',
+	'livetranslate-tmtype-tmx' => '번역 기억 교환 (TMX)',
+	'livetranslate-tmtype-gcsv' => 'Google CSV',
+	'livetranslate-special-no-tms-yet' => '아직 번역 기억이 없습니다.',
+	'livetranslate-special-button' => '저장하고 업데이트',
+	'livetranslate-special-type' => '종류',
+	'livetranslate-special-location' => '위치',
+	'livetranslate-special-remove' => '제거',
+	'livetranslate-special-local' => '로컬',
+	'livetranslate-special-add-tm' => '새 번역 기억 추가',
+	'livetranslate-special-current-tms' => '기존 번역 기억',
+	'livetranslate-special-tms-update' => '번역 기억 업데이트',
+	'livetranslate-special-update' => '번역 기억 업데이트',
+	'livetranslate-importtms-param-miscmatch' => '양 사이의 위치와 종류가 일치하지 않음',
 );
 
 /** Colognian (Ripoarisch)
@@ -1571,6 +1598,7 @@ $messages['tzm'] = array(
 
 /** Ukrainian (українська)
  * @author Base
+ * @author Ата
  * @author Тест
  */
 $messages['uk'] = array(
@@ -1584,7 +1612,10 @@ $messages['uk'] = array(
 	'livetranslate-button-translate' => 'Перекласти',
 	'livetranslate-button-translating' => 'Перекладаю...',
 	'livetranslate-button-revert' => 'Показати оригінал',
+	'livetranslate-dictionary-error' => 'Не вдалося отримати словник живого перекладу. Немає слів, які будуть розглядатися як спеціальні під час процесу перекладу.',
 	'livetranslate-dictionary-empty' => 'В словнику ще немає слів. Натисніть кнопку «редагувати» щоб додати щось.',
+	'livetranslate-dictionary-count' => '$1 {{PLURAL:$1|$1 слово|слова|слів}} $2 {{PLURAL:$2|мовою|мовами}}. Натисніть "редагувати", аби додати ще.',
+	'livetranslate-dictionary-unallowed-langs' => '{{PLURAL:$2|Цю мову|Ці мови}} іще не можна використовувати для кінцевих перекладів: $1. Змініть дозволені мови у налаштуваннях Вашої вікі або видаліть їх зі словника.',
 	'livetranslate-dictionary-goto-edit' => "Зміна пам'яті перекладів.",
 	'special-livetranslate' => 'Переклад на льоту',
 	'livetranslate-tmtype-ltf' => 'Формат перекладу на льоту',
@@ -1600,6 +1631,7 @@ $messages['uk'] = array(
 	'livetranslate-special-current-tms' => "Існуючі пам'яті перекладів",
 	'livetranslate-special-tms-update' => "Оновити пам'яті перекладів",
 	'livetranslate-special-update' => "Оновити пам'яті перекладів",
+	'livetranslate-importtms-param-miscmatch' => 'Невідповідність між кількістю розташувань і типів',
 );
 
 /** Urdu (اردو)
