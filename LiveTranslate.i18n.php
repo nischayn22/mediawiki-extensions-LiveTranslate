@@ -1475,6 +1475,7 @@ $messages['si'] = array(
  * @author WikiPhoenix
  */
 $messages['sv'] = array(
+	'livetranslate-desc' => 'Aktiverar live-översättning av innehåll med hjälp av tjänsten Google Translate',
 	'right-managetms' => '[[Special:SpecialLiveTranslate|Ändra]] listan över översättningsminnen',
 	'action-managetms' => 'hantera översättningsminnen',
 	'group-tmxadmin' => 'TMX-administratörer',
@@ -1486,6 +1487,7 @@ $messages['sv'] = array(
 	'livetranslate-button-revert' => 'Visa originaltexten',
 	'livetranslate-dictionary-empty' => 'Det finns inga ord i ordboken ännu. Klicka på fliken "redigera" för att lägga till.',
 	'livetranslate-dictionary-count' => 'Det finns {{PLURAL:$1|$1 ord|$1 ord}} i $2 {{PLURAL:$2|språk|olika språk}}. Klicka på fliken "redigera" för att lägga till mer.',
+	'livetranslate-dictionary-unallowed-langs' => '{{PLURAL:$2|Detta språk är för tillfället inte angivet|Dessa språk är för tillfället inte angivna}} som översättningsmål: $1. Ändra tillåtna språken i din wikis konfiguration eller ta bort dessa från ordlistan.',
 	'livetranslate-dictionary-goto-edit' => 'Ändra översättningsminnena.',
 	'livetranslate-tmtype-gcsv' => 'Google CSV',
 	'livetranslate-special-no-tms-yet' => 'Det finns inga översättningsminnen ännu.',
