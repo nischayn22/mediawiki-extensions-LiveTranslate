@@ -1397,6 +1397,7 @@ $messages['roa-tara'] = array(
 	'livetranslate-button-translating' => 'Stoche a traduche...',
 	'livetranslate-button-revert' => "Fà vedè l'origgenale",
 	'livetranslate-tmtype-gcsv' => 'CSV de Google',
+	'livetranslate-special-button' => 'Reggistre e aggiorne',
 	'livetranslate-special-type' => 'Tipe',
 	'livetranslate-special-location' => 'Luèche',
 	'livetranslate-special-remove' => 'Live',
