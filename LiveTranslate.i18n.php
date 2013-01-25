@@ -1407,6 +1407,7 @@ $messages['roa-tara'] = array(
 /** Russian (русский)
  * @author Adata80
  * @author Byulent
+ * @author DCamer
  * @author Kaganer
  * @author MaxSem
  * @author Александр Сигачёв
@@ -1414,6 +1415,7 @@ $messages['roa-tara'] = array(
 $messages['ru'] = array(
 	'livetranslate-desc' => 'Включает перевод текста страницы на лету с помощью службы переводов Google',
 	'right-managetms' => '[[Special:SpecialLiveTranslate|изменять]] список памяти переводов',
+	'action-managetms' => 'управление памятью переводов',
 	'group-tmxadmin' => 'Администраторы TMX',
 	'group-tmxadmin-member' => '{{GENDER:$1|TMX Администратор}}',
 	'grouppage-tmxadmin' => '{{ns:project}}:TMX-админы',
