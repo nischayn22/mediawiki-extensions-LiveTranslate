@@ -901,9 +901,11 @@ $messages['ka'] = array(
 	'group-tmxadmin' => 'TMX-ის ადმინისტრატორები',
 	'group-tmxadmin-member' => '{{GENDER:$1|TMX-ის ადმინისტრატორი}}',
 	'grouppage-tmxadmin' => '{{ns:project}}:TMX-ის ადმინისტრატორები',
+	'livetranslate-translate-to' => 'გადათარგმნეთ ეს გვერდი',
 	'livetranslate-button-translate' => 'თარგმნა',
 	'livetranslate-button-translating' => 'ითარგმნება...',
 	'livetranslate-button-revert' => 'ორიგინალის ჩვენება',
+	'livetranslate-dictionary-goto-edit' => 'თარგმანების მეხსიერების შეცვლა.',
 	'special-livetranslate' => 'ცოცხლად თარგმნა',
 	'livetranslate-tmtype-gcsv' => 'Google CSV',
 	'livetranslate-special-button' => 'შენახვა და განახლება',
@@ -911,6 +913,10 @@ $messages['ka'] = array(
 	'livetranslate-special-location' => 'მდებარეობა',
 	'livetranslate-special-remove' => 'წაშლა',
 	'livetranslate-special-local' => 'ადგილობრივი',
+	'livetranslate-special-add-tm' => 'ახალი თარგმანის მეხსიერების დამატება',
+	'livetranslate-special-current-tms' => 'არსებული თარგმანის მეხსიერებები',
+	'livetranslate-special-tms-update' => 'თარგმანების მეხსიერების განახლება',
+	'livetranslate-special-update' => 'თარგმანების მეხსიერების განახლება',
 );
 
 /** Korean (한국어)
