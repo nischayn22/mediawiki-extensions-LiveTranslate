@@ -88,7 +88,8 @@ TMX = Translation Memory eXchange',
 	'livetranslate-translate-to' => 'There is an [https://secure.wikimedia.org/wikipedia/mediawiki/wiki/File:Lte-article.png example screenshot of use].
 Look at the right side in the line below the ruler under the "Main Page" header.',
 	'livetranslate-button-translate' => 'There is an [https://secure.wikimedia.org/wikipedia/mediawiki/wiki/File:Lte-article.png example screenshot of use].
-Look at the right edge in the line below the ruler under the "Main Page" header.',
+Look at the right edge in the line below the ruler under the "Main Page" header.
+{{Identical|Translate}}',
 	'livetranslate-special-type' => 'Table column header on Special:LiveTranslate
 
 {{Identical|Type}}',
