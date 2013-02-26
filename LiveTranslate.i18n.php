@@ -93,9 +93,8 @@ Look at the right edge in the line below the ruler under the "Main Page" header.
 	'livetranslate-special-type' => 'Table column header on Special:LiveTranslate
 
 {{Identical|Type}}',
-	'livetranslate-special-location' => '{{Identical|Location}}
-
-Table column header on Special:LiveTranslate',
+	'livetranslate-special-location' => 'Table column header on Special:LiveTranslate
+{{Identical|Location}}',
 	'livetranslate-special-remove' => '{{Identical|Remove}}',
 	'livetranslate-special-local' => 'Table column header on Special:LiveTranslate',
 	'livetranslate-importtms-param-miscmatch' => 'Error message for when one of the API modules gets called with a different amount of translation memory types compared to the amount of translation memory names',
