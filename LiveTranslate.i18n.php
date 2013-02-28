@@ -72,7 +72,7 @@ $messages['en'] = array(
  * @author 아라
  */
 $messages['qqq'] = array(
-	'livetranslate-desc' => '{{desc}}',
+	'livetranslate-desc' => '{{desc|name=Live Translate|url=http://www.mediawiki.org/wiki/Extension:Live_Translate}}',
 	'right-managetms' => '{{doc-right|managetms}}',
 	'action-managetms' => '{{doc-action|managetms}}',
 	'group-tmxadmin' => '{{doc-group|tmxadmin}}
