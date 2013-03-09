@@ -354,8 +354,10 @@ class SpecialLiveTranslate extends SpecialPage {
 				TMT_LTF => 'ltf',
 				TMT_TMX => 'tmx',
 				TMT_GCSV => 'gcsv',
-			);			
-			
+			);
+
+			// Give grep a chance to find the usages:
+			// livetranslate-tmtype-ltf, livetranslate-tmtype-tmx, livetranslate-tmtype-gcsv
 			foreach ( $tmTypes as $dbValue => $msgKey ) {
 				$options[wfMsg( 'livetranslate-tmtype-' . $msgKey )] = $dbValue;
 			}
