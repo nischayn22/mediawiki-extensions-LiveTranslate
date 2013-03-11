@@ -1000,7 +1000,10 @@ $messages['ksh'] = array(
  * @author George Animal
  */
 $messages['ku-latn'] = array(
+	'livetranslate-button-translate' => 'Wergerîne',
+	'livetranslate-button-translating' => 'tê wergerandin...',
 	'livetranslate-special-type' => 'Cure',
+	'livetranslate-special-remove' => 'Jê bibe',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
