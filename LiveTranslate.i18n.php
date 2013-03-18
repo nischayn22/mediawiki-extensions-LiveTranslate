@@ -90,6 +90,16 @@ Look at the right side in the line below the ruler under the "Main Page" header.
 	'livetranslate-button-translate' => 'There is an [https://secure.wikimedia.org/wikipedia/mediawiki/wiki/File:Lte-article.png example screenshot of use].
 Look at the right edge in the line below the ruler under the "Main Page" header.
 {{Identical|Translate}}',
+	'livetranslate-dictionary-empty' => 'See also:
+* {{msg-mw|Livetranslate-dictionary-count}}',
+	'livetranslate-dictionary-count' => 'This message indicates number of words in the dictionary. Parameters:
+* $1 - number of words (memory_tu_count)
+* $2 - number of languages (memory_lang_count)
+See also:
+* {{msg-mw|livetranslate-dictionary-empty}}',
+	'livetranslate-dictionary-unallowed-langs' => 'Unused (commented out) at this time. Parameters:
+* $1 - list of allowed languages
+* $2 - number of allowed languages',
 	'livetranslate-special-type' => 'Table column header on Special:LiveTranslate
 
 {{Identical|Type}}',
