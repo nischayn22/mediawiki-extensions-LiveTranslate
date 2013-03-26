@@ -126,6 +126,18 @@ $messages['af'] = array(
 	'livetranslate-special-local' => 'Lokaal',
 );
 
+/** Arabic (العربية)
+ * @author ترجمان05
+ */
+$messages['ar'] = array(
+	'livetranslate-button-translate' => 'ترجم',
+	'livetranslate-button-translating' => 'تحت الترجمة...',
+	'livetranslate-special-type' => 'نوع',
+	'livetranslate-special-remove' => 'أزل',
+	'livetranslate-special-local' => 'محلي',
+	'livetranslate-special-add-tm' => 'إضافة ذاكرة ترجمة جديدة',
+);
+
 /** Azerbaijani (azərbaycanca)
  * @author Cekli829
  */
