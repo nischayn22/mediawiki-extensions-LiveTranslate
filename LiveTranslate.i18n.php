@@ -100,6 +100,7 @@ See also:
 	'livetranslate-dictionary-unallowed-langs' => 'Unused (commented out) at this time. Parameters:
 * $1 - list of allowed languages
 * $2 - number of allowed languages',
+	'special-livetranslate' => '{{doc-special|LiveTranslate}}',
 	'livetranslate-special-type' => 'Table column header on Special:LiveTranslate
 
 {{Identical|Type}}',
