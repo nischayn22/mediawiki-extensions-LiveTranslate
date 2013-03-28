@@ -1209,6 +1209,16 @@ $messages['nb'] = array(
 	'livetranslate-importtms-param-miscmatch' => 'Avvik mellom antall plasseringer og typer',
 );
 
+/** Low German (Plattdüütsch)
+ * @author Joachim Mos
+ */
+$messages['nds'] = array(
+	'livetranslate-button-translate' => 'Översetten',
+	'livetranslate-button-translating' => 'Översette...',
+	'livetranslate-tmtype-gcsv' => 'Google-CSV',
+	'livetranslate-special-location' => 'Oort',
+);
+
 /** Dutch (Nederlands)
  * @author McDutchie
  * @author SPQRobin
