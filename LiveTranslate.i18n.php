@@ -60,7 +60,10 @@ $messages['en'] = array(
 	'livetranslate-importtms-param-miscmatch' => 'Mismatch between amount of locations and types',
 );
 
-/** Message documentation (Message documentation)
+/** Message documentation (This is the name of the message documentation language code (qqq). Follow the rules of your languages and use small first letter if it doesn't capitalize language names always.
+
+It might be easier to translate it as "translation guidelines" or "translation help".
+{{Identical|Message documentation}})
  * @author EugeneZelenko
  * @author Jeroen De Dauw
  * @author Kghbln
@@ -90,6 +93,11 @@ Look at the right side in the line below the ruler under the "Main Page" header.
 	'livetranslate-button-translate' => 'There is an [https://secure.wikimedia.org/wikipedia/mediawiki/wiki/File:Lte-article.png example screenshot of use].
 Look at the right edge in the line below the ruler under the "Main Page" header.
 {{Identical|Translate}}',
+	'livetranslate-button-translating' => 'Used when the Translate button is clicked.',
+	'livetranslate-button-revert' => 'Used as label for the button.',
+	'livetranslate-dictionary-error' => 'Unused at this time.
+
+Previously, used as error message in JavaScript code.',
 	'livetranslate-dictionary-empty' => 'See also:
 * {{msg-mw|Livetranslate-dictionary-count}}',
 	'livetranslate-dictionary-count' => 'This message indicates number of words in the dictionary. Parameters:
@@ -100,7 +108,20 @@ See also:
 	'livetranslate-dictionary-unallowed-langs' => 'Unused (commented out) at this time. Parameters:
 * $1 - list of allowed languages
 * $2 - number of allowed languages',
+	'livetranslate-dictionary-goto-edit' => 'Used as link text. The link points to [[Special:LiveTranslate]].',
 	'special-livetranslate' => '{{doc-special|LiveTranslate}}',
+	'livetranslate-tmtype-ltf' => 'Used as an option in the "Translation memory type" selector.
+
+"Lite Translate" is the name of the extension.
+{{Related|Livetranslate-tmtype}}',
+	'livetranslate-tmtype-tmx' => 'Used as an option in the "Translation memory type" selector.
+
+"Translation Memory eXchange" is also known as "TMX".
+{{Related|Livetranslate-tmtype}}',
+	'livetranslate-tmtype-gcsv' => 'Used as an option in the "Translation memory type" selector.
+{{Related|Livetranslate-tmtype}}',
+	'livetranslate-special-no-tms-yet' => 'Used if number of translation memories is 0, in [[Special:LiveTranslate]].',
+	'livetranslate-special-button' => 'Used as label for the Submit button in [[Special:LiveTranslate]].',
 	'livetranslate-special-type' => 'Table column header on Special:LiveTranslate
 
 {{Identical|Type}}',
@@ -108,6 +129,23 @@ See also:
 {{Identical|Location}}',
 	'livetranslate-special-remove' => '{{Identical|Remove}}',
 	'livetranslate-special-local' => 'Table column header on Special:LiveTranslate',
+	'livetranslate-special-add-tm' => 'Used as HTML <code><nowiki><h3></nowiki></code> heading.
+
+Followed by the table which contains the following messages:
+* {{msg-mw|livetranslate-special-type}}
+* {{msg-mw|livetranslate-special-location}}
+* {{msg-mw|livetranslate-special-local}}',
+	'livetranslate-special-current-tms' => 'Used as HTML <code><nowiki><h3></nowiki></code> heading in [[Special:LiveTranslate]].
+
+Followed by the "translation memories" table.',
+	'livetranslate-special-tms-update' => 'Unused at this time.
+
+Previously, used as HTML <code><nowiki><h3></nowiki></code> heading.
+
+Previously, followed by {{msg-mw|livetranslate-special-update}}.',
+	'livetranslate-special-update' => 'Used as label for the Submit button.
+
+Previously, preceded by the heading {{msg-mw|Livetranslate-special-tms-update}}.',
 	'livetranslate-importtms-param-miscmatch' => 'Error message for when one of the API modules gets called with a different amount of translation memory types compared to the amount of translation memory names',
 );
 
@@ -949,7 +987,7 @@ $messages['ja'] = array(
 	'livetranslate-special-local' => 'ローカル',
 	'livetranslate-special-add-tm' => '新しい翻訳メモリーを追加',
 	'livetranslate-special-current-tms' => '既存の翻訳メモリー',
-	'livetranslate-special-tms-update' => '翻訳メモリーを更新',
+	'livetranslate-special-tms-update' => '翻訳メモリーの更新',
 	'livetranslate-special-update' => '翻訳メモリーを更新',
 );
 
