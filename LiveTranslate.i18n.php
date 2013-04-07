@@ -60,10 +60,7 @@ $messages['en'] = array(
 	'livetranslate-importtms-param-miscmatch' => 'Mismatch between amount of locations and types',
 );
 
-/** Message documentation (This is the name of the message documentation language code (qqq). Follow the rules of your languages and use small first letter if it doesn't capitalize language names always.
-
-It might be easier to translate it as "translation guidelines" or "translation help".
-{{Identical|Message documentation}})
+/** Message documentation (Message documentation)
  * @author EugeneZelenko
  * @author Jeroen De Dauw
  * @author Kghbln
@@ -1831,6 +1828,7 @@ $messages['zh-hans'] = array(
 
 /** Traditional Chinese (中文（繁體）‎)
  * @author Mark85296341
+ * @author Simon Shek
  */
 $messages['zh-hant'] = array(
 	'livetranslate-desc' => '啟用藉助於谷歌翻譯服務的頁面內容實時翻譯',
@@ -1839,7 +1837,7 @@ $messages['zh-hant'] = array(
 	'group-tmxadmin' => 'TMX 管理員',
 	'group-tmxadmin-member' => '{{GENDER:$1|TMX 管理員}}',
 	'grouppage-tmxadmin' => '{{ns:project}}:TMX 管理員',
-	'livetranslate-translate-to' => '翻譯此頁',
+	'livetranslate-translate-to' => '翻譯此頁成',
 	'livetranslate-button-translate' => '翻譯',
 	'livetranslate-button-translating' => '翻譯中。。。',
 	'livetranslate-button-revert' => '顯示原文',
