@@ -1504,6 +1504,9 @@ $messages['ro'] = array(
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
+	'action-managetms' => "gestisce le memorie d'a traduzione",
+	'group-tmxadmin' => 'Amministrature TMX',
+	'group-tmxadmin-member' => '{{GENDER:$1|Amministrature de TMX}}',
 	'grouppage-tmxadmin' => '{{ns:project}}:Amministrature TMX',
 	'livetranslate-translate-to' => 'Traduce sta pàgene a',
 	'livetranslate-button-translate' => 'Traduce',
