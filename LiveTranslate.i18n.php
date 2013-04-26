@@ -1504,6 +1504,7 @@ $messages['ro'] = array(
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
+	'right-managetms' => "[[Special:SpecialLiveTranslate|Cange]] l'elenghe de le memorie de traduzione",
 	'action-managetms' => "gestisce le memorie d'a traduzione",
 	'group-tmxadmin' => 'Amministrature TMX',
 	'group-tmxadmin-member' => '{{GENDER:$1|Amministrature de TMX}}',
@@ -1519,6 +1520,8 @@ $messages['roa-tara'] = array(
 	'livetranslate-special-location' => 'Luèche',
 	'livetranslate-special-remove' => 'Live',
 	'livetranslate-special-local' => 'Locale',
+	'livetranslate-special-tms-update' => 'Aggiorne le memorie de traduzione',
+	'livetranslate-special-update' => 'Aggiorne le memorie de traduzione',
 );
 
 /** Russian (русский)
