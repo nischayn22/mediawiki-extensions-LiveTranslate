@@ -365,6 +365,13 @@ $messages['ca'] = array(
 	'livetranslate-special-type' => 'Tiupus',
 );
 
+/** Chechen (нохчийн)
+ * @author Умар
+ */
+$messages['ce'] = array(
+	'livetranslate-special-remove' => 'ДӀаяккха',
+);
+
 /** Czech (česky)
  * @author Chmee2
  * @author Vks
