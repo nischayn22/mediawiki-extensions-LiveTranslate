@@ -1261,7 +1261,7 @@ $messages['mt'] = array(
 	'livetranslate-special-tms-update' => "Aġġorna l-memorji ta' traduzzjoni",
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
