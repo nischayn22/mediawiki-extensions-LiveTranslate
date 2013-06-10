@@ -369,6 +369,7 @@ $messages['ca'] = array(
  * @author Умар
  */
 $messages['ce'] = array(
+	'livetranslate-special-button' => 'Ӏалашданн а керладаккхуш',
 	'livetranslate-special-remove' => 'ДӀаяккха',
 );
 
@@ -1440,6 +1441,7 @@ $messages['ps'] = array(
 
 /** Portuguese (português)
  * @author Hamilton Abreu
+ * @author Luckas
  */
 $messages['pt'] = array(
 	'livetranslate-desc' => 'Permite a tradução imediata do conteúdo das páginas usando o serviço Google Translate',
@@ -1468,8 +1470,8 @@ $messages['pt'] = array(
 	'livetranslate-special-local' => 'Local',
 	'livetranslate-special-add-tm' => 'Adicionar uma memória de tradução nova',
 	'livetranslate-special-current-tms' => 'Memórias de tradução existentes',
-	'livetranslate-special-tms-update' => 'Actualizar memórias de tradução',
-	'livetranslate-special-update' => 'Actualizar memórias de tradução',
+	'livetranslate-special-tms-update' => 'Atualizar memórias de tradução',
+	'livetranslate-special-update' => 'Atualizar memórias de tradução',
 	'livetranslate-importtms-param-miscmatch' => 'Discordância entre a quantidade de locais e tipos',
 );
 
