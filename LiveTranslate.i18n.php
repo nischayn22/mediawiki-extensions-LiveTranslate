@@ -1523,6 +1523,7 @@ $messages['roa-tara'] = array(
 	'livetranslate-button-translating' => 'Stoche a traduche...',
 	'livetranslate-button-revert' => "Fà vedè l'origgenale",
 	'special-livetranslate' => "Traduzione da 'u vive",
+	'livetranslate-tmtype-ltf' => "Formate d'a traduzione in dirette",
 	'livetranslate-tmtype-gcsv' => 'CSV de Google',
 	'livetranslate-special-button' => 'Reggistre e aggiorne',
 	'livetranslate-special-type' => 'Tipe',
