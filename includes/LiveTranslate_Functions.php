@@ -82,7 +82,7 @@ final class LiveTranslateFunctions {
 				case LTS_MS:
 					$wgOut->addScript(
 						Html::inlineScript(
-							'var ltMsAppId = ' . FormatJson::encode( $GLOBALS['egLiveTranslateMSAppId'] ) . ';'
+							'var ltMsAppId = ' . FormatJson::encode( LTMSHTTPTranslator::getAppId() ) . ';'
 						)
 					);
 					$wgOut->addHeadItem(
@@ -171,7 +171,7 @@ final class LiveTranslateFunctions {
 	}
 
 	/**
-	 * Returns the language that wikitext should be auto-translated to, if $egAutoTranslate is set to true.
+	 * Returns the language that wikitext should be auto-translated to, if $egLTAutoTranslate is set to true.
 	 * Auto-translation happens if the query string contains language= or the user preference for language,
 	 * or even using a cookie set by Live Translate previously.
 	 *
@@ -182,9 +182,9 @@ final class LiveTranslateFunctions {
 	 * @return string Language to auto-translate to
 	 */
 	public static function getAutoTranslateLang( $currentLang ) {
-		global $wgRequest, $wgUser, $egAutoTranslate;
+		global $wgRequest, $wgUser, $egLTAutoTranslate;
 
-		if( !$egAutoTranslate ) {
+		if( !$egLTAutoTranslate ) {
 			return $currentLang;
 		}
 

@@ -38,7 +38,7 @@ google.setOnLoadCallback(function(){google.language.getBranding("googlebranding"
 		var sentenceCount = 0;
 		var currentLength = 0;
 		
-		// Find the scentances that can be put in the current chunk.
+		// Find the sentences that can be put in the current chunk.
 		for ( i in untranslatedsentences ) {
 			sentenceCount++;
 			
@@ -47,7 +47,7 @@ google.setOnLoadCallback(function(){google.language.getBranding("googlebranding"
 			}
 			else if ( untranslatedsentences[i].length > 0 ) {
 				if ( currentLength == 0 ) {
-					// If the first scentance is longer then the max chunk legth, split it.
+					// If the first sentence is longer then the max chunk length, split it.
 					partToUse = untranslatedsentences[i].substr( 0, currentMaxSize - currentLength );
 					remainingPart = untranslatedsentences[i].substr( currentMaxSize - currentLength );
 				}
@@ -67,17 +67,17 @@ google.setOnLoadCallback(function(){google.language.getBranding("googlebranding"
 			}
 		}
 		
-		// If there is a remaining part, re-add it to the scentances to translate list.
+		// If there is a remaining part, re-add it to the sentences to translate list.
 		if ( remainingPart !== false ) {
 			untranslatedsentences.unshift( remainingPart );
 		}
 		
-		// If there is a partial scentance, add it to the chunk.
+		// If there is a partial sentence, add it to the chunk.
 		if ( partToUse !== false ) {
 			chunk += partToUse;
 		}
 		
-		// If the lenght is 0, the element has been translated.
+		// If the length is 0, the element has been translated.
 		if ( chunk.length == 0 ) {
 			this.handleTranslationCompletion();
 			return;
