@@ -60,6 +60,7 @@ $wgAutoloadClasses['LTTMParser']					= $incDirIP . 'LT_TMParser.php';
 $wgAutoloadClasses['LTTMUnit']						= $incDirIP . 'LT_TMUnit.php';
 $wgAutoloadClasses['LTTMXParser']					= $incDirIP . 'LT_TMXParser.php';
 $wgAutoloadClasses['LTTranslationMemory']			= $incDirIP . 'LT_TranslationMemory.php';
+$wgAutoloadClasses['LTMSHTTPTranslator']			= $incDirIP . 'LT_MS_HTTPTranslator.php';
 unset( $incDirIP );
 
 $wgAutoloadClasses['SpecialLiveTranslate']	 		= $egLiveTranslateIP . '/specials/SpecialLiveTranslate.php';
