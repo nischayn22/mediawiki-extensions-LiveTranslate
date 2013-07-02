@@ -1,11 +1,16 @@
 These are the release notes for the Live Translate extension.
-	
-Extension page on mediawiki.org: http://www.mediawiki.org/wiki/Extension:Live_Translate
-Latest version of the release notes: http://svn.wikimedia.org/viewvc/mediawiki/trunk/extensions/LiveTranslate/RELEASE-NOTES?view=co
 
+Extension page: https://www.mediawiki.org/wiki/Extension:Live_Translate
+Latest version of the release notes: https://git.wikimedia.org/blob/mediawiki%2Fextensions%2FLiveTranslate/HEAD/RELEASE-NOTES
+
+=== Version 1.3 ===
+2013-07-02
+
+* Update for new Microsoft translation API.
+* Added auto-translation feature.
 
 === Version 1.2.3 ===
-(trunk)
+2011-11-15
 
 * Added action-managetms message.
 * Fixed JavaScript dependency issue causing the extension to break on MediaWiki 1.19 and later.
@@ -34,8 +39,8 @@ Latest version of the release notes: http://svn.wikimedia.org/viewvc/mediawiki/t
 2011-06-22
 
 * Fixed Internet Explorer compatibility issue.
-* Fixed bug in Microsoft transltion script for MW < 1.17.
-* Made Microsoft transltion script more robust by adding timeouts.
+* Fixed bug in Microsoft translation script for MW < 1.17.
+* Made Microsoft translation script more robust by adding timeouts.
 
 === Version 1.1 ===
 2011-06-16

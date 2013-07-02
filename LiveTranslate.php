@@ -24,7 +24,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 	die( 'Not an entry point.' );
 }
 
-define( 'LiveTranslate_VERSION', '1.2.3 alpha' );
+define( 'LiveTranslate_VERSION', '1.3' );
 
 $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
@@ -42,28 +42,28 @@ $egLiveTranslateScriptPath = ( $useExtensionPath ? $wgExtensionAssetsPath : $wgS
 $egLiveTranslateIP = dirname( __FILE__ );
 unset( $useExtensionPath );
 
-$wgExtensionMessagesFiles['LiveTranslate'] 			= $egLiveTranslateIP . '/LiveTranslate.i18n.php';
-$wgExtensionMessagesFiles['LiveTranslateAlias']		= $egLiveTranslateIP . '/LiveTranslate.i18n.alias.php';
-$wgExtensionMessagesFiles['LiveTranslateMagic']	= $egLiveTranslateIP . '/LiveTranslate.i18n.magic.php';
+$wgExtensionMessagesFiles['LiveTranslate'] = $egLiveTranslateIP . '/LiveTranslate.i18n.php';
+$wgExtensionMessagesFiles['LiveTranslateAlias'] = $egLiveTranslateIP . '/LiveTranslate.i18n.alias.php';
+$wgExtensionMessagesFiles['LiveTranslateMagic'] = $egLiveTranslateIP . '/LiveTranslate.i18n.magic.php';
 
-$wgAutoloadClasses['LiveTranslateHooks'] 			= $egLiveTranslateIP . '/LiveTranslate.hooks.php';
-$wgAutoloadClasses['ApiImportTranslationMemories']	= $egLiveTranslateIP . '/api/ApiImportTranslationMemories.php';
-$wgAutoloadClasses['ApiLiveTranslate']	 			= $egLiveTranslateIP . '/api/ApiLiveTranslate.php';
-$wgAutoloadClasses['ApiQueryLiveTranslate']	 		= $egLiveTranslateIP . '/api/ApiQueryLiveTranslate.php';
-$wgAutoloadClasses['ApiQueryTranslationMemories']	= $egLiveTranslateIP . '/api/ApiQueryTranslationMemories.php';
+$wgAutoloadClasses['LiveTranslateHooks'] = $egLiveTranslateIP . '/LiveTranslate.hooks.php';
+$wgAutoloadClasses['ApiImportTranslationMemories'] = $egLiveTranslateIP . '/api/ApiImportTranslationMemories.php';
+$wgAutoloadClasses['ApiLiveTranslate'] = $egLiveTranslateIP . '/api/ApiLiveTranslate.php';
+$wgAutoloadClasses['ApiQueryLiveTranslate'] = $egLiveTranslateIP . '/api/ApiQueryLiveTranslate.php';
+$wgAutoloadClasses['ApiQueryTranslationMemories'] = $egLiveTranslateIP . '/api/ApiQueryTranslationMemories.php';
 
 $incDirIP = $egLiveTranslateIP . '/includes/';
-$wgAutoloadClasses['LiveTranslateFunctions']	 	= $incDirIP . 'LiveTranslate_Functions.php';
-$wgAutoloadClasses['LTGCSVParser']					= $incDirIP . 'LT_GCSVParser.php';
-$wgAutoloadClasses['LTLTFParser']					= $incDirIP . 'LT_LTFParser.php';
-$wgAutoloadClasses['LTTMParser']					= $incDirIP . 'LT_TMParser.php';
-$wgAutoloadClasses['LTTMUnit']						= $incDirIP . 'LT_TMUnit.php';
-$wgAutoloadClasses['LTTMXParser']					= $incDirIP . 'LT_TMXParser.php';
-$wgAutoloadClasses['LTTranslationMemory']			= $incDirIP . 'LT_TranslationMemory.php';
-$wgAutoloadClasses['LTMSHTTPTranslator']			= $incDirIP . 'LT_MS_HTTPTranslator.php';
+$wgAutoloadClasses['LiveTranslateFunctions'] = $incDirIP . 'LiveTranslate_Functions.php';
+$wgAutoloadClasses['LTGCSVParser'] = $incDirIP . 'LT_GCSVParser.php';
+$wgAutoloadClasses['LTLTFParser'] = $incDirIP . 'LT_LTFParser.php';
+$wgAutoloadClasses['LTTMParser'] = $incDirIP . 'LT_TMParser.php';
+$wgAutoloadClasses['LTTMUnit'] = $incDirIP . 'LT_TMUnit.php';
+$wgAutoloadClasses['LTTMXParser'] = $incDirIP . 'LT_TMXParser.php';
+$wgAutoloadClasses['LTTranslationMemory'] = $incDirIP . 'LT_TranslationMemory.php';
+$wgAutoloadClasses['LTMSHTTPTranslator'] = $incDirIP . 'LT_MS_HTTPTranslator.php';
 unset( $incDirIP );
 
-$wgAutoloadClasses['SpecialLiveTranslate']	 		= $egLiveTranslateIP . '/specials/SpecialLiveTranslate.php';
+$wgAutoloadClasses['SpecialLiveTranslate'] = $egLiveTranslateIP . '/specials/SpecialLiveTranslate.php';
 
 $wgSpecialPages['LiveTranslate'] = 'SpecialLiveTranslate';
 $wgSpecialPageGroups['LiveTranslate'] = 'pagetools';
