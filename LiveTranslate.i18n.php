@@ -1641,6 +1641,7 @@ $messages['sv'] = array(
 	'livetranslate-special-remove' => 'Ta bort',
 	'livetranslate-special-local' => 'Lokal',
 	'livetranslate-special-add-tm' => 'Lägg till ett nytt översättningsminne',
+	'livetranslate-special-current-tms' => 'Befintliga översättningsminnen',
 	'livetranslate-special-tms-update' => 'Uppdatera översättningsminnen',
 	'livetranslate-special-update' => 'Uppdatera översättningsminnen',
 );
