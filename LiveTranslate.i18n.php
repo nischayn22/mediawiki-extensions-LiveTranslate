@@ -369,7 +369,7 @@ $messages['ca'] = array(
  * @author Умар
  */
 $messages['ce'] = array(
-	'livetranslate-special-button' => 'Ӏалашданн а керладаккхуш',
+	'livetranslate-special-button' => 'Ӏалашданн а карладоккхуш',
 	'livetranslate-special-remove' => 'ДӀаяккха',
 );
 
