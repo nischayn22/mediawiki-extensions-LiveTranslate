@@ -1477,12 +1477,14 @@ $messages['pt'] = array(
 
 /** Brazilian Portuguese (português do Brasil)
  * @author Giro720
+ * @author Luckas
  */
 $messages['pt-br'] = array(
 	'livetranslate-desc' => 'Permite a tradução imediata do conteúdo das páginas usando o serviço Google Translate',
 	'livetranslate-translate-to' => 'Traduzir esta página para',
 	'livetranslate-button-translate' => 'Traduzir',
 	'livetranslate-button-translating' => 'Traduzindo...',
+	'livetranslate-special-button' => 'Salvar e atualizar',
 );
 
 /** Romanian (română)
