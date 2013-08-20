@@ -1157,6 +1157,24 @@ $messages['lt'] = array(
 	'livetranslate-special-local' => 'Vietinis',
 );
 
+/** Latvian (latviešu)
+ * @author Papuass
+ */
+$messages['lv'] = array(
+	'action-managetms' => 'pārvaldīt tulkošanas atmiņu',
+	'group-tmxadmin' => 'TMX administratori',
+	'group-tmxadmin-member' => 'TMX {{GENDER:$1|administrators|administratore}}',
+	'grouppage-tmxadmin' => '{{ns:project}}:TMX administratori',
+	'livetranslate-translate-to' => 'Tulkot šo lapu uz',
+	'livetranslate-button-translate' => 'Tulkot',
+	'livetranslate-button-translating' => 'Tulko...',
+	'livetranslate-tmtype-gcsv' => 'Google CSV',
+	'livetranslate-special-button' => 'Saglabāt un atjaunināt',
+	'livetranslate-special-type' => 'Veids',
+	'livetranslate-special-location' => 'Atrašanās vieta',
+	'livetranslate-special-remove' => 'Noņemt',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */
