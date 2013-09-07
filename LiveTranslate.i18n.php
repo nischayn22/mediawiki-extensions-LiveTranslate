@@ -1458,6 +1458,7 @@ $messages['ps'] = array(
 );
 
 /** Portuguese (português)
+ * @author Cainamarques
  * @author Hamilton Abreu
  * @author Luckas
  */
@@ -1465,7 +1466,7 @@ $messages['pt'] = array(
 	'livetranslate-desc' => 'Permite a tradução imediata do conteúdo das páginas usando o serviço Google Translate',
 	'right-managetms' => '[[Special:SpecialLiveTranslate|Modificar]] a lista de memórias de tradução',
 	'group-tmxadmin' => 'Administradores TMX',
-	'group-tmxadmin-member' => 'Administrador TMX', # Fuzzy
+	'group-tmxadmin-member' => '{{GENDER:$1|administrador TMX|administradora TMX}}',
 	'grouppage-tmxadmin' => '{{ns:project}}:Administradores_TMX',
 	'livetranslate-translate-to' => 'Traduzir esta página para',
 	'livetranslate-button-translate' => 'Traduzir',
@@ -1494,15 +1495,32 @@ $messages['pt'] = array(
 );
 
 /** Brazilian Portuguese (português do Brasil)
+ * @author Cainamarques
  * @author Giro720
  * @author Luckas
  */
 $messages['pt-br'] = array(
 	'livetranslate-desc' => 'Permite a tradução imediata do conteúdo das páginas usando o serviço Google Translate',
+	'group-tmxadmin' => 'Administradores TMX',
+	'group-tmxadmin-member' => '{{GENDER:$1|administrador TMX|administradora TMX}}',
 	'livetranslate-translate-to' => 'Traduzir esta página para',
 	'livetranslate-button-translate' => 'Traduzir',
 	'livetranslate-button-translating' => 'Traduzindo...',
+	'livetranslate-button-revert' => 'Mostrar original',
+	'livetranslate-dictionary-count' => '{{PLURAL:$1|Existe $1 palavra|Existem $1 palavras}} em $2 {{PLURAL:$2|língua|línguas}}. Clique na aba "editar" para acrescentar mais.',
+	'livetranslate-dictionary-goto-edit' => 'Modificar as memórias de tradução.',
+	'livetranslate-tmtype-gcsv' => 'Google CSV',
+	'livetranslate-special-no-tms-yet' => 'Não há ainda memórias de tradução.',
 	'livetranslate-special-button' => 'Salvar e atualizar',
+	'livetranslate-special-type' => 'Tipo',
+	'livetranslate-special-location' => 'Localização',
+	'livetranslate-special-remove' => 'Remover',
+	'livetranslate-special-local' => 'Local',
+	'livetranslate-special-add-tm' => 'Adicionar uma memória de tradução nova',
+	'livetranslate-special-current-tms' => 'Memórias de tradução existentes',
+	'livetranslate-special-tms-update' => 'Atualizar memórias de tradução',
+	'livetranslate-special-update' => 'Atualizar memórias de tradução',
+	'livetranslate-importtms-param-miscmatch' => 'Discordância entre a quantidade de locais e de tipos',
 );
 
 /** Romanian (română)
