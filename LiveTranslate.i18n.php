@@ -1798,11 +1798,13 @@ $messages['tl'] = array(
 );
 
 /** Turkish (Türkçe)
+ * @author Incelemeelemani
  * @author Suelnur
  */
 $messages['tr'] = array(
 	'livetranslate-button-translate' => 'Çevir',
 	'livetranslate-button-translating' => 'Çevriliyor...',
+	'livetranslate-special-location' => 'Konum',
 	'livetranslate-special-local' => 'Yerel',
 );
 
