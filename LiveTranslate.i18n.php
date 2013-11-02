@@ -1110,6 +1110,7 @@ $messages['ku-latn'] = array(
 
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
+ * @author Soued031
  */
 $messages['lb'] = array(
 	'livetranslate-desc' => 'Erméiglecht d\'live Iwwersetzen vu Säiteninhalt mam Service "Google Translate"',
@@ -1141,7 +1142,7 @@ $messages['lb'] = array(
 	'livetranslate-special-current-tms' => 'Aktuell Iwwersetzungsspäicheren',
 	'livetranslate-special-tms-update' => 'Den Iwwersetzungsspäicher aktualiséieren.',
 	'livetranslate-special-update' => 'Den Iwwersetzungsspäicher aktualiséieren.',
-	'livetranslate-importtms-param-miscmatch' => 'Duercherneen tëschent der Zuel vu Plazen an Typen',
+	'livetranslate-importtms-param-miscmatch' => 'Duercherneen tëscht der Zuel vu Plazen an Typen',
 );
 
 /** Lithuanian (lietuvių)
