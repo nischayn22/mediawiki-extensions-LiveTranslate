@@ -427,6 +427,7 @@ $messages['de'] = array(
 
 /** Zazaki (Zazaki)
  * @author Erdemaslancan
+ * @author Gorizon
  */
 $messages['diq'] = array(
 	'group-tmxadmin' => 'TMX administrators',
@@ -438,7 +439,7 @@ $messages['diq'] = array(
 	'livetranslate-tmtype-gcsv' => 'Google CSV',
 	'livetranslate-special-type' => 'Babet',
 	'livetranslate-special-location' => 'Lokasyon',
-	'livetranslate-special-remove' => 'Wedarne',
+	'livetranslate-special-remove' => 'Hewad',
 	'livetranslate-special-local' => 'Lokale',
 );
 
