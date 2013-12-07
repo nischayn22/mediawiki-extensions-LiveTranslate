@@ -373,7 +373,7 @@ $messages['ce'] = array(
 	'livetranslate-special-remove' => 'ДӀаяккха',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Chmee2
  * @author Vks
  */
