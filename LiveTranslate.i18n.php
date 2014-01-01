@@ -369,6 +369,7 @@ $messages['ca'] = array(
  * @author Умар
  */
 $messages['ce'] = array(
+	'group-tmxadmin' => 'Куьйгалхой TMX',
 	'livetranslate-special-button' => 'Ӏалашданн а карладоккхуш',
 	'livetranslate-special-remove' => 'ДӀаяккха',
 );
