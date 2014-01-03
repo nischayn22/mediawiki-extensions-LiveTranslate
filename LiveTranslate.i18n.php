@@ -240,7 +240,7 @@ $messages['be-tarask'] = array(
 	'livetranslate-dictionary-error' => 'Немагчыма атрымаць слоўнік перакладу на ляту. Няма словаў, якая будуць разглядацца як спэцыяльныя, падчас працэсу перакладу.',
 	'livetranslate-dictionary-empty' => 'Пакуль што няма словаў у слоўніку. Націсьніце кнопку «рэдагаваць» каб дадаць.',
 	'livetranslate-dictionary-count' => 'Ёсьць $1 {{PLURAL:$1|слова|словы|словаў}} у $2 {{PLURAL:$2|мове|мовах|мовах}}. Націсьніце кнопку «рэдагаваць» каб дадаць болей.',
-	'livetranslate-dictionary-unallowed-langs' => '{{PLURAL:$2|Гэтая мова не дазволеная|Гэтыя мовы не дазволеныя}} у цяперашні момант як мэтавыя для перакладу: $1. Зьмяніце дазволеныя мовы ў Вашых наладах {{GRAMMAR:родны|{{SITENAME}}}}, ці выдаліце са слоўніка.',
+	'livetranslate-dictionary-unallowed-langs' => '{{PLURAL:$2|1=Гэтая мова не дазволеная|Гэтыя мовы не дазволеныя}} у цяперашні момант як мэтавыя для перакладу: $1. Зьмяніце дазволеныя мовы ў Вашых наладах {{GRAMMAR:родны|{{SITENAME}}}}, ці выдаліце са слоўніка.', # Fuzzy
 	'livetranslate-dictionary-goto-edit' => 'Зьмяніць памяці перакладаў.',
 	'special-livetranslate' => 'Пераклад на ляту',
 	'livetranslate-tmtype-ltf' => 'Фармат перакладу на ляту',
@@ -1643,8 +1643,8 @@ $messages['ru'] = array(
 	'livetranslate-button-revert' => 'Показать оригинал',
 	'livetranslate-dictionary-error' => 'Не удалось получить словарь живого перевода. Нет слов, которые будут рассматриваться как специальные во время процесса перевода.',
 	'livetranslate-dictionary-empty' => 'В словаре ещё нет слов. Нажмите «править», чтобы добавить несколько.',
-	'livetranslate-dictionary-count' => '$1 {{PLURAL:$1|слово|слова|слов}} на $2 {{PLURAL:$2|языке|языках|языках}}. Нажмите «править», чтобы добавить ещё.',
-	'livetranslate-dictionary-unallowed-langs' => '{{PLURAL:$2|Этот язык|Эти языки}} не разрешено использовать в качестве цели перевода: $1. Измените разрешения в настройках вашей вики, или удалите их из словаря.',
+	'livetranslate-dictionary-count' => '$1 {{PLURAL:$1|слово|слов|слова}} на $2 {{PLURAL:$2|языке|языках|языках}}. Нажмите «править», чтобы добавить ещё.', # Fuzzy
+	'livetranslate-dictionary-unallowed-langs' => '{{PLURAL:$2|1=Этот язык|Эти языки}} не разрешено использовать в качестве цели перевода: $1. Измените разрешения в настройках вашей вики, или удалите их из словаря.', # Fuzzy
 	'livetranslate-dictionary-goto-edit' => 'Изменение памяти переводов.',
 	'special-livetranslate' => 'Перевод на лету',
 	'livetranslate-tmtype-ltf' => 'Формат перевода на лету',
@@ -1823,6 +1823,7 @@ $messages['tzm'] = array(
 );
 
 /** Ukrainian (українська)
+ * @author Andriykopanytsia
  * @author Base
  * @author Ата
  * @author Тест
@@ -1840,8 +1841,8 @@ $messages['uk'] = array(
 	'livetranslate-button-revert' => 'Показати оригінал',
 	'livetranslate-dictionary-error' => 'Не вдалося отримати словник живого перекладу. Немає слів, які будуть розглядатися як спеціальні під час процесу перекладу.',
 	'livetranslate-dictionary-empty' => 'В словнику ще немає слів. Натисніть кнопку «редагувати» щоб додати щось.',
-	'livetranslate-dictionary-count' => '$1 {{PLURAL:$1|$1 слово|слова|слів}} $2 {{PLURAL:$2|мовою|мовами}}. Натисніть "редагувати", аби додати ще.',
-	'livetranslate-dictionary-unallowed-langs' => '{{PLURAL:$2|Цю мову|Ці мови}} іще не можна використовувати для кінцевих перекладів: $1. Змініть дозволені мови у налаштуваннях Вашої вікі або видаліть їх зі словника.',
+	'livetranslate-dictionary-count' => '$1 {{PLURAL:$1|$1 слово|слова|слів}} $2 {{PLURAL:$2|1=мовою|мовами}}. Натисніть "редагувати", аби додати ще.',
+	'livetranslate-dictionary-unallowed-langs' => '{{PLURAL:$2|1=Цю мову|Ці мови}} іще не можна використовувати для кінцевих перекладів: $1. Змініть дозволені мови у налаштуваннях Вашої вікі або видаліть їх зі словника.',
 	'livetranslate-dictionary-goto-edit' => "Зміна пам'яті перекладів.",
 	'special-livetranslate' => 'Переклад на льоту',
 	'livetranslate-tmtype-ltf' => 'Формат перекладу на льоту',
