@@ -1891,9 +1891,11 @@ $messages['vi'] = array(
 );
 
 /** Yiddish (ייִדיש)
+ * @author פוילישער
  * @author පසිඳු කාවින්ද
  */
 $messages['yi'] = array(
+	'livetranslate-button-translate' => 'איבערזעצן',
 	'livetranslate-special-location' => 'אָרט',
 	'livetranslate-special-remove' => 'אַראָפּנעמען',
 );
