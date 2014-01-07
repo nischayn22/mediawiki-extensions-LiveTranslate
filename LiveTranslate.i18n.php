@@ -561,21 +561,38 @@ $messages['eu'] = array(
 );
 
 /** Persian (فارسی)
+ * @author Armin1392
  * @author Mjbmr
  * @author پاناروما
  */
 $messages['fa'] = array(
+	'right-managetms' => '[[Special:SpecialLiveTranslate|تغییر دادن]] فهرست حافظه‌های ترجمه',
+	'action-managetms' => 'مدیریت حافظه‌های ترجمه',
+	'group-tmxadmin' => 'سرپرستان تی‌ام‌ایکس',
+	'group-tmxadmin-member' => '{{GENDER:$1|سرپرستی تی‌ام‌ایکس}}',
+	'grouppage-tmxadmin' => '{{ns:project}}:سرپرستان تی‌ام‌ایکس',
+	'livetranslate-translate-to' => 'ترجمهٔ این صفحه به',
 	'livetranslate-button-translate' => 'ترجمه',
 	'livetranslate-button-translating' => 'ترجمه...',
 	'livetranslate-button-revert' => 'نمایش اصل',
+	'livetranslate-dictionary-empty' => 'هیچ کلمه‌ای هنوز در دیکشنری نیست. برای اضافه کردن برخی، تب "ویرایش" را کلیک کنید.',
+	'livetranslate-dictionary-count' => '{{PLURAL:$1|is $1 کلمه|هستند $1 کلمه}} در $2 {{PLURAL:$2|زبان|زبان‌ها}}. برای ایشتر اضافه کردن تب "ویرایش" را کلیک کنید.',
+	'livetranslate-dictionary-goto-edit' => 'تغییر دادن حافظه‌های ترجمه.',
 	'special-livetranslate' => 'ترجمهٔ زنده',
 	'livetranslate-tmtype-ltf' => 'قالب ترجمه زنده',
+	'livetranslate-tmtype-tmx' => 'مبادلهٔ حافظهٔ ترجمه',
 	'livetranslate-tmtype-gcsv' => 'سی‌اس‌وی گوگل',
+	'livetranslate-special-no-tms-yet' => 'هنوز هیچ حافظه‌ی ترجمه‌ای نیست.',
 	'livetranslate-special-button' => 'ذخیره و به روز شدن',
 	'livetranslate-special-type' => 'نوع',
 	'livetranslate-special-location' => 'مکان',
 	'livetranslate-special-remove' => 'حذف',
 	'livetranslate-special-local' => 'محلی',
+	'livetranslate-special-add-tm' => 'اضافه کردن یک حافظهٔ ترجمهٔ جدید',
+	'livetranslate-special-current-tms' => 'وجود داشتن حافظه‌های ترجمه',
+	'livetranslate-special-tms-update' => 'به روز رسانی حافظه‌های ترجمه',
+	'livetranslate-special-update' => 'به روز رسانی حافظه‌های ترجمه',
+	'livetranslate-importtms-param-miscmatch' => 'عدم تطابق بین اندازهٔ مکان‌ها و نوع‌ها',
 );
 
 /** Finnish (suomi)
