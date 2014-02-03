@@ -566,6 +566,7 @@ $messages['eu'] = array(
  * @author پاناروما
  */
 $messages['fa'] = array(
+	'livetranslate-desc' => 'فعال کردن ترجمهٔ زنده‌ٔ محتوای صفحه با استفاده از سرویس ترجمهٔ گوگل',
 	'right-managetms' => '[[Special:SpecialLiveTranslate|تغییر دادن]] فهرست حافظه‌های ترجمه',
 	'action-managetms' => 'مدیریت حافظه‌های ترجمه',
 	'group-tmxadmin' => 'سرپرستان تی‌ام‌ایکس',
@@ -575,6 +576,7 @@ $messages['fa'] = array(
 	'livetranslate-button-translate' => 'ترجمه',
 	'livetranslate-button-translating' => 'ترجمه...',
 	'livetranslate-button-revert' => 'نمایش اصل',
+	'livetranslate-dictionary-error' => 'نتوانست دیکشنری ترجمهٔ زنده را به دست آورد. هیچ کلمه‌ای در حین روند ترجمه ویژه تلقی نمی‌شود.',
 	'livetranslate-dictionary-empty' => 'هیچ کلمه‌ای هنوز در دیکشنری نیست. برای اضافه کردن برخی، تب "ویرایش" را کلیک کنید.',
 	'livetranslate-dictionary-count' => '{{PLURAL:$1|is $1 کلمه|هستند $1 کلمه}} در $2 {{PLURAL:$2|زبان|زبان‌ها}}. برای ایشتر اضافه کردن تب "ویرایش" را کلیک کنید.',
 	'livetranslate-dictionary-goto-edit' => 'تغییر دادن حافظه‌های ترجمه.',
