@@ -633,6 +633,7 @@ $messages['fi'] = array(
  * @author Hashar
  * @author IAlex
  * @author Sherbrooke
+ * @author Verdy p
  */
 $messages['fr'] = array(
 	'livetranslate-desc' => 'Permet la traduction immédiate du contenu de la page en utilisant le service de traduction de Google',
@@ -641,6 +642,8 @@ $messages['fr'] = array(
 	'group-tmxadmin' => 'Admins TMX',
 	'group-tmxadmin-member' => '{{GENDER:$1|administrateur TMX|administratrice TMX}}',
 	'grouppage-tmxadmin' => '{{ns:project}}:Admins_TMX',
+	'group-tmxadmin.css' => '/* Le CSS placé ici n’affectera que les administrateurs de TMX */',
+	'group-tmxadmin.js' => '/* Le Javascript placé ici n’affectera que les administrateurs de TMX */',
 	'livetranslate-translate-to' => 'Traduire cette page en',
 	'livetranslate-button-translate' => 'Traduire',
 	'livetranslate-button-translating' => 'Traduction en cours...',
