@@ -579,6 +579,7 @@ $messages['fa'] = array(
 	'livetranslate-dictionary-error' => 'نتوانست دیکشنری ترجمهٔ زنده را به دست آورد. هیچ کلمه‌ای در حین روند ترجمه ویژه تلقی نمی‌شود.',
 	'livetranslate-dictionary-empty' => 'هیچ کلمه‌ای هنوز در دیکشنری نیست. برای اضافه کردن برخی، تب "ویرایش" را کلیک کنید.',
 	'livetranslate-dictionary-count' => '{{PLURAL:$1|is $1 کلمه|هستند $1 کلمه}} در $2 {{PLURAL:$2|زبان|زبان‌ها}}. برای ایشتر اضافه کردن تب "ویرایش" را کلیک کنید.',
+	'livetranslate-dictionary-unallowed-langs' => '{{PLURAL:$2|این زبان|این زبانها}} در حال حاضر به عنوان هدف ترجمه مجاز نشده‌است: $1. اصلاح زبان‌های مجاز در پیکربندی ویکی‌های شما، یا حذف این‌ها از دیکشنری.',
 	'livetranslate-dictionary-goto-edit' => 'تغییر دادن حافظه‌های ترجمه.',
 	'special-livetranslate' => 'ترجمهٔ زنده',
 	'livetranslate-tmtype-ltf' => 'قالب ترجمه زنده',
