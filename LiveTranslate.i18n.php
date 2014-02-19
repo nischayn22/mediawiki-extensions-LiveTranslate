@@ -374,6 +374,13 @@ $messages['ce'] = array(
 	'livetranslate-special-remove' => 'ДӀаяккха',
 );
 
+/** Corsican (corsu)
+ * @author Paulu
+ */
+$messages['co'] = array(
+	'livetranslate-button-translating' => 'Traduzione in corsu',
+);
+
 /** Czech (čeština)
  * @author Chmee2
  * @author Vks
