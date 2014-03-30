@@ -1091,6 +1091,13 @@ $messages['ko'] = array(
 	'livetranslate-importtms-param-miscmatch' => '양 사이의 위치와 종류가 일치하지 않음',
 );
 
+/** Karachay-Balkar (къарачай-малкъар)
+ * @author Iltever
+ */
+$messages['krc'] = array(
+	'livetranslate-dictionary-count' => '$2 {{PLURAL:$2|тилде|тилде}} {{PLURAL:$1|$1 сёз|$1 сёз}} барды. Энтда къошар ючюн «тюрлендир» тиекни басаргъа керекди.', # Fuzzy
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */
