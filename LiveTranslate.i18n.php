@@ -1095,7 +1095,7 @@ $messages['ko'] = array(
  * @author Iltever
  */
 $messages['krc'] = array(
-	'livetranslate-dictionary-count' => '$2 {{PLURAL:$2|тилде|тилде}} {{PLURAL:$1|$1 сёз|$1 сёз}} барды. Энтда къошар ючюн «тюрлендир» тиекни басаргъа керекди.', # Fuzzy
+	'livetranslate-dictionary-count' => '$2 {{PLURAL:$2|тилде}} {{PLURAL:$1|$1 сёз}} барды. Энтда къошар ючюн «тюрлендир» тиекни басаргъа керекди.',
 );
 
 /** Colognian (Ripoarisch)
