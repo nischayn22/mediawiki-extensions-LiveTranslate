@@ -1,0 +1,37 @@
+{
+    "@metadata": {
+        "authors": [
+            "Cedric31"
+        ]
+    },
+    "livetranslate-desc": "Permet la traduccion immediata del contengut de la pagina en utilizant lo servici de traduccion de Google",
+    "right-managetms": "[[Special:SpecialLiveTranslate|Modificar]] la lista de las memòrias de traduccion",
+    "action-managetms": "gerir l'istoric de las traduccions",
+    "group-tmxadmin": "Administrators TMX",
+    "group-tmxadmin-member": "{{GENDER:$1|administrator TMX|administratritz TMX}}",
+    "grouppage-tmxadmin": "{{ns:project}}:Administrators_TMX",
+    "livetranslate-translate-to": "Tradusir aquesta pagina en",
+    "livetranslate-button-translate": "Tradusir",
+    "livetranslate-button-translating": "Traduccion en cors...",
+    "livetranslate-button-revert": "Afichar l’original",
+    "livetranslate-dictionary-error": "Impossible d'obténer la traduccion immediata del diccionari. Cap de mot recebrà pas de tractament especial pendent lo processus de traduccion.",
+    "livetranslate-dictionary-empty": "I a pas encara cap de mot dins lo diccionari. Clicatz sus l'onglet « Modificar » per n'apondre.",
+    "livetranslate-dictionary-count": "I a $1 {{PLURAL:$1|mot|mots}} dins {{PLURAL:$2|una lenga|$2 lengas}}. Clicatz sus l'onglet « Modificar » per n'apondre.",
+    "livetranslate-dictionary-unallowed-langs": "{{PLURAL:$2|Aquesta lenga es pas seleccionada coma lenga cibla|Aquestas lengas son pas seleccionadas coma lengas ciblas}} : $1. Modificatz las lengas autorizadas dins vòstra configuracion de wiki o suprimissètz-las del diccionari.",
+    "livetranslate-dictionary-goto-edit": "Modificar las memòrias de traduccion.",
+    "special-livetranslate": "Live translate",
+    "livetranslate-tmtype-ltf": "Format Live Translate",
+    "livetranslate-tmtype-tmx": "Translation Memory eXchange",
+    "livetranslate-tmtype-gcsv": "Google CSV",
+    "livetranslate-special-no-tms-yet": "I a pas cap de memòrias de traduccion pel moment.",
+    "livetranslate-special-button": "Enregistrar e metre a jorn",
+    "livetranslate-special-type": "Tipe",
+    "livetranslate-special-location": "Emplaçament",
+    "livetranslate-special-remove": "Levar",
+    "livetranslate-special-local": "Local",
+    "livetranslate-special-add-tm": "Apondre una novèla memòria de traduccion",
+    "livetranslate-special-current-tms": "Memòrias de traduccion existentas",
+    "livetranslate-special-tms-update": "Mesa a jorn de memòrias de traduccion.",
+    "livetranslate-special-update": "Mesa a jorn de memòrias de traduccion",
+    "livetranslate-importtms-param-miscmatch": "Incompatibilitat entre la quantitat d'emplaçaments e los tipes"
+}

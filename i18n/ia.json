@@ -1,0 +1,37 @@
+{
+    "@metadata": {
+        "authors": [
+            "McDutchie"
+        ]
+    },
+    "livetranslate-desc": "Permitte le traduction in directo de contento de paginas usante le servicio Google Translate",
+    "right-managetms": "[[Special:SpecialLiveTranslate|Modificar]] le lista de memorias de traduction",
+    "action-managetms": "gerer memorias de traduction",
+    "group-tmxadmin": "Administratores TMX",
+    "group-tmxadmin-member": "{{GENDER:$1|administrator|administratrice}} TMX",
+    "grouppage-tmxadmin": "{{ns:project}}:Administratores_TMX",
+    "livetranslate-translate-to": "Traducer iste pagina in",
+    "livetranslate-button-translate": "Traducer",
+    "livetranslate-button-translating": "Traduction in curso...",
+    "livetranslate-button-revert": "Monstrar original",
+    "livetranslate-dictionary-error": "Non poteva obtener le dictionario de traduction in directo. Nulle parola essera tractate como special durante le processo de traduction.",
+    "livetranslate-dictionary-empty": "Le dictionario non ha ancora parolas. Clicca sur le scheda \"modificar\" pro adder alcunes.",
+    "livetranslate-dictionary-count": "Il ha {{PLURAL:$1|$1 parola|$1 parolas}} in $2 {{PLURAL:$2|linguas|linguas}}. Clicca sur le scheda \"modificar\" pro adder alteres.",
+    "livetranslate-dictionary-unallowed-langs": "Iste {{PLURAL:$2|lingua|linguas}} non es actualmente definite como destinationes valide pro traduction: $1. Modifica le linguas permittite in le configuration de tu wiki, o remove istes del dictionario.",
+    "livetranslate-dictionary-goto-edit": "Modificar le memorias de traduction.",
+    "special-livetranslate": "Traduction in directo",
+    "livetranslate-tmtype-ltf": "Formato de traduction in directo",
+    "livetranslate-tmtype-tmx": "Translation Memory eXchange",
+    "livetranslate-tmtype-gcsv": "CSV de Google",
+    "livetranslate-special-no-tms-yet": "Il non ha ancora memorias de traduction.",
+    "livetranslate-special-button": "Salveguardar e actualisar",
+    "livetranslate-special-type": "Typo",
+    "livetranslate-special-location": "Loco",
+    "livetranslate-special-remove": "Remover",
+    "livetranslate-special-local": "Local",
+    "livetranslate-special-add-tm": "Adder un nove memoria de traduction",
+    "livetranslate-special-current-tms": "Memorias de traduction existente",
+    "livetranslate-special-tms-update": "Actualisar memorias de traduction",
+    "livetranslate-special-update": "Actualisar memorias de traduction",
+    "livetranslate-importtms-param-miscmatch": "Le numero de locos differe del numero de typos"
+}

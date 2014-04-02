@@ -1,0 +1,42 @@
+{
+    "@metadata": {
+        "authors": [
+            "Adata80",
+            "Byulent",
+            "DCamer",
+            "Kaganer",
+            "MaxSem",
+            "Александр Сигачёв"
+        ]
+    },
+    "livetranslate-desc": "Включает перевод текста страницы на лету с помощью службы переводов Google",
+    "right-managetms": "[[Special:SpecialLiveTranslate|изменять]] список памяти переводов",
+    "action-managetms": "управление памятью переводов",
+    "group-tmxadmin": "Администраторы TMX",
+    "group-tmxadmin-member": "{{GENDER:$1|TMX Администратор}}",
+    "grouppage-tmxadmin": "{{ns:project}}:TMX-админы",
+    "livetranslate-translate-to": "Перевести эту страницу на",
+    "livetranslate-button-translate": "Перевести",
+    "livetranslate-button-translating": "Выполняется перевод...",
+    "livetranslate-button-revert": "Показать оригинал",
+    "livetranslate-dictionary-error": "Не удалось получить словарь живого перевода. Нет слов, которые будут рассматриваться как специальные во время процесса перевода.",
+    "livetranslate-dictionary-empty": "В словаре ещё нет слов. Нажмите «править», чтобы добавить несколько.",
+    "livetranslate-dictionary-count": "$1 {{PLURAL:$1|слово|слов|слова}} на $2 {{PLURAL:$2|языке|языках}}. Нажмите «править», чтобы добавить ещё.",
+    "livetranslate-dictionary-unallowed-langs": "{{PLURAL:$2|1=Этот язык|Эти языки}} не разрешено использовать в качестве цели перевода: $1. Измените разрешения в настройках своего вики-проекта, или удалите их из словаря.",
+    "livetranslate-dictionary-goto-edit": "Изменение памяти переводов.",
+    "special-livetranslate": "Перевод на лету",
+    "livetranslate-tmtype-ltf": "Формат перевода на лету",
+    "livetranslate-tmtype-tmx": "Обмен памятью перевода",
+    "livetranslate-tmtype-gcsv": "Google CSV",
+    "livetranslate-special-no-tms-yet": "Памяти переводов пока нет.",
+    "livetranslate-special-button": "Сохранить и обновить",
+    "livetranslate-special-type": "Тип",
+    "livetranslate-special-location": "Расположение",
+    "livetranslate-special-remove": "Удалить",
+    "livetranslate-special-local": "Местное",
+    "livetranslate-special-add-tm": "Добавить новую память переводов",
+    "livetranslate-special-current-tms": "Существующие памяти переводов",
+    "livetranslate-special-tms-update": "Обновление памяти переводов",
+    "livetranslate-special-update": "Обновление памяти переводов",
+    "livetranslate-importtms-param-miscmatch": "Несоответствие количества расположений и типов"
+}

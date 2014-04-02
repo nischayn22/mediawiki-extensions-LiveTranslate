@@ -1,0 +1,25 @@
+{
+    "@metadata": {
+        "authors": [
+            "Firilacroco",
+            "Minisarm",
+            "Stelistcristi"
+        ]
+    },
+    "group-tmxadmin": "Administratori TMX",
+    "group-tmxadmin-member": "{{GENDER:$1|administrator TMX}}",
+    "grouppage-tmxadmin": "{{ns:project}}:Administratori TMX",
+    "livetranslate-translate-to": "Traduceți această pagină în",
+    "livetranslate-button-translate": "Tradu",
+    "livetranslate-button-translating": "Se traduce...",
+    "livetranslate-button-revert": "Arată originalul",
+    "special-livetranslate": "Traducere live",
+    "livetranslate-tmtype-ltf": "Format traducere live",
+    "livetranslate-tmtype-tmx": "Translation Memory eXchange",
+    "livetranslate-tmtype-gcsv": "Google CSV",
+    "livetranslate-special-button": "Salvează și actualizează",
+    "livetranslate-special-type": "Tip",
+    "livetranslate-special-location": "Loc",
+    "livetranslate-special-remove": "Elimină",
+    "livetranslate-special-local": "Local"
+}

@@ -1,0 +1,8 @@
+{
+    "@metadata": {
+        "authors": [
+            "Siebrand"
+        ]
+    },
+    "livetranslate-dictionary-unallowed-langs": "{{PLURAL:$2|Deze taal is|Deze taken zijn}} niet ingesteld als toegestane doeltaal: $1. Wijzig te toegestane talen in de instellingen van je wiki of verwijder ze uit het woordenboek."
+}

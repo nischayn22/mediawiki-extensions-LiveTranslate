@@ -1,0 +1,39 @@
+{
+    "@metadata": {
+        "authors": [
+            "Bjankuloski06"
+        ]
+    },
+    "livetranslate-desc": "Овозможува преведување на содржината на една страница во живо, користејќи Google Translate",
+    "right-managetms": "[[Special:SpecialLiveTranslate|Менување]] на списокот на преводни памтила",
+    "action-managetms": "раководство со преводни памтила",
+    "group-tmxadmin": "Администратори на TMX",
+    "group-tmxadmin-member": "{{GENDER:$1|Администратор на TMX}}",
+    "grouppage-tmxadmin": "{{ns:project}}:Админи_на_TMX",
+    "group-tmxadmin.css": "/* Тука поставениот CSS ќе се применува само врз администраторите на TMX */",
+    "group-tmxadmin.js": "/* Тука поставениот JS ќе се применува само врз администраторите на TMX */",
+    "livetranslate-translate-to": "Преведете ја страницава на",
+    "livetranslate-button-translate": "Преведи",
+    "livetranslate-button-translating": "Преведувам...",
+    "livetranslate-button-revert": "Прикажи изворно",
+    "livetranslate-dictionary-error": "Не можев да го добијам речникот за преведување во живо. Ниеден збор нема да се смета за посебен во текот на преводната постапка.",
+    "livetranslate-dictionary-empty": "Сè уште нема зборови во речникот. Стиснете на јазичето „уреди“ и додајте некои.",
+    "livetranslate-dictionary-count": "Има {{PLURAL:$1|еден збор|$1 збора}} на $2 {{PLURAL:$2|јазик|јазика}}. Ситиснете на јазичето „уреди“ за да додадете уште.",
+    "livetranslate-dictionary-unallowed-langs": "{{PLURAL:$2|Овој јазик моментално не е зададен|Овие јазици моментално не се зададени}} како допуштена преводна одредница: $1. Изменете ги допуштените јазици во вики-поставките, или пак отстранете ги постоечкиве од речникот.",
+    "livetranslate-dictionary-goto-edit": "Измени ги преводните памтила.",
+    "special-livetranslate": "Преведување во живо",
+    "livetranslate-tmtype-ltf": "Формат на преведувањето во живо",
+    "livetranslate-tmtype-tmx": "Translation Memory eXchange",
+    "livetranslate-tmtype-gcsv": "Google CSV",
+    "livetranslate-special-no-tms-yet": "Сè уште нема преводни памтила",
+    "livetranslate-special-button": "Зачувај и поднови",
+    "livetranslate-special-type": "Тип",
+    "livetranslate-special-location": "Место",
+    "livetranslate-special-remove": "Отстрани",
+    "livetranslate-special-local": "Локално",
+    "livetranslate-special-add-tm": "Додај ново преводно памтило",
+    "livetranslate-special-current-tms": "Постоечки преводни памтила",
+    "livetranslate-special-tms-update": "Поднови преводни памтила",
+    "livetranslate-special-update": "Поднови преводни памтила",
+    "livetranslate-importtms-param-miscmatch": "Бројот на местата и бројот на типовите не се совпаѓаат"
+}

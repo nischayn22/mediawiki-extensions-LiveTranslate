@@ -1,0 +1,37 @@
+{
+    "@metadata": {
+        "authors": [
+            "Farras",
+            "IvanLanin"
+        ]
+    },
+    "livetranslate-desc": "Memungkinkan penerjemahan langsung konten halaman dengan menggunakan layanan Google Terjemahan",
+    "right-managetms": "[[Special:SpecialLiveTranslate|Mengubah]] daftar memori terjemahan",
+    "group-tmxadmin": "Pengurus TMX",
+    "group-tmxadmin-member": "{{GENDER:$1|Pengurus TMX}}",
+    "grouppage-tmxadmin": "{{ns:project}}:Pengurus TMX",
+    "livetranslate-translate-to": "Terjemahkan halaman ini ke",
+    "livetranslate-button-translate": "Terjemahkan",
+    "livetranslate-button-translating": "Menerjemahkan ...",
+    "livetranslate-button-revert": "Tampilkan yang asli",
+    "livetranslate-dictionary-error": "Tidak dapat memperoleh kamus penerjemahan langsung. Tidak ada kata yang diperlakukan secara khusus selama proses penerjemahan.",
+    "livetranslate-dictionary-empty": "Belum tersedia kata dalam kamus. Klik tab \"sunting\" untuk menambahkan.",
+    "livetranslate-dictionary-count": "Ada {{PLURAL:$1|$1 kata|$1 kata}} dalam $2 {{PLURAL:$2|bahasa|bahasa}}. Klik tab \"sunting\" untuk menambakan.",
+    "livetranslate-dictionary-unallowed-langs": "{{PLURAL:$2|Bahasa ini|Bahasa-bahasa ini}} disetel sebagai target terjemahan: $1. Ubah bahasa yang diizinkan dalam konfigurasi wiki, atau hapus dari kamus.",
+    "livetranslate-dictionary-goto-edit": "Modifikasi memori terjemahan.",
+    "special-livetranslate": "Terjemahan langsung",
+    "livetranslate-tmtype-ltf": "Format Terjemahan Langsung",
+    "livetranslate-tmtype-tmx": "Translation Memory eXchange",
+    "livetranslate-tmtype-gcsv": "Google CSV",
+    "livetranslate-special-no-tms-yet": "Memori terjemahan belum tersedia.",
+    "livetranslate-special-button": "Simpan dan perbarui",
+    "livetranslate-special-type": "Jenis",
+    "livetranslate-special-location": "Lokasi",
+    "livetranslate-special-remove": "Hapus",
+    "livetranslate-special-local": "Lokal",
+    "livetranslate-special-add-tm": "Tambahkan memori terjemahan baru",
+    "livetranslate-special-current-tms": "Memori terjemahan yang ada",
+    "livetranslate-special-tms-update": "Perbarui memori terjemahan",
+    "livetranslate-special-update": "Perbarui memori terjemahan",
+    "livetranslate-importtms-param-miscmatch": "Jumlah lokasi dan jenis tidak sesuai"
+}

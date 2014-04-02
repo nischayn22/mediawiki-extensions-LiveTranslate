@@ -1,0 +1,16 @@
+{
+    "@metadata": {
+        "authors": [
+            "Chmee2",
+            "Vks"
+        ]
+    },
+    "group-tmxadmin": "Správci TMX",
+    "livetranslate-button-translate": "Přeložit",
+    "livetranslate-button-translating": "Překládám...",
+    "livetranslate-button-revert": "Ukázat originál",
+    "livetranslate-tmtype-gcsv": "Google CSV",
+    "livetranslate-special-type": "Typ",
+    "livetranslate-special-location": "Umístění",
+    "livetranslate-special-remove": "Odstranit"
+}

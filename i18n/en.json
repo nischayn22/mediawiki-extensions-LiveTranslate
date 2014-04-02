@@ -1,0 +1,39 @@
+{
+    "@metadata": {
+        "authors": [
+            "Jeroen De Dauw"
+        ]
+    },
+    "livetranslate-desc": "Enables live translation of page content using the Google Translate service",
+    "right-managetms": "[[Special:SpecialLiveTranslate|Modify]] the list of translation memories",
+    "action-managetms": "manage translation memories",
+    "group-tmxadmin": "TMX administrators",
+    "group-tmxadmin-member": "{{GENDER:$1|TMX administrator}}",
+    "grouppage-tmxadmin": "{{ns:project}}:TMX administrators",
+    "group-tmxadmin.css": "/* CSS placed here will affect TMX administrators only */",
+    "group-tmxadmin.js": "/* JS placed here will affect TMX administrators only */",
+    "livetranslate-translate-to": "Translate this page to",
+    "livetranslate-button-translate": "Translate",
+    "livetranslate-button-translating": "Translating...",
+    "livetranslate-button-revert": "Show original",
+    "livetranslate-dictionary-error": "Could not obtain the live translate dictionary. No words will be treated as special during the translation process.",
+    "livetranslate-dictionary-empty": "There are no words in the dictionary yet. Click the \"edit\" tab to add some.",
+    "livetranslate-dictionary-count": "There {{PLURAL:$1|is $1 word|are $1 words}} in $2 {{PLURAL:$2|language|languages}}. Click the \"edit\" tab to add more.",
+    "livetranslate-dictionary-unallowed-langs": "{{PLURAL:$2|This language is|These languages are}} not currently set as allowed translation target: $1. Modify the allowed languages in your wikis configuration, or remove these from the dictionary.",
+    "livetranslate-dictionary-goto-edit": "Modify the translation memories.",
+    "special-livetranslate": "Live translate",
+    "livetranslate-tmtype-ltf": "Live Translate format",
+    "livetranslate-tmtype-tmx": "Translation Memory eXchange",
+    "livetranslate-tmtype-gcsv": "Google CSV",
+    "livetranslate-special-no-tms-yet": "There are no translation memories yet.",
+    "livetranslate-special-button": "Save and update",
+    "livetranslate-special-type": "Type",
+    "livetranslate-special-location": "Location",
+    "livetranslate-special-remove": "Remove",
+    "livetranslate-special-local": "Local",
+    "livetranslate-special-add-tm": "Add a new translation memory",
+    "livetranslate-special-current-tms": "Existing translation memories",
+    "livetranslate-special-tms-update": "Update translation memories",
+    "livetranslate-special-update": "Update translation memories",
+    "livetranslate-importtms-param-miscmatch": "Mismatch between amount of locations and types"
+}

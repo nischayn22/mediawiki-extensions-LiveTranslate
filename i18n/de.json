@@ -1,0 +1,38 @@
+{
+    "@metadata": {
+        "authors": [
+            "Kghbln",
+            "Purodha"
+        ]
+    },
+    "livetranslate-desc": "Ermöglicht die unmittelbare Übersetzung des Seiteninhalts mit „Google Übersetzer“",
+    "right-managetms": "Liste der Übersetzungsspeicher [[Special:SpecialLiveTranslate|anpassen]]",
+    "action-managetms": "Übersetzungsspeicher zu verwalten",
+    "group-tmxadmin": "TMX-Administratoren",
+    "group-tmxadmin-member": "{{GENDER:$1|TMX-Administrator|TMX-Administratorin}}",
+    "grouppage-tmxadmin": "{{ns:project}}:TMX-Administratoren",
+    "livetranslate-translate-to": "Diese Seite in folgende Sprache übersetzen:",
+    "livetranslate-button-translate": "Übersetzen",
+    "livetranslate-button-translating": "Übersetze …",
+    "livetranslate-button-revert": "Originalinhalt anzeigen",
+    "livetranslate-dictionary-error": "Das Wörterbuch konnte nicht geladen werden. Daher werden die in ihm enthaltenen Wörter nicht während des Übersetzungsvorgangs berücksichtigt.",
+    "livetranslate-dictionary-empty": "Momentan befinden sich keine Vokabeln im Wörterbuch. Auf „Bearbeiten“ klicken, um welche hinzuzufügen.",
+    "livetranslate-dictionary-count": "Momentan {{PLURAL:$1|befindet sich $1 Wort|befinden sich $1 Wörter}} in $2 {{PLURAL:$2|Sprache|Sprachen}} im Wörterbuch. Auf „Bearbeiten“ klicken, um weitere hinzuzufügen.",
+    "livetranslate-dictionary-unallowed-langs": "{{PLURAL:$2|Diese Sprache ist|Diese Sprachen sind}} momentan nicht zum Übersetzen zugelassen: $1. Entweder nun die Einstellung der übersetzbaren Sprachen in der Wikikonfiguration anpassen oder diese aus dem Wörterbuch entfernen.",
+    "livetranslate-dictionary-goto-edit": "Die Übersetzungsspeicher anpassen.",
+    "special-livetranslate": "Direktübersetzung",
+    "livetranslate-tmtype-ltf": "Live Translate format",
+    "livetranslate-tmtype-tmx": "Translation Memory eXchange",
+    "livetranslate-tmtype-gcsv": "Google-CSV",
+    "livetranslate-special-no-tms-yet": "Momentan sind noch keine Übersetzungsspeicher vorhanden.",
+    "livetranslate-special-button": "Speichern und aktualisieren",
+    "livetranslate-special-type": "Art",
+    "livetranslate-special-location": "Ort",
+    "livetranslate-special-remove": "Entfernen",
+    "livetranslate-special-local": "Lokal",
+    "livetranslate-special-add-tm": "Einen neuen Übersetzungsspeicher anlegen",
+    "livetranslate-special-current-tms": "Vorhandene Übersetzungsspeicher",
+    "livetranslate-special-tms-update": "Übersetzungsspeicher aktualisieren",
+    "livetranslate-special-update": "Übersetzungsspeicher aktualisieren",
+    "livetranslate-importtms-param-miscmatch": "Missverhältnis zwischen Anzahl an Übersetzungsspeichern und Übersetzungsspeicherarten"
+}

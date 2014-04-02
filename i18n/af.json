@@ -1,0 +1,17 @@
+{
+    "@metadata": {
+        "authors": [
+            "Naudefj"
+        ]
+    },
+    "livetranslate-translate-to": "Vertaal die bladsy na",
+    "livetranslate-button-translate": "Vertaal",
+    "livetranslate-button-translating": "Besig met vertaling...",
+    "livetranslate-button-revert": "Wys oorspronklike",
+    "livetranslate-special-no-tms-yet": "Daar is nog geen vertaalgeheues nie.",
+    "livetranslate-special-button": "Stoor en opdateer",
+    "livetranslate-special-type": "Tipe",
+    "livetranslate-special-location": "Ligging",
+    "livetranslate-special-remove": "Verwyder",
+    "livetranslate-special-local": "Lokaal"
+}

@@ -1,0 +1,37 @@
+{
+    "@metadata": {
+        "authors": [
+            "Xuacu"
+        ]
+    },
+    "livetranslate-desc": "Activa la traducción nel intre del conteníu utilizando'l serviciu Google Translate",
+    "right-managetms": "[[Special:SpecialLiveTranslate|Camudar]] la llista de memories de traducción",
+    "action-managetms": "alministrar les memories de traducción",
+    "group-tmxadmin": "Alministradores de TMX",
+    "group-tmxadmin-member": "{{GENDER:$1|alministrador|alministradora}} de TMX",
+    "grouppage-tmxadmin": "{{ns:project}}:Alministradores de TMX",
+    "livetranslate-translate-to": "Traducir esta páxina al",
+    "livetranslate-button-translate": "Traducir",
+    "livetranslate-button-translating": "Traduciendo...",
+    "livetranslate-button-revert": "Ver l'orixinal",
+    "livetranslate-dictionary-error": "Nun se pudo algamar el diccionariu de traducción nel intre. Nun se tratará como especial denguna pallabra demientres el procesu de traducción.",
+    "livetranslate-dictionary-empty": "Inda nun hai pallabres nel diccionariu. Calque na llingüeta \"Editar\" p'amestar dalguna.",
+    "livetranslate-dictionary-count": "Hai $1 {{PLURAL:$1|pallabra|pallabres}} {{PLURAL:$2|nun idioma|en $2 idiomes}}. Faiga clic na llingüeta \"Camudar\" p'amestar más.",
+    "livetranslate-dictionary-unallowed-langs": "{{PLURAL:$2|Esti idioma nun ta establecíu como destín de traducción válidu|Estos idiomes nun tan establecíos como destinos de traducción válidos}}: $1. Camude los idiomes permitíos na configuración de la wiki o desanicielos del diccionariu.",
+    "livetranslate-dictionary-goto-edit": "Camudar les memories de traducción.",
+    "special-livetranslate": "Traducción nel intre",
+    "livetranslate-tmtype-ltf": "Formatu de traducción nel intre",
+    "livetranslate-tmtype-tmx": "Translation Memory eXchange",
+    "livetranslate-tmtype-gcsv": "CSV de Google",
+    "livetranslate-special-no-tms-yet": "Inda nun hai memories de traducción.",
+    "livetranslate-special-button": "Guardar y anovar",
+    "livetranslate-special-type": "Triba",
+    "livetranslate-special-location": "Allugamientu",
+    "livetranslate-special-remove": "Desaniciar",
+    "livetranslate-special-local": "Llocal",
+    "livetranslate-special-add-tm": "Amestar una memoria de traducción nueva",
+    "livetranslate-special-current-tms": "Memories de traducción esistentes",
+    "livetranslate-special-tms-update": "Anovar les memories de traducción",
+    "livetranslate-special-update": "Anovar les memories de traducción",
+    "livetranslate-importtms-param-miscmatch": "Nun casen la cantidá de llocalizaciones y les tribes"
+}

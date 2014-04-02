@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Initialization file for the Live Translate extension.
  *
@@ -24,7 +23,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 	die( 'Not an entry point.' );
 }
 
-define( 'LiveTranslate_VERSION', '1.3' );
+define( 'LiveTranslate_VERSION', '1.4.0' );
 
 $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
@@ -42,6 +41,7 @@ $egLiveTranslateScriptPath = ( $useExtensionPath ? $wgExtensionAssetsPath : $wgS
 $egLiveTranslateIP = dirname( __FILE__ );
 unset( $useExtensionPath );
 
+$wgMessagesDirs['LiveTranslate'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['LiveTranslate'] = $egLiveTranslateIP . '/LiveTranslate.i18n.php';
 $wgExtensionMessagesFiles['LiveTranslateAlias'] = $egLiveTranslateIP . '/LiveTranslate.i18n.alias.php';
 $wgExtensionMessagesFiles['LiveTranslateMagic'] = $egLiveTranslateIP . '/LiveTranslate.i18n.magic.php';

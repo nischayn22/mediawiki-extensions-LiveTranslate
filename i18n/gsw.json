@@ -1,0 +1,38 @@
+{
+    "@metadata": {
+        "authors": [
+            "Als-Chlämens",
+            "Als-Holder"
+        ]
+    },
+    "livetranslate-desc": "Macht di diräkt Ibersetzig vum Syteninhalt megli mit „Google Ibersetzer“",
+    "right-managetms": "Lischt vum Übersetzigsgedächtnis [[Special:SpecialLiveTranslate|aapasse]]",
+    "action-managetms": "Ibersetzigsspycher verwalte",
+    "group-tmxadmin": "TMX-Ammanne",
+    "group-tmxadmin-member": "{{GENDER:$1|TMX-Ammann|TMX-Amtsfrou}}",
+    "grouppage-tmxadmin": "{{ns:project}}:TMX-Ammanne",
+    "livetranslate-translate-to": "Die Syte ibersetze in",
+    "livetranslate-button-translate": "Ibersetze",
+    "livetranslate-button-translating": "Am Ibersetze …",
+    "livetranslate-button-revert": "Originalinhalt aazeige",
+    "livetranslate-dictionary-error": "S Werterbuech het nit chenne glade wäre. Wäge däm wäre d Werter, wu s dert din het, bim Ibersetzigsvorgang nit berucksichtigt.",
+    "livetranslate-dictionary-empty": "Zurzyt het s kei Vokable im Werterbuech. Uf „Bearbeite“ klicke go ne baar yyfiege.",
+    "livetranslate-dictionary-count": "Zurzyt {{PLURAL:$1|git s $1 Wort|git s $1 Werter}} in $2 {{PLURAL:$2|Sproch|Sproche}} im Werterbuech. Uf „Bearbeite“ klicke go wyteri yyfiege.",
+    "livetranslate-dictionary-unallowed-langs": "{{PLURAL:$2|Die Sproch isch|Die Sproche sin}} zurzyt nit zum Ibersetze zuegloo: $1. Entwäder jetz d Yystellig vu dr ibersetzbare Sproche in dr Wikikonfiguration aapasse oder die us em Werterbuech uuseneh.",
+    "livetranslate-dictionary-goto-edit": "D Ibersetzigsspycher aapasse.",
+    "special-livetranslate": "Diräktibersetzig",
+    "livetranslate-tmtype-ltf": "Live Translate-Format",
+    "livetranslate-tmtype-tmx": "Translation Memory eXchange",
+    "livetranslate-tmtype-gcsv": "Google-CSV",
+    "livetranslate-special-no-tms-yet": "S git no kei Ibersetzigsspycher.",
+    "livetranslate-special-button": "Spychere un aktualisiere",
+    "livetranslate-special-type": "Typ",
+    "livetranslate-special-location": "Ort",
+    "livetranslate-special-remove": "Uuseneh",
+    "livetranslate-special-local": "Lokal",
+    "livetranslate-special-add-tm": "E neje Ibersetzigsspycher aalege",
+    "livetranslate-special-current-tms": "Ibersetzigsspycher, wu s het",
+    "livetranslate-special-tms-update": "Ibersetzigsspycher aktualisiere",
+    "livetranslate-special-update": "Ibersetzigsspycher aktualisiere",
+    "livetranslate-importtms-param-miscmatch": "Missverhältnis zwische dr Aazahl vu Spycherplätz un Type"
+}

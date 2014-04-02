@@ -1,0 +1,39 @@
+{
+    "@metadata": {
+        "authors": [
+            "Purodha"
+        ]
+    },
+    "livetranslate-desc": "Määt en „{{int:special-livetranslate}}“ müjjelesch met <span class=\"plainlinks\">[http://translate.google.com/ Google Translate]</span>.",
+    "right-managetms": "De Leß met de [[Special:SpecialLiveTranslate|Övversäzongsjedääschneße ändere]]",
+    "action-managetms": "Övversäzongsjedääschneße verwallde",
+    "group-tmxadmin": "Övversäzongsjedääschneßverwallder",
+    "group-tmxadmin-member": "{{GENDER:$1|Övversäzongsjedääschneßverwallder|Övversäzongsjedääschneßverwallderėn|Övversäzongsjedääschneßverwallder|Övversäzongsjedääschneßverwallderėn|Övversäzongsjedääschneßverwallder}}",
+    "grouppage-tmxadmin": "{{ns:project}}:Övversäzongsjedääschneßverwallder",
+    "group-tmxadmin.css": "/* Dat CSS heh aan dä Schtäll wirrek bloß op de Verwallder vun de Övversäzongsjedääschneße */",
+    "group-tmxadmin.js": "/* Dat JavaSkrep heh aan dä Schtäll wirrek bloß op de Verwallder vun de Övversäzongsjedääschneße */",
+    "livetranslate-translate-to": "Donn di Sigg heh op&nbsp;",
+    "livetranslate-button-translate": "Övversäze!",
+    "livetranslate-button-translating": "Am Övversätze&nbsp;…",
+    "livetranslate-button-revert": "Ojinaal Shprooch aanzeije",
+    "livetranslate-dictionary-error": "Mer kunnte kein Wööterbooch fenge. Kei Woot weet beim Övversäze extra behandelt.",
+    "livetranslate-dictionary-empty": "Mer han noch kei Woot em Wööterbooch.\nÖvver dä „{{int:edit}}“-Lengk kam_mer Wööter enjävve.",
+    "livetranslate-dictionary-count": "Mer han {{PLURAL:$1|ei Woot|$1 Wööter|kei Woot}} en $2 {{PLURAL:$2|Shprooch|Shprooche|Shprooche}} em Wööterbooch. Övver dä Lenk „{{int:Edit}}“ kam_mer noch mieh enjävve.",
+    "livetranslate-dictionary-unallowed-langs": "Di {{PLURAL:$2|Shprooch es|Shprooche sin|X}} em Momang nit zohjelohße för et Övversäze: $1. Donn jäz de zohjelohße Shprooche em Wiki ändere udder heh di {{PLURAL:$2|Shprooch|Shprooche|X}} uss_em Wööterbooch schmieße.",
+    "livetranslate-dictionary-goto-edit": "De Speicher för Övversäzunge ändere.",
+    "special-livetranslate": "Lebändesch Övversäze",
+    "livetranslate-tmtype-ltf": "<i lang=\"en\">Live-Translate</i>-Format",
+    "livetranslate-tmtype-tmx": "<i lang=\"en\">Translation Memory eXchange</i>",
+    "livetranslate-tmtype-gcsv": "<i lang=\"en\">Google-CSV</i>",
+    "livetranslate-special-no-tms-yet": "Mer han noch kein Speicher för Övversäzunge.",
+    "livetranslate-special-button": "Faßhallde un op ene neue Stand bränge",
+    "livetranslate-special-type": "Zoot",
+    "livetranslate-special-location": "Woh?",
+    "livetranslate-special-remove": "Nemm fott!",
+    "livetranslate-special-local": "Heh",
+    "livetranslate-special-add-tm": "Ene neue Speicher för Övversäzunge dobei donn",
+    "livetranslate-special-current-tms": "Speicher för Övversäzunge, di ald doh sin",
+    "livetranslate-special-tms-update": "Speicher för Övversäzunge op ene neue Stand bränge",
+    "livetranslate-special-update": "Speicher för Övversäzunge op ene neue Stand bränge",
+    "livetranslate-importtms-param-miscmatch": "De Aanzahl Speicherplätz un Zoote paß nit zosamme."
+}

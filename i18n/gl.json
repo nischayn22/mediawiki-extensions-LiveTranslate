@@ -1,0 +1,39 @@
+{
+    "@metadata": {
+        "authors": [
+            "Toliño"
+        ]
+    },
+    "livetranslate-desc": "Activa a tradución en vivo do contido dunha páxina mediante o servizo de tradución do Google",
+    "right-managetms": "[[Special:SpecialLiveTranslate|Modificar]] a lista de memorias de tradución",
+    "action-managetms": "xestionar as memorias de tradución",
+    "group-tmxadmin": "Administradores TMX",
+    "group-tmxadmin-member": "{{GENDER:$1|administrador|administradora}} TMX",
+    "grouppage-tmxadmin": "{{ns:project}}:Administradores TMX",
+    "group-tmxadmin.css": "/* O CSS que se coloque aquí afectará soamente aos administradores TMX */",
+    "group-tmxadmin.js": "/* O JS que se coloque aquí afectará soamente aos administradores TMX */",
+    "livetranslate-translate-to": "Traducir esta páxina ao",
+    "livetranslate-button-translate": "Traducir",
+    "livetranslate-button-translating": "Traducindo...",
+    "livetranslate-button-revert": "Mostrar o orixinal",
+    "livetranslate-dictionary-error": "Non se puido acceder ao dicionario de tradución en vivo. Durante o proceso de tradución, ningunha palabra recibirá un trato especial.",
+    "livetranslate-dictionary-empty": "Aínda non hai palabras no dicionario. Prema na lapela \"Editar\" para engadir algunha.",
+    "livetranslate-dictionary-count": "Hai $1 {{PLURAL:$1|palabra|palabras}} {{PLURAL:$2|nunha lingua|en $2 linguas}}. Prema na lapela \"Editar\" para engadir máis.",
+    "livetranslate-dictionary-unallowed-langs": "{{PLURAL:$2|Esta lingua non está establecida como destino de tradución válido|Estas linguas non están establecidas como destinos de tradución válidos}}: $1. Modifique as linguas permitidas na configuración do seu wiki ou elimíneas do dicionario.",
+    "livetranslate-dictionary-goto-edit": "Modificar as memorias de tradución.",
+    "special-livetranslate": "Tradución en vivo",
+    "livetranslate-tmtype-ltf": "Formato da tradución en vivo",
+    "livetranslate-tmtype-tmx": "Translation Memory eXchange",
+    "livetranslate-tmtype-gcsv": "Google CSV",
+    "livetranslate-special-no-tms-yet": "Aínda non hai memorias de tradución.",
+    "livetranslate-special-button": "Gardar e actualizar",
+    "livetranslate-special-type": "Tipo",
+    "livetranslate-special-location": "Localización",
+    "livetranslate-special-remove": "Eliminar",
+    "livetranslate-special-local": "Local",
+    "livetranslate-special-add-tm": "Engadir unha nova memoria de tradución",
+    "livetranslate-special-current-tms": "Memorias de tradución existentes",
+    "livetranslate-special-tms-update": "Actualizar as memorias de tradución",
+    "livetranslate-special-update": "Actualizar as memorias de tradución",
+    "livetranslate-importtms-param-miscmatch": "Discordancia entre a cantidade de localizacións e os tipos"
+}

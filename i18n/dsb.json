@@ -1,0 +1,37 @@
+{
+    "@metadata": {
+        "authors": [
+            "Michawiki"
+        ]
+    },
+    "livetranslate-desc": "Zmóžnja direktne pśełožowanje wopśimjeśa boka z pomocu słužby \"Google Translate\"",
+    "right-managetms": "Lisćinu pśełožkowych składow [[Special:SpecialLiveTranslate|změniś]]",
+    "action-managetms": "Pśełožkowe składy zastojaś",
+    "group-tmxadmin": "TMX-administratory",
+    "group-tmxadmin-member": "{{GENDER:$1|TMX-administrator|TMX-administratorka}}",
+    "grouppage-tmxadmin": "{{ns:project}}: TMX-administratory",
+    "livetranslate-translate-to": "Pśełož toś ten boko do",
+    "livetranslate-button-translate": "Pśełožyś",
+    "livetranslate-button-translating": "Pśełožujo se...",
+    "livetranslate-button-revert": "Original pokazaś",
+    "livetranslate-dictionary-error": "Słownik za Live Translate njedajo se zacytaś. Jogo słowa njezapśimuju se za pśełožowański proces.",
+    "livetranslate-dictionary-empty": "Hyšći njejsu žedne słowa w słowniku. Klikni na rejtark \"wobźěłaś\", aby někotare dodał.",
+    "livetranslate-dictionary-count": "{{PLURAL:$1|Jo $1 słowo|Stej $1 słowje|Su $1 słowa|Jo $1 słowow}} w $2 {{PLURAL:$2|rěcy|rěcoma|rěcach|rěcach}}. Klikni na rejterk \"wobźěłaś\", aby dalšne dodał.",
+    "livetranslate-dictionary-unallowed-langs": "{{PLURAL:$2|Toś ta rěc njejo|Toś tej rěcy njejstej|Toś te rěcy njejsu|Toś te rěcy njejsu}} tuchylu ako dowólony pśełožowański cel {{PLURAL:$2|nastajona|nastajonej|nastajone|nastajone}}: $1. Změń dowólone rěcy w konfiguraciji twójogo wikija abo wótpóraj te ze słownika.",
+    "livetranslate-dictionary-goto-edit": "Pśełožowańske składowaki změniś.",
+    "special-livetranslate": "Direktne přełožowanje",
+    "livetranslate-tmtype-ltf": "Live Translate format",
+    "livetranslate-tmtype-tmx": "Translation Memory eXchange",
+    "livetranslate-tmtype-gcsv": "Google CSV",
+    "livetranslate-special-no-tms-yet": "Pśełožowańske składowaki hyšći njejsu.",
+    "livetranslate-special-button": "Składowaś a aktualizěrowaś",
+    "livetranslate-special-type": "Typ",
+    "livetranslate-special-location": "Městno",
+    "livetranslate-special-remove": "Wótpóraś",
+    "livetranslate-special-local": "Lokalny",
+    "livetranslate-special-add-tm": "Nowy pśełožowański składowak pśidaś",
+    "livetranslate-special-current-tms": "Eksistěrujuce pśełožowańske składowaki",
+    "livetranslate-special-tms-update": "Pséłožowańske składowaki aktualizěrowaś",
+    "livetranslate-special-update": "Pséłožowańske składowaki aktualizěrowaś",
+    "livetranslate-importtms-param-miscmatch": "Njedobry poměr mjazy licbu městnow a typow"
+}

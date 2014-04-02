@@ -1,0 +1,39 @@
+{
+    "@metadata": {
+        "authors": [
+            "EugeneZelenko",
+            "Jim-by",
+            "Wizardist"
+        ]
+    },
+    "livetranslate-desc": "Дазваляе пераклады тэкстаў старонак на ляту ў Google Translate",
+    "right-managetms": "[[Special:SpecialLiveTranslate|зьмена]] сьпісу памяці перакладаў",
+    "action-managetms": "кіраваць памяцьцю перакладаў",
+    "group-tmxadmin": "Адміністратары TMX",
+    "group-tmxadmin-member": "{{GENDER:$1|Адміністратар|Адміністратарка}} памяці перакладаў",
+    "grouppage-tmxadmin": "{{ns:project}}:Адміністратары TMX",
+    "livetranslate-translate-to": "Перакласьці гэту старонку на",
+    "livetranslate-button-translate": "Перакласьці",
+    "livetranslate-button-translating": "Ідзе пераклад…",
+    "livetranslate-button-revert": "Паказаць арыгінал",
+    "livetranslate-dictionary-error": "Немагчыма атрымаць слоўнік перакладу на ляту. Няма словаў, якая будуць разглядацца як спэцыяльныя, падчас працэсу перакладу.",
+    "livetranslate-dictionary-empty": "Пакуль што няма словаў у слоўніку. Націсьніце кнопку «рэдагаваць» каб дадаць.",
+    "livetranslate-dictionary-count": "Ёсьць $1 {{PLURAL:$1|слова|словы|словаў}} у $2 {{PLURAL:$2|мове|мовах|мовах}}. Націсьніце кнопку «рэдагаваць» каб дадаць болей.",
+    "livetranslate-dictionary-unallowed-langs": "{{PLURAL:$2|1=Гэтая мова не дазволеная|Гэтыя мовы не дазволеныя}} у цяперашні момант як мэтавыя для перакладу: $1. Зьмяніце дазволеныя мовы ў Вашых наладах {{GRAMMAR:родны|{{SITENAME}}}}, ці выдаліце са слоўніка.",
+    "livetranslate-dictionary-goto-edit": "Зьмяніць памяці перакладаў.",
+    "special-livetranslate": "Пераклад на ляту",
+    "livetranslate-tmtype-ltf": "Фармат перакладу на ляту",
+    "livetranslate-tmtype-tmx": "Абмен памяцьцю перакладаў",
+    "livetranslate-tmtype-gcsv": "Google CSV",
+    "livetranslate-special-no-tms-yet": "Пакуль што няма памяці перакладаў.",
+    "livetranslate-special-button": "Захаваць і абнавіць",
+    "livetranslate-special-type": "Тып",
+    "livetranslate-special-location": "Месцазнаходжаньне",
+    "livetranslate-special-remove": "Выдаліць",
+    "livetranslate-special-local": "Лякальная",
+    "livetranslate-special-add-tm": "Дадаць новую памяць перакладаў",
+    "livetranslate-special-current-tms": "Існуючыя памяці перакладаў",
+    "livetranslate-special-tms-update": "Абнавіць памяці перакладаў",
+    "livetranslate-special-update": "Абнавіць памяці перакладаў",
+    "livetranslate-importtms-param-miscmatch": "Несупадзеньне паміж колькасьцю знаходжаньняў і тыпамі"
+}
