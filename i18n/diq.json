@@ -1,19 +1,19 @@
 {
-    "@metadata": {
-        "authors": [
-            "Erdemaslancan",
-            "Gorizon"
-        ]
-    },
-    "group-tmxadmin": "TMX administrators",
-    "group-tmxadmin-member": "{{GENDER:$1|TMX administrator}}",
-    "livetranslate-button-translate": "Açarne",
-    "livetranslate-button-translating": "Açarneyêno...",
-    "livetranslate-button-revert": "Orcinalê cı bıvin",
-    "special-livetranslate": "Weşen Açarnayış",
-    "livetranslate-tmtype-gcsv": "Google CSV",
-    "livetranslate-special-type": "Babet",
-    "livetranslate-special-location": "Lokasyon",
-    "livetranslate-special-remove": "Hewad",
-    "livetranslate-special-local": "Lokale"
+	"@metadata": {
+		"authors": [
+			"Erdemaslancan",
+			"Gorizon"
+		]
+	},
+	"group-tmxadmin": "TMX administrators",
+	"group-tmxadmin-member": "{{GENDER:$1|TMX administrator}}",
+	"livetranslate-button-translate": "Açarne",
+	"livetranslate-button-translating": "Açarneyêno...",
+	"livetranslate-button-revert": "Orcinalê cı bıvin",
+	"special-livetranslate": "Weşen Açarnayış",
+	"livetranslate-tmtype-gcsv": "Google CSV",
+	"livetranslate-special-type": "Babet",
+	"livetranslate-special-location": "Lokasyon",
+	"livetranslate-special-remove": "Hewad",
+	"livetranslate-special-local": "Lokale"
 }

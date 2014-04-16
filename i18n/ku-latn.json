@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "George Animal"
-        ]
-    },
-    "livetranslate-button-translate": "Wergerîne",
-    "livetranslate-button-translating": "tê wergerandin...",
-    "livetranslate-special-type": "Cure",
-    "livetranslate-special-remove": "Jê bibe"
+	"@metadata": {
+		"authors": [
+			"George Animal"
+		]
+	},
+	"livetranslate-button-translate": "Wergerîne",
+	"livetranslate-button-translating": "tê wergerandin...",
+	"livetranslate-special-type": "Cure",
+	"livetranslate-special-remove": "Jê bibe"
 }

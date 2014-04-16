@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "පසිඳු කාවින්ද"
-        ]
-    },
-    "livetranslate-special-type": "Loại",
-    "livetranslate-special-location": "Vị trí",
-    "livetranslate-special-remove": "Loại bỏ",
-    "livetranslate-special-local": "Địa phương"
+	"@metadata": {
+		"authors": [
+			"පසිඳු කාවින්ද"
+		]
+	},
+	"livetranslate-special-type": "Loại",
+	"livetranslate-special-location": "Vị trí",
+	"livetranslate-special-remove": "Loại bỏ",
+	"livetranslate-special-local": "Địa phương"
 }

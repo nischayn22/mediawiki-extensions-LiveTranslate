@@ -1,14 +1,14 @@
 {
-    "@metadata": {
-        "authors": [
-            "Eitvys200"
-        ]
-    },
-    "livetranslate-button-translate": "Versti",
-    "livetranslate-tmtype-gcsv": "Google CSV",
-    "livetranslate-special-button": "Išsaugoti ir atnaujinti",
-    "livetranslate-special-type": "Tipas",
-    "livetranslate-special-location": "Vieta",
-    "livetranslate-special-remove": "Pašalinti",
-    "livetranslate-special-local": "Vietinis"
+	"@metadata": {
+		"authors": [
+			"Eitvys200"
+		]
+	},
+	"livetranslate-button-translate": "Versti",
+	"livetranslate-tmtype-gcsv": "Google CSV",
+	"livetranslate-special-button": "Išsaugoti ir atnaujinti",
+	"livetranslate-special-type": "Tipas",
+	"livetranslate-special-location": "Vieta",
+	"livetranslate-special-remove": "Pašalinti",
+	"livetranslate-special-local": "Vietinis"
 }

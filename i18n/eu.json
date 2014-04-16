@@ -1,15 +1,15 @@
 {
-    "@metadata": {
-        "authors": [
-            "An13sa",
-            "පසිඳු කාවින්ද"
-        ]
-    },
-    "livetranslate-button-translate": "Itzuli",
-    "livetranslate-button-translating": "Itzultzen...",
-    "livetranslate-button-revert": "Jatorrizkoa erakutsi",
-    "livetranslate-special-type": "Mota",
-    "livetranslate-special-location": "Kokapena",
-    "livetranslate-special-remove": "Kendu",
-    "livetranslate-special-local": "Lokala"
+	"@metadata": {
+		"authors": [
+			"An13sa",
+			"පසිඳු කාවින්ද"
+		]
+	},
+	"livetranslate-button-translate": "Itzuli",
+	"livetranslate-button-translating": "Itzultzen...",
+	"livetranslate-button-revert": "Jatorrizkoa erakutsi",
+	"livetranslate-special-type": "Mota",
+	"livetranslate-special-location": "Kokapena",
+	"livetranslate-special-remove": "Kendu",
+	"livetranslate-special-local": "Lokala"
 }

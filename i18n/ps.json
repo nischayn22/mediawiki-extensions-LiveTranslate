@@ -1,14 +1,14 @@
 {
-    "@metadata": {
-        "authors": [
-            "Ahmed-Najib-Biabani-Ibrahimkhel"
-        ]
-    },
-    "livetranslate-button-translate": "ژباړل",
-    "livetranslate-button-translating": "د ژباړې په حال کې...",
-    "special-livetranslate": "ژوندۍ ژباړه",
-    "livetranslate-special-type": "ټاپل",
-    "livetranslate-special-location": "ځای",
-    "livetranslate-special-remove": "غورځول",
-    "livetranslate-special-local": "سيمه ايز"
+	"@metadata": {
+		"authors": [
+			"Ahmed-Najib-Biabani-Ibrahimkhel"
+		]
+	},
+	"livetranslate-button-translate": "ژباړل",
+	"livetranslate-button-translating": "د ژباړې په حال کې...",
+	"special-livetranslate": "ژوندۍ ژباړه",
+	"livetranslate-special-type": "ټاپل",
+	"livetranslate-special-location": "ځای",
+	"livetranslate-special-remove": "غورځول",
+	"livetranslate-special-local": "سيمه ايز"
 }

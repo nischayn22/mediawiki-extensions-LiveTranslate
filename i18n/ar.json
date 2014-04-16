@@ -1,13 +1,13 @@
 {
-    "@metadata": {
-        "authors": [
-            "ترجمان05"
-        ]
-    },
-    "livetranslate-button-translate": "ترجم",
-    "livetranslate-button-translating": "تحت الترجمة...",
-    "livetranslate-special-type": "نوع",
-    "livetranslate-special-remove": "أزل",
-    "livetranslate-special-local": "محلي",
-    "livetranslate-special-add-tm": "إضافة ذاكرة ترجمة جديدة"
+	"@metadata": {
+		"authors": [
+			"ترجمان05"
+		]
+	},
+	"livetranslate-button-translate": "ترجم",
+	"livetranslate-button-translating": "تحت الترجمة...",
+	"livetranslate-special-type": "نوع",
+	"livetranslate-special-remove": "أزل",
+	"livetranslate-special-local": "محلي",
+	"livetranslate-special-add-tm": "إضافة ذاكرة ترجمة جديدة"
 }

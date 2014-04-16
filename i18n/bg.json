@@ -1,12 +1,12 @@
 {
-    "@metadata": {
-        "authors": [
-            "DCLXVI",
-            "පසිඳු කාවින්ද"
-        ]
-    },
-    "livetranslate-button-translate": "Превеждане",
-    "livetranslate-button-translating": "Превеждане...",
-    "livetranslate-special-type": "Вид",
-    "livetranslate-special-remove": "Премахване"
+	"@metadata": {
+		"authors": [
+			"DCLXVI",
+			"පසිඳු කාවින්ද"
+		]
+	},
+	"livetranslate-button-translate": "Превеждане",
+	"livetranslate-button-translating": "Превеждане...",
+	"livetranslate-special-type": "Вид",
+	"livetranslate-special-remove": "Премахване"
 }

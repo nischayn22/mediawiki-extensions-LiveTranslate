@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Умар"
-        ]
-    },
-    "group-tmxadmin": "Куьйгалхой TMX",
-    "livetranslate-special-button": "Ӏалашданн а карладоккхуш",
-    "livetranslate-special-remove": "ДӀаяккха"
+	"@metadata": {
+		"authors": [
+			"Умар"
+		]
+	},
+	"group-tmxadmin": "Куьйгалхой TMX",
+	"livetranslate-special-button": "Ӏалашданн а карладоккхуш",
+	"livetranslate-special-remove": "ДӀаяккха"
 }

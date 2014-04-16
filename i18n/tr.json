@@ -1,12 +1,12 @@
 {
-    "@metadata": {
-        "authors": [
-            "Incelemeelemani",
-            "Suelnur"
-        ]
-    },
-    "livetranslate-button-translate": "Çevir",
-    "livetranslate-button-translating": "Çevriliyor...",
-    "livetranslate-special-location": "Konum",
-    "livetranslate-special-local": "Yerel"
+	"@metadata": {
+		"authors": [
+			"Incelemeelemani",
+			"Suelnur"
+		]
+	},
+	"livetranslate-button-translate": "Çevir",
+	"livetranslate-button-translating": "Çevriliyor...",
+	"livetranslate-special-location": "Konum",
+	"livetranslate-special-local": "Yerel"
 }

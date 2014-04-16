@@ -1,17 +1,17 @@
 {
-    "@metadata": {
-        "authors": [
-            "Protnet",
-            "ZaDiak"
-        ]
-    },
-    "livetranslate-translate-to": "Μετάφραση αυτή της σελίδας σε",
-    "livetranslate-button-translate": "Μετάφραση",
-    "livetranslate-button-translating": "Γίνεται μετάφραση...",
-    "livetranslate-button-revert": "Προβολή αρχικού",
-    "livetranslate-special-button": "Αποθήκευση και ενημέρωση",
-    "livetranslate-special-type": "Τύπος",
-    "livetranslate-special-location": "Τοποθεσία",
-    "livetranslate-special-remove": "Αφαίρεση",
-    "livetranslate-special-local": "Τοπικό"
+	"@metadata": {
+		"authors": [
+			"Protnet",
+			"ZaDiak"
+		]
+	},
+	"livetranslate-translate-to": "Μετάφραση αυτή της σελίδας σε",
+	"livetranslate-button-translate": "Μετάφραση",
+	"livetranslate-button-translating": "Γίνεται μετάφραση...",
+	"livetranslate-button-revert": "Προβολή αρχικού",
+	"livetranslate-special-button": "Αποθήκευση και ενημέρωση",
+	"livetranslate-special-type": "Τύπος",
+	"livetranslate-special-location": "Τοποθεσία",
+	"livetranslate-special-remove": "Αφαίρεση",
+	"livetranslate-special-local": "Τοπικό"
 }

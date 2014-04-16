@@ -1,21 +1,21 @@
 {
-    "@metadata": {
-        "authors": [
-            "Karthi.dr",
-            "Shanmugamp7",
-            "மதனாஹரன்"
-        ]
-    },
-    "livetranslate-button-translate": "மொழிபெயர்க்கவும்",
-    "livetranslate-button-translating": "மொழிபெயர்க்கப்படுகிறது...",
-    "livetranslate-button-revert": "மூலத்தைக் காட்டு",
-    "special-livetranslate": "நிகழ்நேர மொழிபெயர்ப்பு",
-    "livetranslate-special-button": "சேமித்து இற்றைப்படுத்தவும்",
-    "livetranslate-special-type": "வகை",
-    "livetranslate-special-location": "இடம்",
-    "livetranslate-special-remove": "நீக்கு",
-    "livetranslate-special-add-tm": "ஒரு புதிய மொழிபெயர்ப்பு நினைவகத்தை சேர்க்கவும்",
-    "livetranslate-special-current-tms": "ஏற்கனவேயுள்ள மொழிபெயர்ப்பு நினைவகங்கள்",
-    "livetranslate-special-tms-update": "மொழிபெயர்ப்பு நினைவகங்களை புதுப்பிக்கவும்",
-    "livetranslate-special-update": "மொழிபெயர்ப்பு நினைவகங்களை புதுப்பிக்கவும்"
+	"@metadata": {
+		"authors": [
+			"Karthi.dr",
+			"Shanmugamp7",
+			"மதனாஹரன்"
+		]
+	},
+	"livetranslate-button-translate": "மொழிபெயர்க்கவும்",
+	"livetranslate-button-translating": "மொழிபெயர்க்கப்படுகிறது...",
+	"livetranslate-button-revert": "மூலத்தைக் காட்டு",
+	"special-livetranslate": "நிகழ்நேர மொழிபெயர்ப்பு",
+	"livetranslate-special-button": "சேமித்து இற்றைப்படுத்தவும்",
+	"livetranslate-special-type": "வகை",
+	"livetranslate-special-location": "இடம்",
+	"livetranslate-special-remove": "நீக்கு",
+	"livetranslate-special-add-tm": "ஒரு புதிய மொழிபெயர்ப்பு நினைவகத்தை சேர்க்கவும்",
+	"livetranslate-special-current-tms": "ஏற்கனவேயுள்ள மொழிபெயர்ப்பு நினைவகங்கள்",
+	"livetranslate-special-tms-update": "மொழிபெயர்ப்பு நினைவகங்களை புதுப்பிக்கவும்",
+	"livetranslate-special-update": "மொழிபெயர்ப்பு நினைவகங்களை புதுப்பிக்கவும்"
 }
