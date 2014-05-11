@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Fulup"
+			"Fulup",
+			"Y-M D"
 		]
 	},
 	"livetranslate-desc": "Aotren a ra treiñ danvez ur bajenn war-eeun en ur ober gant servij treiñ Google",
@@ -17,7 +18,7 @@
 	"livetranslate-dictionary-count": "{{PLURAL:$1|$1 ger|$1 ger}} e $2 {{PLURAL:$2|yezh|yezh}} zo. Klikañ war an ivinell \"kemmañ\" da zegas re all.",
 	"livetranslate-dictionary-unallowed-langs": "N'eo ket bet dibabet ar {{PLURAL:$2|yezh-mañ|ar yezhoù-mañ}} da yezh(où) da dreiñ daveto evit c'hoazh : $1. Cheñchit ar yezhoù aotreet dre ho kefluniadur wiki pe lamit anezho kuit eus ar geriadur.",
 	"livetranslate-dictionary-goto-edit": "Kemmañ ar memorioù treiñ.",
-	"special-livetranslate": "Live translate",
+	"special-livetranslate": "Treiñ war-eeun",
 	"livetranslate-tmtype-ltf": "Furmad Live Translate",
 	"livetranslate-tmtype-tmx": "Translation Memory eXchange",
 	"livetranslate-tmtype-gcsv": "Google CSV",
