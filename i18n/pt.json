@@ -3,11 +3,13 @@
 		"authors": [
 			"Cainamarques",
 			"Hamilton Abreu",
-			"Luckas"
+			"Luckas",
+			"Vitorvicentevalente"
 		]
 	},
 	"livetranslate-desc": "Permite a tradução imediata do conteúdo das páginas usando o serviço Google Translate",
 	"right-managetms": "[[Special:SpecialLiveTranslate|Modificar]] a lista de memórias de tradução",
+	"action-managetms": "gerir memórias de tradução",
 	"group-tmxadmin": "Administradores TMX",
 	"group-tmxadmin-member": "{{GENDER:$1|administrador TMX|administradora TMX}}",
 	"grouppage-tmxadmin": "{{ns:project}}:Administradores_TMX",
