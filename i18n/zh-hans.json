@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Hydra",
-			"Linforest"
+			"Linforest",
+			"Mywood"
 		]
 	},
 	"livetranslate-desc": "启用借助于谷歌翻译服务的页面内容实时翻译",
@@ -18,7 +19,7 @@
 	"livetranslate-dictionary-error": "无法获取实时翻译词典。在翻译过程中，将不对任何单词进行特殊处理。",
 	"livetranslate-dictionary-empty": "字典中尚无任何单词。单击\"编辑\"选项卡向其中添加一些单词。",
 	"livetranslate-dictionary-count": "目前有$2种{{PLURAL:$2|语言|语言}}{{PLURAL:$1|is $1个单词|are $1个单词}}。单击\"编辑\"选项卡向其中添加一些单词。",
-	"livetranslate-dictionary-unallowed-langs": "{{PLURAL:$2|这种语言|这些语言}}当前并未被设置为允许的翻译目标语言：$1。请在您的维基站点配置当中修改所允许的语言，或者从字典当中删除这些语言。",
+	"livetranslate-dictionary-unallowed-langs": "{{PLURAL:$2|该语言|这些语言}}目前没有被设置为允许的翻译目标语言：$1。请在您的wiki配置当中修改允许的语言，或从字典中删除这些。",
 	"livetranslate-dictionary-goto-edit": "修改的翻译记忆库。",
 	"special-livetranslate": "实时翻译",
 	"livetranslate-tmtype-ltf": "实时翻译格式",
