@@ -95,7 +95,7 @@
 		var translator = new window.translationService();
 		translator.done = callback;
 		lt.debug( 'Initiating remote translation' );
-		translator.translateElement( $( '#bodyContent' ), _this.currentLang, _this.select.val() );
+		translator.translateElement( $( '#content' ), _this.currentLang, _this.select.val() );
 	};
 
 	/**
@@ -124,7 +124,7 @@
 		lt.debug( 'inserting special words' );
 
 		for ( i in words ) {
-			$( '#bodyContent *' ).replaceText(
+			$( '#content *' ).replaceText(
 				new RegExp( "(\\W)*" + RegExp.escape( words[i] ) + "(\\W)*", "g" ),
 				function( str ) {
 					return '<span class="notranslate">' + str + '</span>';
@@ -228,7 +228,7 @@
 	 */
 	this.bindEvents = function() {
 		_this.translateButton.click( function() {
-			_this.originalHtml = $( '#bodyContent' ).html();
+			_this.originalHtml = $( '#content' ).html();
 
 			$( this ).attr( "disabled", true ).text( lt.msg( 'livetranslate-button-translating' ) );
 			_this.select.attr( "disabled", true );
@@ -240,7 +240,7 @@
 		_this.revertButton.click( function() {
 			// Replace the body content wth it's original value.
 			// This un-binds the jQuery selectors and event handlers.
-			$( '#bodyContent' ).html( _this.originalHtml );
+			$( '#content' ).html( _this.originalHtml );
 
 			// Re-assing the controls.
 			_this.select = $( '#ltselect' + _this.uniqueId );
